@@ -1,0 +1,31 @@
+{
+    "image#section_three": {
+        "title": "Image seccion 3",
+        "props": {
+          "src": "https://www.asus.com/WebsitesBanner/CO/banners/rdebqww6fnxnmivk/rdebqww6fnxnmivk-0_0_desktop_1X.jpg",
+          "link": {
+            "properties": {
+              "attributeNofollow": {
+                "default": false,
+                "title": "ASUS ahora con Adobe Creative Cloud",
+                "type": "boolean"
+              },
+              "attributeTitle": {
+                "$ref": "#/definitions/text",  
+                "title": "admin/native-types.link.attributeTitle"
+              },
+              "newTab": {
+                "title": "admin/native-types.link.newTab",
+                "type": "boolean"
+              },
+              "url": {
+                "$ref": "#/definitions/url",
+                "title": "admin/native-types.link.url"
+              }
+            },
+            "title": "admin/native-types.link",
+            "type": "object"
+          }
+        }
+      }
+}
