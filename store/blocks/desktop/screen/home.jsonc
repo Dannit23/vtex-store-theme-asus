@@ -1,0 +1,11 @@
+{
+  "store.home": { 
+    "blocks": [
+      "notification.bar",
+      "slider-layout#home__slider--children",
+      "image#section_three" ,
+      "flex-layout.row#home__section--four"
+    ]
+  }
+ 
+}
