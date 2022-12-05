@@ -1,0 +1,10 @@
+{
+    "rich-text#home__section_five": {
+        "title": "rich-text seccion 5",
+        "props": {
+          "text": "Ofertas destacadas",
+          "textPosition": "CENTER",
+          "blockClass": "rich-text__home"
+        }
+    }
+}
