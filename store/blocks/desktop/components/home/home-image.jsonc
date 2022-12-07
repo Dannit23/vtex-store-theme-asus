@@ -4,12 +4,7 @@
         "props": {
           "src": "https://www.asus.com/WebsitesBanner/CO/banners/rdebqww6fnxnmivk/rdebqww6fnxnmivk-0_0_desktop_1X.jpg",
           "link": {
-            "properties": {
-                "url": {
-                "$ref": "#/definitions/url",
-                "title": "admin/native-types.link.url"
-              }
-            }
+           "url": "/"
         }
       }
     }
