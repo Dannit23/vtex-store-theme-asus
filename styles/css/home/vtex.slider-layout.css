@@ -1,6 +1,6 @@
-.sliderLayoutContainer--home__slider {
-    margin: 0 auto 15px;
-}
-.slideChildrenContainer--home {
-    transform: translateY(30px);
+.paginationDot--home__slider {
+    margin-bottom: 2%;
+    margin-left: 2%;
+    padding: 0 2%;
+    border-radius: 18%
 }

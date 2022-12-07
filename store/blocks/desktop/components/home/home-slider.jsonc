@@ -23,22 +23,54 @@
       }, 
       "image#home__slider--one": {
         "props": {
-         "src": "assets/img/slide-1.jpg"
+         "src": "assets/img/slide-1.jpg",
+         "link": {
+          "properties": {
+              "url": {
+              "$ref": "#/definitions/url",
+              "title": "admin/native-types.link.url"
+            }
+          }
+      }
         }
       },
       "image#home__slider--two": {
         "props": {
-         "src": "assets/img/slide-2.jpg"
+         "src": "assets/img/slide-2.jpg",
+         "link": {
+          "properties": {
+              "url": {
+              "$ref": "#/definitions/url",
+              "title": "admin/native-types.link.url"
+            }
+          }
+      }
         }
       },
        "image#home__slider--three": {
         "props": {
-         "src": "assets/img/slide-3.jpg"
+         "src": "assets/img/slide-3.jpg",
+         "link": {
+          "properties": {
+              "url": {
+              "$ref": "#/definitions/url",
+              "title": "admin/native-types.link.url"
+            }
+          }
+      }
         }
       },
        "image#home__slider--four": {
         "props": {
-         "src": "assets/img/slide-4.jpg"
+         "src": "assets/img/slide-4.jpg",
+         "link": {
+          "properties": {
+              "url": {
+              "$ref": "#/definitions/url",
+              "title": "admin/native-types.link.url"
+            }
+          }
         }
+       }
       }
 }
