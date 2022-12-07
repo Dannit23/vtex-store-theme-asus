@@ -5,7 +5,8 @@
       "slider-layout#home__slider--children",
       "image#home__section_three" ,
       "flex-layout.row#home__section_four",
-      "rich-text#home__section_five"
+      "rich-text#home__section_five",
+      "list-context.product-list#demo1"
 
     ]
   }
