@@ -1,6 +1,12 @@
 .paginationDot--home__slider {
     margin-bottom: 2%;
     margin-left: 2%;
-    padding: 0 2%;
-    border-radius: 18%
+    padding: 0 3%;
+    border-radius: 15%;
+    height: 0.326rem !important;
 }
+
+.slideChildrenContainer--home__slider {
+    align-items: center;
+} 
+
