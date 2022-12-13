@@ -6,7 +6,9 @@
       "image#home__section_three" ,
       "flex-layout.row#home__section_four",
       "rich-text#home__section_five",
+      // "list-context.product-list#desktop__home--shelf",
       "list-context.product-list#demo1"
+      
 
     ]
   }

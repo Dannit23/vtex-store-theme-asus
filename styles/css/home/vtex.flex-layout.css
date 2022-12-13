@@ -1,4 +1,4 @@
-.flexRow--textColumn {
-    flex-wrap: wrap;
-    margin: 0;
+.flexRowContent--textColumn{
+    padding: 1rem;
+    gap: 1rem;
 }

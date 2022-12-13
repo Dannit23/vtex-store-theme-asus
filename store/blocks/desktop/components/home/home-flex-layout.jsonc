@@ -26,8 +26,9 @@
         "headline": "ASUS ZenBook Flip S13 OLED",
         "subhead": "Desempeño flexible, diseño elegante",
         "callToActionMode": "link",
-        "callToActionText": "Ver más",
-        "textAlignment": "center"
+        "callToActionText": "Ver más >",
+        "textAlignment": "center",
+        "blockClass": "infocard"
         }
       },
       "info-card#tuf-left": {
@@ -38,8 +39,9 @@
         "headline": "ASUS Tuf Dash F15",
         "subhead": "Ultra fino para juego",
         "callToActionMode": "link",
-        "callToActionText": "Ver más",
-        "textAlignment": "center"
+        "callToActionText": "Ver más >",
+        "textAlignment": "center",
+        "blockClass": "infocard"
         }
       },
       "flex-layout.col#infoCards-right": {
@@ -58,8 +60,9 @@
         "headline": "ASUS Vivobook Pro 16 X OLED",
         "subhead": "Dale forma al futuro",
         "callToActionMode": "link",
-        "callToActionText": "Ver más",
-        "textAlignment": "center"
+        "callToActionText": "Ver más >",
+        "textAlignment": "center",
+        "blockClass": "infocard"
         }
       },
       "info-card#rog-right": {
@@ -70,8 +73,9 @@
         "headline": "ROG Zephyrus G14",
         "subhead": "La laptop gamer de 14'' más poderosa del mundo",
         "callToActionMode": "link",
-        "callToActionText": "Ver más",
-        "textAlignment": "center"
+        "callToActionText": "Ver más >",
+        "textAlignment": "center",
+        "blockClass": "infocard"
         }
       }
 }

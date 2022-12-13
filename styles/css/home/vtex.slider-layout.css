@@ -1,12 +1,40 @@
 .paginationDot--home__slider {
     margin-bottom: 2%;
-    margin-left: 2%;
-    padding: 0 3%;
-    border-radius: 15%;
-    height: 0.326rem !important;
+    margin-left: 1%;
+    padding: 0 2.7%;
+    border-radius: 0.5rem;
+    height: 0.340rem !important;
 }
 
-.slideChildrenContainer--home__slider {
-    align-items: center;
+.caretIcon--home__slider{
+    border: solid 1px;
+    border-color: black;
+    border-radius: 0.5rem;
+    padding: 0.9rem 0.4rem;
+}
+
+.caretIcon--home__slider:hover {
+    background-color: rgb(175, 175, 175);
+    cursor: pointer;
+}
+
+/* slider de vitrina */
+
+.slideChildrenContainer--carousel :global(.vtex-button) {
+    width         : 100%;
+    margin-bottom: 20px;
+
 } 
 
+.slideChildrenContainer--carousel {
+    border: 1px solid #fff;
+    margin: 0 20px;
+    border-radius: 10px;
+    box-shadow      : 1px 2px 5px #fff;
+    background-color: #fff;
+}
+
+.slide--carousel--visible {
+    background-color: #f5f5f5;
+    padding: 50px 0 50px 0px;
+}

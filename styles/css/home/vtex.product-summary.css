@@ -1,0 +1,50 @@
+.element--home__shelf {
+    margin          : 0.5rem;
+    padding         : 1rem;
+    box-shadow      : 1px 2px 12px rgb(238, 235, 235);
+    border-radius   : 1rem;
+}
+
+.imageContainer {
+    height: 20rem;
+}
+
+.priceContainer {
+    display    : flex;
+    padding    : 0px;
+    width      : 100%;
+    align-items: center;
+}
+
+.price_sellingPrice {
+    color: rgb(218, 72, 0);
+    font-size: 1.5rem;
+}
+
+.price_sellingPriceLabel {
+    display: none;
+}
+
+.price_installmentContainer {
+    display: none;
+}
+
+.brandName {
+    font-weight:500;
+    text-transform: uppercase;
+    color: #181818;
+    font-size: 1.1875rem;
+}
+
+.description {
+    height: 4rem;
+    margin-top: 1.5rem;
+    color: #4d4d4d;
+    font-size: .9375rem;
+}
+
+.SKUSelectorContainer {
+    display: none;
+}
+
+
