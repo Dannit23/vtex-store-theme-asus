@@ -78,33 +78,51 @@
         "blockClass": "infocard"
         }
       },
-      "flex-layout.row#home__section--five": {
-        "title": "flex-layout.row#home__secction--offers",
-        "children": ["rich-text#home__section--five", "flex-layout.col#home__one--offers","flex-layout.col#home__two--offers" ]
+      "header-row#global__container--offers": {
+        "title": "global__container--offers",
+        "children": [
+          "rich-text#home__section--five",
+          "header-spacer",
+          "image#home__one--Laptops",
+          "rich-text#home__title--laptops",
+          "image#home__two--offers",
+          "rich-text#home__title--offers"
+        ],
+        "props": {
+          "blockClass": "header__home--section5"
+        }
       },
+      // "flex-layout.row#home__section--five": {
+      //   "title": "flex-layout.row#home__secction--offers",
+      //   "children": ["rich-text#home__section--five", "flex-layout.col#home__one--offers","flex-layout.col#home__two--offers"],
+      //   "props": {
+      //     "blockClass": "offers"
+      //   }
+      // }, 
       "rich-text#home__section--five": {
-        "title": "rich-text#title--seccion 5",
+        "title": "rich-text#home__title--seccion 5",
           "props": {
             "text": "Ofertas destacadas",
             "textPosition": "CENTER",
             "blockClass": "rich-text__home"
           }
-       },
-      "flex-layout.col#home__one--offers": {
-        "title": "flex-layout.col#home__offers--Laptops",
-        "children": ["image#home__one--Laptops","rich-text#home__title--laptops"],
-        "props": {
-          "blockclass": "textColumn",
-          "preventVerticalStretch": true
-        }
-      },
+        },
+    //    },
+    //   "flex-layout.col#home__one--offers": {
+    //     "title": "flex-layout.col#home__offers--Laptops",
+    //     "children": ["image#home__one--Laptops","rich-text#home__title--laptops"],
+    //     "props": {
+    //       "blockclass": "textColumn",
+    //       "preventVerticalStretch": true
+    //     }
+    //   },
       "image#home__one--Laptops": {
         "title": "Image one seccion 5",
         "props": {
           "src": "assets/img/Laptops.svg",
           "blockClass": "image__logo--laptops"
-      }
-    },
+        }
+      },
       "rich-text#home__title--laptops": {
         "props": {
           "text": "Laptops",
@@ -112,13 +130,13 @@
             "blockClass": "rich-text__home--offers"
         }
       },
-      "flex-layout.col#home__two--offers": {
-        "children": ["image#home__two--offers","rich-text#home__title--offers"],
-        "props": {
-          "blockclass": "textColumn",
-          "preventVerticalStretch": true
-        }
-      },
+    //   "flex-layout.col#home__two--offers": {
+    //     "children": ["image#home__two--offers","rich-text#home__title--offers"],
+    //     "props": {
+    //       "blockclass": "textColumn",
+    //       "preventVerticalStretch": true
+    //     }
+    //   },
       "image#home__two--offers": {
         "title": "Image two seccion 5",
         "props": {

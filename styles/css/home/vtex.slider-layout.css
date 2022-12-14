@@ -6,16 +6,13 @@
     height: 0.340rem !important;
 }
 
-.caretIcon--home__slider{
+.caretIcon--home__slider:hover {
+    background-color: rgb(175, 175, 175);
+    cursor: pointer;
     border: solid 1px;
     border-color: black;
     border-radius: 0.5rem;
     padding: 0.9rem 0.4rem;
-}
-
-.caretIcon--home__slider:hover {
-    background-color: rgb(175, 175, 175);
-    cursor: pointer;
 }
 
 /* slider de vitrina */

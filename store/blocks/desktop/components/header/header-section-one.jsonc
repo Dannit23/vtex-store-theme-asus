@@ -1,0 +1,43 @@
+{
+  "vtex.menu@2.x:menu#header__menu--sectionOne": {
+        "children": [
+            "logo#asus--hover",
+            "menu-item#department__section--one",
+            "menu-item#department__section--two"
+        ]
+    },
+    "logo#asus--hover": {
+        "props": {
+          "title": "Logo",
+          "href": "/",
+          "url": "assets/img/logo_hover.svg",
+          "width": "30"
+        }
+    },
+    "menu-item#department__section--one": {
+      "props": {
+        "id": "departament-one",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Gaming Title",
+          "text": "Gaming"
+        }
+      }    
+    },
+    "menu-item#department__section--two": {
+      "props": {
+        "id": "departament-two",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "/",
+          "noFollow": true,
+          "tagTitle": "Corporativo Title",
+          "text": "Corporativo"
+        }
+      }    
+    }
+}

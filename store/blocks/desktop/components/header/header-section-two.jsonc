@@ -1,0 +1,317 @@
+{
+  "menu#header__menu--sectionTwo": {
+    "title": "menu#header__menu--sectionTwo",
+    "children": [
+      "logo#asus",
+      "menu-item#department__one",
+      "menu-item#department__two",
+      "menu-item#department__three",
+      "search-bar",
+      "login"
+    ]       
+  },
+  "logo#asus": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/img/asus-logo.png",
+      "width": "80"
+    }
+  },
+  "menu-item#department__one": {
+    "props": {
+      "id": "departament-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Tienda Title",
+        "text": "Tienda"
+      }
+    }    
+  },
+  "menu-item#department__two": {
+    "props": {
+      "id": "departament-two",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Portátiles Title",
+        "text": "Portátiles"
+      }
+    },
+    "blocks": ["submenu.accordion#department__two"]
+  },
+  "submenu.accordion#department__two": {
+    "children": [
+      "menu#department__two"
+    ]
+  },
+  "menu#department__two": {
+    "children": [
+      "menu-item#category__one",
+      "menu-item#category__two",
+      "menu-item#category__three",
+      "menu-item#category__four",
+      "menu-item#category__five"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category__one": {
+    "props": {
+      "id": "category-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href":"#",
+        "noFollow": true,
+        "tagTitle": "Para el Hogar",
+        "text": "Para el Hogar"
+      }
+    },
+    "blocks": ["submenu.accordion#subcategory__one"]
+  },
+  "submenu.accordion#subcategory__one": {
+    "children": [
+      "menu#subcategory__one"
+    ]
+  },
+  "menu#subcategory__one": {
+    "children": [
+      "menu-item#subcategory__one",
+      "menu-item#subcategory__two",
+      "menu-item#subcategory__three",
+      "menu-item#subcategory__four",
+      "menu-item#subcategory__five"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#subcategory__one": {
+    "props": {
+      "id": "subcategory-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href":"#",
+        "noFollow": true,
+        "tagTitle": "POR CATEGORÍA",
+        "text": "POR CATEGORÍA"
+      }
+    }
+  },
+  "menu-item#subcategory__two": {
+    "props": {
+      "id": "subcategory-two",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href":"#",
+        "noFollow": true,
+        "tagTitle": "Delgado y liviano",
+        "text": "Delgado y liviano"
+      }
+    }
+  },
+  "menu-item#subcategory__three": {
+    "props": {
+      "id": "subcategory-three",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href":"#",
+        "noFollow": true,
+        "tagTitle": "Pantalla OLED",
+        "text": "Pantalla OLED"
+      }
+    }
+  },
+  "menu-item#subcategory__four": {
+    "props": {
+      "id": "subcategory-four",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href":"#",
+        "noFollow": true,
+        "tagTitle": "Tablet &2-in-1 laptop",
+        "text": "Tablet &2-in-1 laptop"
+      }
+    }
+  },
+  "menu-item#subcategory__five": {
+    "props": {
+      "id": "subcategory-five",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href":"#",
+        "noFollow": true,
+        "tagTitle": "Para el día a día",
+        "text": "Para el día a día"
+      }
+    }
+  },
+  "menu-item#category__two": {
+    "props": {
+      "id": "category-two",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href":"#",
+        "noFollow": true,
+        "tagTitle": "Para el Trabajo",
+        "text": "Para el Trabajo"
+      }
+    },
+    "blocks": ["submenu.accordion#subcategory__two"]
+  },
+  "menu-item#category__three": {
+    "props": {
+      "id": "category-three",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href":"#",
+        "noFollow": true,
+        "tagTitle": "Para Creadores",
+        "text": "Para Creadores"
+      }
+    }
+  },
+  "menu-item#category__four": {
+    "props": {
+      "id": "category-four",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href":"#",
+        "noFollow": true,
+        "tagTitle": "Para Estudiantes",
+        "text": "Para Estudiantes"
+      }
+    }
+  },
+  "menu-item#category__five": {
+    "props": {
+      "id": "category-five",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href":"#",
+        "noFollow": true,
+        "tagTitle": "Para Gaming",
+        "text": "Para Gaming"
+      }
+    }
+  },
+  "menu-item#department__three": {
+    "props": {
+      "id": "departament-three",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "PCs de Escritorio Title",
+        "text": "PCs de Escritorio"
+      }
+    }
+  },
+  "search-bar": {
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "maxWidth": 60
+    }
+  },
+
+  "login": {
+    "title": "mobile__login",
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "iconLabel": " ",
+      "showIconProfile": true,
+      "blockClass": "mobile__login"
+    }
+  }
+
+    // "header-row#desktop__asus": {
+    //     "children": [
+    //         "logo#asus", 
+    //         "rich-text#tienda",
+    //         // "rich-text#portatiles",
+    //         // "rich-text#pcsdeescritorios",
+    //         // "header-spacer",
+    //         // "rich-text#ofertas",
+    //         // "rich-text#soporte",
+    //         // "vtex.menu@2.x:menu#websites",
+    //         "search-bar",
+    //         "minicart.v2",
+    //         "login"
+    //     ]
+    // },
+    // "logo#asus": {
+    //     "props": {
+    //       "title": "Logo",
+    //       "href": "/",
+    //       "url": "assets/img/asus-logo.png",
+    //       "width": "80"
+    //     }
+    // },
+    // "rich-text#tienda": {
+    //     "props": {
+          
+    //       "text": "[tienda](/) ",
+    //       "textColor": "c-on-emphasis",
+    //       "font": "t-heading-5",
+    //       "blockClass": "help-message"
+    //     }
+    // },
+    // "rich-text#portatiles": {
+    //     "props": {
+          
+    //       "text": "[portatiles](/) ",
+    //       "textColor": "c-on-emphasis",
+    //       "font": "t-heading-5",
+    //       "blockClass": "help-message"
+    //     }
+    // },
+    // "rich-text#pcsdeescritorios": {
+    //     "props": {
+          
+    //       "text": "[pcs de escritorios](/) ",
+    //       "textColor": "c-on-emphasis",
+    //       "font": "t-heading-5",
+    //       "blockClass": "help-message"
+    //     }
+    // },
+    // "rich-text#ofertas": {
+    //     "props": {
+          
+    //       "text": "[ofertas](/) ",
+    //       "textColor": "c-on-emphasis",
+    //       "font": "t-heading-5",
+    //       "blockClass": "help-message"
+    //     }
+    // },
+    // "rich-text#soporte": {
+    //     "props": {
+          
+    //       "text": "[soporte](/) ",
+    //       "textColor": "c-on-emphasis",
+    //       "font": "t-heading-5",
+    //       "blockClass": "help-message"
+    //     }
+    // },
+    
+}
