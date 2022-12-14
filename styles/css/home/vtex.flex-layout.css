@@ -1,4 +1,4 @@
-.notificationBarInner {
-    background-color: #015ec5;
-} 
-
+.flexRowContent--textColumn{
+    padding: 1rem;
+    gap: 1rem;
+}

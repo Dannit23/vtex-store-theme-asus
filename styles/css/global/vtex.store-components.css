@@ -1,0 +1,64 @@
+.notificationBarInner {
+    background-color: #015ec5;
+}
+
+.notificationContent--notification {
+    color    : #fff;
+    font-size: .875rem;
+}
+
+.imageElement--image__slider {
+    width : 100vw;
+    height: 50vw;
+}
+
+.imageElement--image__link {
+    width : 100vw;
+    height: 50vw;
+}
+
+/*infocard*/
+
+.infoCardSubhead {
+    color    : rgb(51, 51, 51);
+    font-size: 0.85rem;
+}
+
+.infoCardContainer--infocard {
+    display    : flex;
+    align-items: flex-start;
+
+    height    : 25rem;
+    margin-top: 1rem;
+}
+
+.infoCardTextContainer--infocard {
+    max-height: 10px;
+    min-height: 10px;
+}
+
+.infoCardHeadline--infocard {
+    color      : #333333;
+    font-size  : 2rem;
+    font-weight: normal;
+    min-width  : 17rem;
+    margin     : 0.5rem 0px 0px 0px;
+}
+
+.infoCardSubhead--infocard {
+    margin   : 0px;
+    min-width: 17rem;
+    font-size: 1.2rem;
+}
+
+.infoCardCallActionText--infocard {
+    margin: 0px;
+}
+
+.infoCardCallActionText {
+    color: #00a3e7;
+}
+
+.discountInsideContainer {
+    display: none;
+}

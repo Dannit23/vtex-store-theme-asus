@@ -1,5 +1,5 @@
 {
-    "notification.bar": {
+    "notification.bar#home__section_one": {
         "title": "Notification seccion 1",
         "props": {
             "content": "Cree una cuenta ASUS hoy para registrar su producto para obtener un mejor soporte.",

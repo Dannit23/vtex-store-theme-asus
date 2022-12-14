@@ -1,5 +1,5 @@
 {
-    "flex-layout.row#home__section--four":{
+    "flex-layout.row#home__section_four":{
         "title": "Info card de productos",
         "children": [
          "flex-layout.col#infoCards-left",
@@ -21,25 +21,27 @@
       "info-card#zenBook-left": {
         "props": {
         "isFullModeStyle": true,
-        "textPosition": "left",
+        "textPosition": "center",
         "imageUrl": "https://www.asus.com/WebsitesBanner/CO/banners/thfrxysiqunlidku/thfrxysiqunlidku-0_0_desktop_1X.jpg",
         "headline": "ASUS ZenBook Flip S13 OLED",
         "subhead": "Desempeño flexible, diseño elegante",
         "callToActionMode": "link",
-        "callToActionText": "Ver más",
-        "textAlignment": "center"
+        "callToActionText": "Ver más >",
+        "textAlignment": "center",
+        "blockClass": "infocard"
         }
       },
       "info-card#tuf-left": {
         "props": {
         "isFullModeStyle": true,
-        "textPosition": "left",
+        "textPosition": "center",
         "imageUrl": "https://www.asus.com/WebsitesBanner/CO/banners/thfrxysiqunlidku/thfrxysiqunlidku-2_0_desktop_1X.jpg",
         "headline": "ASUS Tuf Dash F15",
         "subhead": "Ultra fino para juego",
         "callToActionMode": "link",
-        "callToActionText": "Ver más",
-        "textAlignment": "center"
+        "callToActionText": "Ver más >",
+        "textAlignment": "center",
+        "blockClass": "infocard"
         }
       },
       "flex-layout.col#infoCards-right": {
@@ -53,25 +55,82 @@
       "info-card#vivobook-right": {
         "props": {
         "isFullModeStyle": true,
-        "textPosition": "right",
+        "textPosition": "center",
         "imageUrl": "https://www.asus.com/WebsitesBanner/CO/banners/thfrxysiqunlidku/thfrxysiqunlidku-1_0_desktop_1X.jpg",
         "headline": "ASUS Vivobook Pro 16 X OLED",
         "subhead": "Dale forma al futuro",
         "callToActionMode": "link",
-        "callToActionText": "Ver más",
-        "textAlignment": "center"
+        "callToActionText": "Ver más >",
+        "textAlignment": "center",
+        "blockClass": "infocard"
         }
       },
       "info-card#rog-right": {
         "props": {
         "isFullModeStyle": true,
-        "textPosition": "right",
+        "textPosition": "center",
         "imageUrl": "https://www.asus.com/WebsitesBanner/CO/banners/thfrxysiqunlidku/thfrxysiqunlidku-3_0_desktop_1X.jpg",
         "headline": "ROG Zephyrus G14",
         "subhead": "La laptop gamer de 14'' más poderosa del mundo",
         "callToActionMode": "link",
-        "callToActionText": "Ver más",
-        "textAlignment": "center"
+        "callToActionText": "Ver más >",
+        "textAlignment": "center",
+        "blockClass": "infocard"
+        }
+      },
+      "flex-layout.row#home__section--five": {
+        "title": "flex-layout.row#home__secction--offers",
+        "children": ["rich-text#home__section--five", "flex-layout.col#home__one--offers","flex-layout.col#home__two--offers" ]
+      },
+      "rich-text#home__section--five": {
+        "title": "rich-text#title--seccion 5",
+          "props": {
+            "text": "Ofertas destacadas",
+            "textPosition": "CENTER",
+            "blockClass": "rich-text__home"
+          }
+       },
+      "flex-layout.col#home__one--offers": {
+        "title": "flex-layout.col#home__offers--Laptops",
+        "children": ["image#home__one--Laptops","rich-text#home__title--laptops"],
+        "props": {
+          "blockclass": "textColumn",
+          "preventVerticalStretch": true
+        }
+      },
+      "image#home__one--Laptops": {
+        "title": "Image one seccion 5",
+        "props": {
+          "src": "assets/img/Laptops.svg",
+          "blockClass": "image__logo--laptops"
+      }
+    },
+      "rich-text#home__title--laptops": {
+        "props": {
+          "text": "Laptops",
+            "textPosition": "CENTER",
+            "blockClass": "rich-text__home--offers"
+        }
+      },
+      "flex-layout.col#home__two--offers": {
+        "children": ["image#home__two--offers","rich-text#home__title--offers"],
+        "props": {
+          "blockclass": "textColumn",
+          "preventVerticalStretch": true
+        }
+      },
+      "image#home__two--offers": {
+        "title": "Image two seccion 5",
+        "props": {
+          "src": "assets/img/ofertas.svg",
+          "blockClass": "image__logo--offers"
+        }
+      },
+      "rich-text#home__title--offers": {
+        "props": {
+          "text": "Ver todas las ofertas",
+            "textPosition": "CENTER",
+            "blockClass": "rich-text__home--offers"
         }
       }
 }
