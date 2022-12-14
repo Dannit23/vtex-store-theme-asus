@@ -62,3 +62,12 @@
 .discountInsideContainer {
     display: none;
 }
+
+.infoCardCallActionContainer--infocard {
+    text-decoration: none;
+}
+.infoCardCallActionText--infocard {
+    text-decoration:none;
+    font-weight: normal;
+    font-size: 1.0625rem
+}
