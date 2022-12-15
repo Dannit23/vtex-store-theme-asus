@@ -23,7 +23,7 @@
       }, 
       "image#home__slider--one": {
         "props": {
-         "src": "assets/img/slide-1.jpg",
+         "src": "assets/img/slide-1-Desktop.webp",
           "link": {
            "url": "/"
           },

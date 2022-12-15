@@ -78,27 +78,28 @@
         "blockClass": "infocard"
         }
       },
-      "header-row#global__container--offers": {
+      "flex-layout.row#global__container--offers": {
         "title": "global__container--offers",
         "children": [
-          "rich-text#home__section--five",
-          "header-spacer",
-          "image#home__one--Laptops",
-          "rich-text#home__title--laptops",
-          "image#home__two--offers",
-          "rich-text#home__title--offers"
+          "flex-layout.col#one",
+          "flex-layout.col#two"
         ],
         "props": {
           "blockClass": "header__home--section5"
         }
       },
-      // "flex-layout.row#home__section--five": {
-      //   "title": "flex-layout.row#home__secction--offers",
-      //   "children": ["rich-text#home__section--five", "flex-layout.col#home__one--offers","flex-layout.col#home__two--offers"],
-      //   "props": {
-      //     "blockClass": "offers"
-      //   }
-      // }, 
+      "flex-layout.col#one": {
+        "children": [
+          "image#home__one--Laptops",
+          "rich-text#home__title--laptops"
+        ]
+      },
+      "flex-layout.col#two": {
+        "children": [
+          "image#home__two--offers",
+          "rich-text#home__title--offers"
+        ]
+      },
       "rich-text#home__section--five": {
         "title": "rich-text#home__title--seccion 5",
           "props": {
@@ -106,16 +107,7 @@
             "textPosition": "CENTER",
             "blockClass": "rich-text__home"
           }
-        },
-    //    },
-    //   "flex-layout.col#home__one--offers": {
-    //     "title": "flex-layout.col#home__offers--Laptops",
-    //     "children": ["image#home__one--Laptops","rich-text#home__title--laptops"],
-    //     "props": {
-    //       "blockclass": "textColumn",
-    //       "preventVerticalStretch": true
-    //     }
-    //   },
+      },
       "image#home__one--Laptops": {
         "title": "Image one seccion 5",
         "props": {
@@ -130,13 +122,6 @@
             "blockClass": "rich-text__home--offers"
         }
       },
-    //   "flex-layout.col#home__two--offers": {
-    //     "children": ["image#home__two--offers","rich-text#home__title--offers"],
-    //     "props": {
-    //       "blockclass": "textColumn",
-    //       "preventVerticalStretch": true
-    //     }
-    //   },
       "image#home__two--offers": {
         "title": "Image two seccion 5",
         "props": {
