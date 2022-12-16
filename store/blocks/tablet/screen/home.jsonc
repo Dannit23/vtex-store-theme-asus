@@ -1,0 +1,10 @@
+{
+  "responsive-layout.tablet": { 
+    "children": [
+      "notification.bar#desktop__container-notification"
+     
+     
+    ]
+  }
+ 
+}

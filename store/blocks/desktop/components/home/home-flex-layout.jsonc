@@ -111,7 +111,7 @@
       "image#home__one--Laptops": {
         "title": "Image one seccion 5",
         "props": {
-          "src": "assets/img/Laptops.svg",
+          "src": "assets/img/section offers/Laptops.svg",
           "blockClass": "image__logo--laptops"
         }
       },
@@ -125,7 +125,7 @@
       "image#home__two--offers": {
         "title": "Image two seccion 5",
         "props": {
-          "src": "assets/img/ofertas.svg",
+          "src": "assets/img/section offers/ofertas.svg",
           "blockClass": "image__logo--offers"
         }
       },

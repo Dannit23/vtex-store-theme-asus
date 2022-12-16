@@ -1,9 +1,9 @@
 {
-    "notification.bar#home__section_one": {
-        "title": "Notification seccion 1",
+    "notification.bar#desktop__container-notification": {
+        "title": "Notification Desktop",
         "props": {
             "content": "Cree una cuenta ASUS hoy para registrar su producto para obtener un mejor soporte.",
-            "blockClass": "notification"
+            "blockClass": "desktop__container-notification"
         }
     }
 }

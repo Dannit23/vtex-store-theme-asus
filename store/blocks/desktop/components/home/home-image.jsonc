@@ -2,7 +2,7 @@
     "image#home__section_three": {
         "title": "Image seccion 3",
         "props": {
-          "src": "assets/img/seccion-3.jpg",
+          "src": "assets/img/section image/seccion-3.jpg",
           "link": {
            "url": "/"
         },

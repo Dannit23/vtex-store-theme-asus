@@ -1,20 +1,25 @@
+/*notificacion*/
 .notificationBarInner {
     background-color: #015ec5;
 }
 
-.notificationContent--notification {
+.notificationContent--desktop__container-notification {
     color    : #fff;
     font-size: .875rem;
 }
 
-.imageElement--image__slider {
-    width : 100vw;
-    height: 50vw;
-}
+.notificationContent--mobile__container-notification {
+    font-size: 13px;
+    line-height: 17px;
+    padding: 0 38px 0 15px;
+    word-break: break-all; 
+} 
 
-.imageElement--image__link {
-    width : 100vw;
-    height: 50vw;
+/*slider*/
+.imageElement--desktop__slider-children {
+    height: 698px;
+    width: 100%;
+    object-fit: cover;
 }
 
 /*infocard*/
