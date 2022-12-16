@@ -1,8 +1,8 @@
 {
   "header-layout.desktop": {
     "children": [
-      "vtex.menu@2.x:menu#header__menu--sectionOne",
-      "menu#header__menu--sectionTwo"
+      "menu#header__menu--sectionOne",
+      "vtex.menu@2.x:menu#header__menu--sectionTwo"
     ]
   }
 }

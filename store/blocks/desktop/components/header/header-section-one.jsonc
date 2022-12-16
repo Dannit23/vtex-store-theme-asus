@@ -1,5 +1,5 @@
 {
-  "vtex.menu@2.x:menu#header__menu--sectionOne": {
+  "menu#header__menu--sectionOne": {
         "children": [
             "logo#asus--hover",
             "menu-item#department__section--one",
