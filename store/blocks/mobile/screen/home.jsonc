@@ -1,7 +1,0 @@
-{
-    "responsive-layout.mobile": {
-        "children": [
-            "notification.bar#mobile__container-notification"
-        ]
-    }
-}

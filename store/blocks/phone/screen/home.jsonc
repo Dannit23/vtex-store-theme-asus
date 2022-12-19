@@ -1,0 +1,9 @@
+{
+    "responsive-layout.phone": {
+        "children": [
+           "notification.bar#phone__container-notification",
+           "slider-layout#phone__slider-children",
+           "image#phone__home_section3"
+        ]
+    }
+}

@@ -1,9 +1,0 @@
-{
-    "notification.bar#mobile__container-notification": {
-        "title": "Notification Mobile",
-        "props": {
-            "content": "Cree una cuenta ASUS hoy para registrar su producto para obtener un mejor soporte.",
-            "blockClass": "mobile__container-notification"
-        }
-    }
-}

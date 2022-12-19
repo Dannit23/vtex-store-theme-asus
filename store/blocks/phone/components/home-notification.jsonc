@@ -1,0 +1,9 @@
+{
+    "notification.bar#phone__container-notification": {
+        "title": "Notification phone",
+        "props": {
+            "content": "Cree una cuenta ASUS hoy para registrar su producto para obtener un mejor soporte.",
+            "blockClass": "phone__container-notification"
+        }
+    }
+}

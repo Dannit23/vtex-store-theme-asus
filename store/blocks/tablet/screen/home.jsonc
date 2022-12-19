@@ -1,10 +1,12 @@
 {
   "responsive-layout.tablet": { 
     "children": [
-      "notification.bar#desktop__container-notification"
-     
+      "notification.bar#desktop__container-notification",
+      "slider-layout#tablet__slider-children",
+      "image#tablet__home_section3" 
      
     ]
   }
  
 }
+

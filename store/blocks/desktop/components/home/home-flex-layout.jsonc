@@ -1,24 +1,24 @@
 {
-    "flex-layout.row#home__section_four":{
-        "title": "Info card de productos",
+    "flex-layout.row#desktop__container-section4":{
+        "title": "Flex Desktop Section4",
         "children": [
-         "flex-layout.col#infoCards-left",
-         "flex-layout.col#infoCards-right"
+         "flex-layout.col#desktop__infoCards--left",
+         "flex-layout.col#desktop__infoCards--right"
         ],
         "props": {
           "blockClass": "textColumn",
           "preventVerticalStretch": true
         }
       },
-      "flex-layout.col#infoCards-left": {
-        "title": "Info card izquierdas",
-        "children": ["info-card#zenBook-left", "info-card#tuf-left"],
+      "flex-layout.col#desktop__infoCards--left": {
+        "title": "Info-Card Desktop Lefts",
+        "children": ["info-card#desktop__infocard--zenBook", "info-card#desktop__infocard--tuf"],
         "props": {
           "blockclass": "textColumn",
           "preventVerticalStretch": true
         }
       },
-      "info-card#zenBook-left": {
+      "info-card#desktop__infocard--zenBook": {
         "props": {
         "isFullModeStyle": true,
         "textPosition": "center",
@@ -28,10 +28,10 @@
         "callToActionMode": "link",
         "callToActionText": "Ver más >",
         "textAlignment": "center",
-        "blockClass": "infocard"
+        "blockClass": "desktop__infocard"
         }
       },
-      "info-card#tuf-left": {
+      "info-card#desktop__infocard--tuf": {
         "props": {
         "isFullModeStyle": true,
         "textPosition": "center",
@@ -41,18 +41,18 @@
         "callToActionMode": "link",
         "callToActionText": "Ver más >",
         "textAlignment": "center",
-        "blockClass": "infocard"
+        "blockClass": "desktop__infocard"
         }
       },
-      "flex-layout.col#infoCards-right": {
-        "title": "Info card derechos",
-        "children": ["info-card#vivobook-right", "info-card#rog-right" ],
+      "flex-layout.col#desktop__infoCards--right": {
+        "title": "Info-Card Desktop Rights",
+        "children": ["info-card#desktop__infocard--vivobook", "info-card#desktop__infocard--rog" ],
         "props": {
           "blockclass": "textColumn",
           "preventVerticalStretch": true
         }
       },
-      "info-card#vivobook-right": {
+      "info-card#desktop__infocard--vivobook": {
         "props": {
         "isFullModeStyle": true,
         "textPosition": "center",
@@ -62,10 +62,10 @@
         "callToActionMode": "link",
         "callToActionText": "Ver más >",
         "textAlignment": "center",
-        "blockClass": "infocard"
+        "blockClass": "desktop__infocard"
         }
       },
-      "info-card#rog-right": {
+      "info-card#desktop__infocard--rog": {
         "props": {
         "isFullModeStyle": true,
         "textPosition": "center",
@@ -75,9 +75,10 @@
         "callToActionMode": "link",
         "callToActionText": "Ver más >",
         "textAlignment": "center",
-        "blockClass": "infocard"
+        "blockClass": "desktop__infocard"
         }
       },
+      /*seccion de ofertas destacadas*/
       "flex-layout.row#global__container--offers": {
         "title": "global__container--offers",
         "children": [

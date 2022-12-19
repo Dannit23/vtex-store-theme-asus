@@ -3,8 +3,8 @@
        "children": [
         "notification.bar#desktop__container-notification",
         "slider-layout#desktop__slider-children",
-        "image#home__section_three" ,
-        "flex-layout.row#home__section_four",
+        "image#desktop__home_section3",
+        "flex-layout.row#desktop__container-section4",
         "rich-text#home__section--five",
         "flex-layout.row#global__container--offers",
         "list-context.product-list#demo1"

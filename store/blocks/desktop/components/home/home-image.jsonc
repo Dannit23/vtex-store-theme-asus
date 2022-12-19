@@ -1,12 +1,12 @@
 {
-    "image#home__section_three": {
-        "title": "Image seccion 3",
+    "image#desktop__home_section3": {
+        "title": "Image Desktop",
         "props": {
-          "src": "assets/img/section image/seccion-3.jpg",
+          "src": "assets/img/section image/seccion-3-desktop.webp",
           "link": {
            "url": "/"
         },
-        "blockClass": "image__link"
+        "blockClass": "image__desktop-section3"
       }
     }
 }

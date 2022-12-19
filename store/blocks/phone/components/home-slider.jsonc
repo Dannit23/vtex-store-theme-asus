@@ -1,0 +1,60 @@
+{
+    "slider-layout#phone__slider-children": {
+        "title": "Slider Phone",
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1, 
+            "tablet": 1, 
+            "mobile": 1
+          }, 
+          "infinite":true, 
+          "blockClass": "phone__slider--one",
+          "autoplay": {
+            "timeout": 3000,
+            "stopOnHover": true
+          }
+        },
+        "children": [
+            "image#slider__phone--one",
+            "image#slider__phone--two",
+            "image#slider__phone--three",
+            "image#slider__phone--four"
+        ]
+      }, 
+      "image#slider__phone--one": {
+        "props": {
+         "src": "assets/img/slider mobile/slider-1-mobile.webp",
+          "link": {
+           "url": "/"
+          },
+          "blockClass": "phone__slider-children"
+        }
+      },
+      "image#slider__phone--two": {
+        "props": {
+         "src": "assets/img/slider mobile/slider-2-mobile.webp",
+          "link": {
+            "url": "/"
+          },
+          "blockClass": "phone__slider-children"
+        }
+      },
+      "image#slider__phone--three": {
+        "props": {
+         "src": "assets/img/slider mobile/slider-3-mobile.webp",
+         "link": {
+           "url": "/"
+          },
+          "blockClass": "phone__slider-children"
+        }
+      },
+      "image#slider__phone--four": {
+        "props": {
+         "src": "assets/img/slider mobile/slider-4-mobile.webp",
+          "link": {
+           "url": "/"
+          },
+          "blockClass": "phone__slider-children"
+       }
+    }
+}

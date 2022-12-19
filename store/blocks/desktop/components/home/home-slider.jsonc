@@ -8,7 +8,7 @@
             "mobile": 1
           }, 
           "infinite":true, 
-          "blockClass": "home__slider",
+          "blockClass": "desktop__slider--one",
           "autoplay": {
             "timeout": 3000,
             "stopOnHover": true
