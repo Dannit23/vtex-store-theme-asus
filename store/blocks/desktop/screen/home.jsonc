@@ -1,17 +1,13 @@
 {
-  "store.home": { 
-    "blocks": [
-      "notification.bar#home__section_one",
-      "slider-layout#home__slider--children",
-      "image#home__section_three" ,
-      "flex-layout.row#home__section_four",
-      // "flex-layout.row#home__section--five",
-      "header-row#global__container--offers",
-      "list-context.product-list#demo1"
-      
-      
-
-    ]
-  }
- 
+    "responsive-layout.desktop": {
+       "children": [
+        "notification.bar#desktop__container-notification",
+        "slider-layout#desktop__slider-children",
+        "flex-layout.row#desktop__container-image",
+        "flex-layout.row#desktop__container-section4",
+        "rich-text#desktop__home__title-section5",
+        "flex-layout.row#desktop__container-offers",
+        "list-context.product-list#desktop__product-list1"
+       ]
+    }
 }

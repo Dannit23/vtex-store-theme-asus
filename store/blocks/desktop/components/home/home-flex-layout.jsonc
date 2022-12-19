@@ -1,24 +1,24 @@
 {
-    "flex-layout.row#home__section_four":{
-        "title": "Info card de productos",
+    "flex-layout.row#desktop__container-section4":{
+        "title": "Flex Desktop Section4",
         "children": [
-         "flex-layout.col#infoCards-left",
-         "flex-layout.col#infoCards-right"
+         "flex-layout.col#desktop__infoCards--left",
+         "flex-layout.col#desktop__infoCards--right"
         ],
         "props": {
           "blockClass": "textColumn",
           "preventVerticalStretch": true
         }
       },
-      "flex-layout.col#infoCards-left": {
-        "title": "Info card izquierdas",
-        "children": ["info-card#zenBook-left", "info-card#tuf-left"],
+      "flex-layout.col#desktop__infoCards--left": {
+        "title": "Info-Card Desktop Lefts",
+        "children": ["info-card#desktop__infocard--zenBook", "info-card#desktop__infocard--tuf"],
         "props": {
           "blockclass": "textColumn",
           "preventVerticalStretch": true
         }
       },
-      "info-card#zenBook-left": {
+      "info-card#desktop__infocard--zenBook": {
         "props": {
         "isFullModeStyle": true,
         "textPosition": "center",
@@ -28,10 +28,10 @@
         "callToActionMode": "link",
         "callToActionText": "Ver más >",
         "textAlignment": "center",
-        "blockClass": "infocard"
+        "blockClass": "desktop__infocard"
         }
       },
-      "info-card#tuf-left": {
+      "info-card#desktop__infocard--tuf": {
         "props": {
         "isFullModeStyle": true,
         "textPosition": "center",
@@ -41,18 +41,18 @@
         "callToActionMode": "link",
         "callToActionText": "Ver más >",
         "textAlignment": "center",
-        "blockClass": "infocard"
+        "blockClass": "desktop__infocard"
         }
       },
-      "flex-layout.col#infoCards-right": {
-        "title": "Info card derechos",
-        "children": ["info-card#vivobook-right", "info-card#rog-right" ],
+      "flex-layout.col#desktop__infoCards--right": {
+        "title": "Info-Card Desktop Rights",
+        "children": ["info-card#desktop__infocard--vivobook", "info-card#desktop__infocard--rog" ],
         "props": {
           "blockclass": "textColumn",
           "preventVerticalStretch": true
         }
       },
-      "info-card#vivobook-right": {
+      "info-card#desktop__infocard--vivobook": {
         "props": {
         "isFullModeStyle": true,
         "textPosition": "center",
@@ -62,10 +62,10 @@
         "callToActionMode": "link",
         "callToActionText": "Ver más >",
         "textAlignment": "center",
-        "blockClass": "infocard"
+        "blockClass": "desktop__infocard"
         }
       },
-      "info-card#rog-right": {
+      "info-card#desktop__infocard--rog": {
         "props": {
         "isFullModeStyle": true,
         "textPosition": "center",
@@ -75,80 +75,93 @@
         "callToActionMode": "link",
         "callToActionText": "Ver más >",
         "textAlignment": "center",
-        "blockClass": "infocard"
+        "blockClass": "desktop__infocard"
         }
       },
-      "header-row#global__container--offers": {
-        "title": "global__container--offers",
-        "children": [
-          "rich-text#home__section--five",
-          "header-spacer",
-          "image#home__one--Laptops",
-          "rich-text#home__title--laptops",
-          "image#home__two--offers",
-          "rich-text#home__title--offers"
-        ],
-        "props": {
-          "blockClass": "header__home--section5"
-        }
-      },
-      // "flex-layout.row#home__section--five": {
-      //   "title": "flex-layout.row#home__secction--offers",
-      //   "children": ["rich-text#home__section--five", "flex-layout.col#home__one--offers","flex-layout.col#home__two--offers"],
-      //   "props": {
-      //     "blockClass": "offers"
-      //   }
-      // }, 
-      "rich-text#home__section--five": {
-        "title": "rich-text#home__title--seccion 5",
-          "props": {
-            "text": "Ofertas destacadas",
-            "textPosition": "CENTER",
-            "blockClass": "rich-text__home"
-          }
-        },
-    //    },
-    //   "flex-layout.col#home__one--offers": {
-    //     "title": "flex-layout.col#home__offers--Laptops",
-    //     "children": ["image#home__one--Laptops","rich-text#home__title--laptops"],
-    //     "props": {
-    //       "blockclass": "textColumn",
-    //       "preventVerticalStretch": true
-    //     }
-    //   },
-      "image#home__one--Laptops": {
-        "title": "Image one seccion 5",
-        "props": {
-          "src": "assets/img/Laptops.svg",
-          "blockClass": "image__logo--laptops"
-        }
-      },
-      "rich-text#home__title--laptops": {
-        "props": {
-          "text": "Laptops",
-            "textPosition": "CENTER",
-            "blockClass": "rich-text__home--offers"
-        }
-      },
-    //   "flex-layout.col#home__two--offers": {
-    //     "children": ["image#home__two--offers","rich-text#home__title--offers"],
-    //     "props": {
-    //       "blockclass": "textColumn",
-    //       "preventVerticalStretch": true
-    //     }
-    //   },
-      "image#home__two--offers": {
-        "title": "Image two seccion 5",
-        "props": {
-          "src": "assets/img/ofertas.svg",
-          "blockClass": "image__logo--offers"
-        }
-      },
-      "rich-text#home__title--offers": {
-        "props": {
-          "text": "Ver todas las ofertas",
-            "textPosition": "CENTER",
-            "blockClass": "rich-text__home--offers"
-        }
+       /*seccion de ofertas destacadas*/
+    "flex-layout.row#desktop__container-offers": {
+      "title": "Flex-layout.row desktop",
+      "children": [
+        "flex-layout.col#desktop__container-laptops",
+        "flex-layout.col#desktop__container-offers"
+      ],
+      "props": {
+        "preserveLayoutOnMobile": true,
+        "blockClass": "desktop__container-offers"
       }
+    },
+    "flex-layout.col#desktop__container-laptops": {
+      "title": "Flex-layout.col desktop",
+      "children": [
+        "image#desktop__home--Laptops",
+        "rich-text#desktop__home--title"
+      ],
+      "props": {
+         "blockclass": "desktop__container-laptops"
+      }
+    },
+    "image#desktop__home--Laptops": {
+        "props": {
+        "src": "assets/img/section offers/Laptops.svg",
+        "blockClass": "desktop__home--Laptops"
+      }
+    },
+    "rich-text#desktop__home--title": {
+      "props": {
+        "text": "Laptops",
+        "textPosition": "CENTER",
+        "blockClass": "desktop__home--title"
+      }
+    },   
+    "flex-layout.col#desktop__container-offers": {
+      "title": "Flex-layout.col Desktop",
+      "children": [
+        "image#desktop__home--offers",
+        "rich-text#desktop__title--offers"
+      ],
+      "props": {
+         "blockclass": "desktop__container-offers"
+      }
+    },
+    "image#desktop__home--offers": {
+      "props": {
+        "src": "assets/img/section offers/ofertas.svg",
+        "blockClass": "desktop__home--offers"
+      }
+    },
+    "rich-text#desktop__title--offers": {
+      "props": {
+        "text": "Ver todas las ofertas",
+          "textPosition": "CENTER",
+          "blockClass": "desktop__title--offers"
+      }
+    },
+    "rich-text#desktop__home__title-section5": {
+      "title": "Rich-text Desktop",
+        "props": {
+          "text": "Ofertas destacadas",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "blockClass": "desktop__home__title-section5"
+        }
+    },
+    "flex-layout.row#desktop__container-image": {
+      "title": "Flex-layout.row desktop Image",
+      "children": [
+        "image#desktop__home_section3"
+      ],
+      "props": {
+        "blockclass": "desktop__container-image"
+      }
+    },
+    "image#desktop__home_section3": {
+      "title": "Image Desktop",
+      "props": {
+        "src": "assets/img/section image/seccion-3-desktop.webp",
+        "link": {
+         "url": "/"
+        },
+        "blockClass": "image__desktop-section3"
+      }
+    }  
 }

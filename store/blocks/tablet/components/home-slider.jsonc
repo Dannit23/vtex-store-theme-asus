@@ -1,0 +1,61 @@
+{
+    "slider-layout#tablet__slider-children": {
+        "title": "Slider tablet",
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1, 
+            "tablet": 1, 
+            "mobile": 1
+          }, 
+          "infinite":true, 
+          "blockClass": "tablet__slider--one",
+          "autoplay": {
+            "timeout": 3000,
+            "stopOnHover": true
+          }
+        },
+        "children": [
+            "image#slider__tablet--one",
+            "image#slider__tablet--two",
+            "image#slider__tablet--three",
+            "image#slider__tablet--four"
+        ]
+      }, 
+      "image#slider__tablet--one": {
+        "props": {
+         "src": "assets/img/slider tablet/slider-1-tablet.jpg",
+          "link": {
+           "url": "/"
+          },
+          "blockClass": "tablet__slider-children"
+        }
+      },
+      "image#slider__tablet--two": {
+        "props": {
+         "src": "assets/img/slider tablet/slider-2-tablet.jpg",
+          "link": {
+            "url": "/"
+          },
+          "blockClass": "tablet__slider-children"
+        }
+      },
+      "image#slider__tablet--three": {
+        "props": {
+         "src": "assets/img/slider tablet/slider-3-tablet.jpg",
+         "link": {
+           "url": "/"
+          },
+          "blockClass": "tablet__slider-children"
+        }
+      },
+      "image#slider__tablet--four": {
+        "props": {
+         "src": "assets/img/slider tablet/slider-4-tablet.jpg",
+          "link": {
+           "url": "/"
+          },
+          "blockClass": "tablet__slider-children"
+       }
+      }
+    
+}
