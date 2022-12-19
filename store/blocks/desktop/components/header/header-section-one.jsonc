@@ -10,7 +10,7 @@
         "props": {
           "title": "Logo",
           "href": "/",
-          "url": "assets/img/logo_hover.svg",
+          "url": "assets/img/header/logo_hover.svg",
           "width": "30"
         }
     },

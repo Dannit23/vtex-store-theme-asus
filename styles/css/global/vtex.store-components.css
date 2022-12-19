@@ -1,72 +1,92 @@
+/*notificacion*/
 .notificationBarInner {
     background-color: #015ec5;
 }
 
-.notificationContent--notification {
+.notificationContent--desktop__container-notification {
     color    : #fff;
     font-size: .875rem;
 }
 
-.imageElement--image__slider {
-    width : 100vw;
-    height: 50vw;
+.notificationContent--phone__container-notification {
+    font-size: 13px;
+    line-height: 17px;
+    padding: 0 38px 0 15px;
+    word-break: break-all; 
+} 
+
+/*slider*/
+.imageElement--desktop__slider-children {
+    height: 698px;
+    width: 100%;
+    object-fit: cover;
 }
 
-.imageElement--image__link {
-    width : 100vw;
-    height: 50vw;
+.imageElement--tablet__slider-children {
+    height: 698px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.imageElement--phone__slider-children {
+    height: 548px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*image seccion 3*/
+.imageElement--image__desktop-section3 {
+    object-fit: cover;
+    height: 692px;
+    max-width: 93.7rem;
+}
+
+.imageElement--image__tablet-section3 {
+    object-fit: cover;
+    height: 650px;
+    width: 100%;
+}
+
+.imageElement--image__phone-section3 {
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
 }
 
 /*infocard*/
-
-.infoCardSubhead {
-    color    : rgb(51, 51, 51);
-    font-size: 0.85rem;
+.infoCardContainer--desktop__infocard {
+    margin-bottom: 0.375rem;
 }
 
-.infoCardContainer--infocard {
+.infoCardTextContainer--desktop__infocard {
     display    : flex;
-    align-items: flex-start;
-
-    height    : 25rem;
-    margin-top: 1rem;
+    height    : 30rem;
+    align-items: center;
+    width: 430px;
 }
 
-.infoCardTextContainer--infocard {
-    max-height: 10px;
-    min-height: 10px;
-}
-
-.infoCardHeadline--infocard {
+.infoCardHeadline--desktop__infocard {
     color      : #333333;
-    font-size  : 2rem;
+    font-size  : 2.375rem;
     font-weight: normal;
-    min-width  : 17rem;
-    margin     : 0.5rem 0px 0px 0px;
 }
 
-.infoCardSubhead--infocard {
-    margin   : 0px;
+.infoCardSubhead--desktop__infocard {
+    color    : rgb(51, 51, 51);
+    font-size:  1.375rem;
     min-width: 17rem;
-    font-size: 1.2rem;
+    margin   : 0px;
 }
 
-.infoCardCallActionText--infocard {
+.infoCardCallActionText--desktop__infocard {
     margin: 0px;
-}
-
-.infoCardCallActionText {
     color: #00a3e7;
 }
 
-.discountInsideContainer {
-    display: none;
-}
-
-.infoCardCallActionContainer--infocard {
+.infoCardCallActionContainer--desktop__infocard {
     text-decoration: none;
 }
-.infoCardCallActionText--infocard {
+.infoCardCallActionText--desktop__infocard {
     text-decoration:none;
     font-weight: normal;
     font-size: 1.0625rem

@@ -1,4 +1,12 @@
-.paginationDot--home__slider {
+/*slider*/
+/* .sliderLayoutContainer--desktop__slider--one{
+    min-width: 100%;
+} */
+/* .sliderTrack--desktop__slider--one {
+    max-width     : 93.7rem;
+} */
+
+.paginationDot--desktop__slider--one {
     margin-bottom: 2%;
     margin-left: 1%;
     padding: 0 2.7%;
@@ -6,8 +14,45 @@
     height: 0.340rem !important;
 }
 
-.caretIcon--home__slider:hover {
-    background-color: rgb(175, 175, 175);
+.paginationDot--tablet__slider--one {
+    margin-bottom: 2%;
+    margin-left: 1.5%;
+    padding: 0 5%;
+    border-radius: 0.5rem;
+    height: 0.340rem !important;
+}
+
+.paginationDot--phone__slider--one {
+    margin-bottom: 3%;
+    margin-left: 2%;
+    padding: 0 10%;
+    border-radius: 0.5rem;
+    height: 0.340rem !important;
+}
+
+.caretIcon--desktop__slider--one:hover {
+    background-color: rgb(194, 191, 191); 
+    opacity: 0.5;
+    cursor: pointer;
+    border: solid 1px;
+    border-color: black;
+    border-radius: 0.5rem;
+    padding: 0.9rem 0.4rem;
+}
+
+.caretIcon--tablet__slider--one:hover {
+    background-color: rgb(194, 191, 191); 
+    opacity: 0.5;
+    cursor: pointer;
+    border: solid 1px;
+    border-color: black;
+    border-radius: 0.5rem;
+    padding: 0.9rem 0.4rem;
+}
+
+.caretIcon--phone__slider--one:hover {
+    background-color: rgb(194, 191, 191); 
+    opacity: 0.5;
     cursor: pointer;
     border: solid 1px;
     border-color: black;
@@ -42,3 +87,4 @@
     padding: 0.9rem 0.4rem;
     background-color: rgb(250, 250, 250);
 }
+

@@ -1,0 +1,12 @@
+{
+    "image#phone__home_section3": {
+        "title": "Image Phone",
+        "props": {
+          "src": "assets/img/section image/seccion-3-mobile.webp",
+          "link": {
+           "url": "/"
+        },
+        "blockClass": "image__phone-section3"
+      }
+    }
+}

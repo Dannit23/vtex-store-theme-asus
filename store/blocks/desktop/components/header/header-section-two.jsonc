@@ -16,7 +16,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/img/asus-logo.png",
+      "url": "assets/img/header/asus-logo.png",
       "width": "80"
     }
   },

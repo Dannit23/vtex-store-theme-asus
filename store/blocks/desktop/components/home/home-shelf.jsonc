@@ -1,15 +1,15 @@
 {
-  "list-context.product-list#demo1": {
-    "title": "Shelf seccion 6",
+  "list-context.product-list#desktop__product-list1": {
+    "title": "List-context.product-list Desktop",
     "blocks": [
-      "product-summary.shelf#demo1"
+      "product-summary.shelf#desktop__shelf"
     ],
     "children": [
-      "slider-layout#demo-products"
+      "slider-layout#desktop-products"
     ]
   },
-  "product-summary.shelf#demo1": {
-    "title": "Product Shelf",
+  "product-summary.shelf#desktop__shelf": {
+    "title": "Product-Summary Shelf Desktop",
     "children": [
       "product-summary-image",
       "product-summary-name",
@@ -20,10 +20,10 @@
       "product-summary-sku-selector",
       "product-summary-space",
       "add-to-cart-button#button",
-      "add-to-cart-button#button_effect"
+      "link.product#product-page"
     ],
     "props":{
-      "blockClass":"shelf"
+      "blockClass": "desktop__shelf"
     }
   },
   "product-summary-image": {
@@ -31,7 +31,7 @@
       "width": 200
     }
   },
-  "slider-layout#demo-products": {
+  "slider-layout#desktop-products": {
     "props": {
       "itemsPerPage": {
         "desktop": 3,
@@ -49,10 +49,12 @@
       "blockClass": "button"
     }
   },
-  "add-to-cart-button#button_effect": {
+  "link.product#product-page": {
     "props": {
-      "text": "Más información",
-      "blockClass": "button_effect"
+      "displayMode": "button",
+      "href": "/",
+      "label": "Más Información",
+      "blockClass": "product-page"
     }
   }
 }

@@ -1,0 +1,12 @@
+{
+    "image#tablet__home_section3": {
+        "title": "Image Tablet",
+        "props": {
+          "src": "assets/img/section image/seccion-3-tablet.webp",
+          "link": {
+           "url": "/"
+        },
+        "blockClass": "image__tablet-section3"
+      }
+    }
+}

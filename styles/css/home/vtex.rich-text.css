@@ -1,6 +1,23 @@
-.paragraph--rich-text__home {
+.paragraph--desktop__home__title-section5 {
     color: #181818;
-    font-size: 40px;
+    font-size: 42px;
     font-weight: 500;
 }
+.paragraph--desktop__home--title {
+    color: #181818;
+    font-size: .9375rem; 
+}
 
+.paragraph--desktop__title--offers {
+    color: #181818;
+    font-size: .9375rem; 
+}
+
+.container--rich-text__home {
+    margin: 74px 0 22px
+}
+
+.paragraph--desktop__home--title:hover, .paragraph--desktop__title--offers:hover {
+    border-bottom: 4px solid black;
+    /* padding-bottom: 20px; */
+}
