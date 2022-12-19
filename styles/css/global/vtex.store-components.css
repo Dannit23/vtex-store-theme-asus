@@ -38,7 +38,7 @@
 .imageElement--image__desktop-section3 {
     object-fit: cover;
     height: 692px;
-    width: 100%;
+    max-width: 93.7rem;
 }
 
 .imageElement--image__tablet-section3 {

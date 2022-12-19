@@ -1,4 +1,11 @@
 /*slider*/
+/* .sliderLayoutContainer--desktop__slider--one{
+    min-width: 100%;
+} */
+/* .sliderTrack--desktop__slider--one {
+    max-width     : 93.7rem;
+} */
+
 .paginationDot--desktop__slider--one {
     margin-bottom: 2%;
     margin-left: 1%;
@@ -80,3 +87,4 @@
     padding: 0.9rem 0.4rem;
     background-color: rgb(250, 250, 250);
 }
+
