@@ -1,6 +1,6 @@
 {
   "slider-layout#desktop__slider-children": {
-        "title": "Slider Desktop",
+        "title": "Slider Children Desktop",
         "props": {
           "itemsPerPage": {
             "desktop": 1, 
@@ -22,6 +22,7 @@
         ]
       }, 
       "image#slider__image--one": {
+        "title": "Slider Image One Desktop",
         "props": {
          "src": "assets/img/slider desktop/slider-1-Desktop.jpg",
           "link": {
@@ -31,6 +32,7 @@
         }
       },
       "image#slider__image--two": {
+        "title": "Slider Image Two Desktop",
         "props": {
          "src": "assets/img/slider desktop/slider-2-Desktop.jpg",
           "link": {
@@ -40,6 +42,7 @@
         }
       },
       "image#slider__image--three": {
+        "title": "Slider Image Three Desktop",
         "props": {
          "src": "assets/img/slider desktop/slider-3-Desktop.jpg",
          "link": {
@@ -49,6 +52,7 @@
         }
       },
       "image#slider__image--four": {
+        "title": "Slider Image four Desktop",
         "props": {
          "src": "assets/img/slider desktop/slider-4-Desktop.jpg",
           "link": {

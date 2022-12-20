@@ -13,13 +13,13 @@
     width: 25rem;
 }
 
-.flexRowContent--desktop__container-offers {
+.flexRowContent--global__container-offers {
     display: flex;
     text-align: center;
     width: 300px;
 }
 
-.flexRow--desktop__container-offers {
+.flexRow--global__container-offers {
     display: flex;
     justify-content: center;
 }

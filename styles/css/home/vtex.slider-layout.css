@@ -1,9 +1,18 @@
 /*slider*/
-/* .sliderLayoutContainer--desktop__slider--one{
-    min-width: 100%;
-} */
-/* .sliderTrack--desktop__slider--one {
+/* .slide--desktop__slider--one {
+  
     max-width     : 93.7rem;
+}  */
+
+/* .sliderTrackContainer--desktop__slider--one {
+    max-width     : 93.7rem;
+}  */
+
+
+/* @media (min-width: 1800px) {
+    .sliderArrows {
+        display: none;
+    }
 } */
 
 .paginationDot--desktop__slider--one {
@@ -69,15 +78,23 @@
 
 .slideChildrenContainer--carousel {
     border: 1px solid #fff;
-    margin: 0 20px;
-    border-radius: 10px;
+    border-radius: 16px;
     box-shadow      : 1px 2px 5px #fff;
     background-color: #fff;
+    padding: 24px 24px 14px;
+    margin: 0 12px 12px 0;
+    width: 404px;
+    /* max-width: 93.7rem; */
 }
+
+
+/* .slide--carousel {
+    width: 472px;
+} */
 
 .slide--carousel--visible {
     background-color: #f5f5f5;
-    padding: 50px 0 50px 0px;
+    padding: 50px 0 50px 0px;    
 }
 
 .caretIcon--carousel{

@@ -1,0 +1,161 @@
+{
+  /*seccion 4 infocards*/
+  "flex-layout.row#global__container-section4":{
+    "title": "Flex Global Section4",
+    "children": [
+      "flex-layout.col#global__infoCards--left",
+      "flex-layout.col#global__infoCards--right"
+    ],
+    "props": {
+      "blockClass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#global__infoCards--left": {
+    "title": "Info-Card Global Lefts",
+    "children": [
+      "info-card#global__infocard--zenBook", "info-card#global__infocard--tuf"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+  "info-card#global__infocard--zenBook": {
+    "title": "Info Card ZenBook Global",
+    "props": {
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "https://www.asus.com/WebsitesBanner/CO/banners/thfrxysiqunlidku/thfrxysiqunlidku-0_0_desktop_1X.jpg",
+      "headline": "ASUS ZenBook Flip S13 OLED",
+      "subhead": "Desempeño flexible, diseño elegante",
+      "callToActionMode": "link",
+      "callToActionText": "Ver más >",
+      "textAlignment": "center",
+      "blockClass": "global__infocard"
+    }
+  },
+  "info-card#global__infocard--tuf": {
+    "title": "Info Card Tuf Global",
+    "props": {
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "https://www.asus.com/WebsitesBanner/CO/banners/thfrxysiqunlidku/thfrxysiqunlidku-2_0_desktop_1X.jpg",
+      "headline": "ASUS Tuf Dash F15",
+      "subhead": "Ultra fino para juego",
+      "callToActionMode": "link",
+      "callToActionText": "Ver más >",
+      "textAlignment": "center",
+      "blockClass": "global__infocard"
+    }
+  },
+  "flex-layout.col#global__infoCards--right": {
+    "title": "Info Card Rights Global",
+    "children": [
+      "info-card#global__infocard--vivobook", "info-card#global__infocard--rog"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+  "info-card#global__infocard--vivobook": {
+    "title": "Info Card Vivobook Global",
+    "props": {
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "https://www.asus.com/WebsitesBanner/CO/banners/thfrxysiqunlidku/thfrxysiqunlidku-1_0_desktop_1X.jpg",
+      "headline": "ASUS Vivobook Pro 16 X OLED",
+      "subhead": "Dale forma al futuro",
+      "callToActionMode": "link",
+      "callToActionText": "Ver más >",
+      "textAlignment": "center",
+      "blockClass": "global__infocard"
+    }
+  },
+  "info-card#global__infocard--rog": {
+    "title": "Info Card Rog Global",
+    "props": {
+      "isFullModeStyle": true,
+      "imageUrl": "https://www.asus.com/WebsitesBanner/CO/banners/thfrxysiqunlidku/thfrxysiqunlidku-3_0_desktop_1X.jpg",
+      "textPosition": "center",
+      "subhead": "La laptop gamer de 14'' más poderosa del mundo",
+      "headline": "ROG Zephyrus G14",
+      "callToActionText": "Ver más >",
+      "callToActionMode": "link",
+      "blockClass": "global__infocard",
+      "textAlignment": "center"
+    }
+  },
+   /*seccion de ofertas destacadas*/
+  "flex-layout.row#global__container-offers": {
+    "title": "Flex-layout.row Global",
+    "children": [
+      "flex-layout.col#global__container-laptops",
+      "flex-layout.col#global__container-offers"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "global__container-offers"
+    }
+  },
+  "flex-layout.col#global__container-laptops": {
+    "title": "Flex-layout.col Global",
+    "children": [
+      "image#global__home--Laptops",
+      "rich-text#global__home--title"
+    ],
+    "props": {
+       "blockclass": "global__container-laptops"
+    }
+  },
+  "image#global__home--Laptops": {
+    "title":"Image Home Laptops Global",
+      "props": {
+      "src": "assets/img/section offers/Laptops.svg",
+      "blockClass": "global__home--Laptops"
+    }
+  },
+  "rich-text#global__home--title": {
+    "title": "Rich Text Home Title Global",
+    "props": {
+      "text": "Laptops",
+      "textPosition": "CENTER",
+      "blockClass": "global__home--title"
+    }
+  },   
+  "flex-layout.col#global__container-offers": {
+    "title": "Flex-layout.col Global",
+    "children": [
+      "image#global__home--offers",
+      "rich-text#global__title--offers"
+    ],
+    "props": {
+       "blockclass": "global__container-offers"
+    }
+  },
+  "image#global__home--offers": {
+    "title": "Image Home Offers Global", 
+    "props": {
+      "src": "assets/img/section offers/ofertas.svg",
+      "blockClass": "global__home--offers"
+    }
+  },
+  "rich-text#global__title--offers": {
+    "title": "Rich Text Title Offers Global",
+    "props": {
+      "text": "Ver todas las ofertas",
+        "textPosition": "CENTER",
+        "blockClass": "global__title--offers"
+    }
+  },
+  "rich-text#global__home__title-section5": {
+    "title": "Rich Text Home Title Global",
+      "props": {
+        "text": "Ofertas destacadas",
+        "textPosition": "CENTER",
+        "textAlignment": "CENTER",
+        "blockClass": "global__home__title-section5"
+      }
+  }    
+}
