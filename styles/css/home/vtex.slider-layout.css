@@ -70,32 +70,36 @@
 }
 
 /* slider de vitrina */
-
-.slideChildrenContainer--carousel :global(.vtex-button) {
+.slideChildrenContainer--desktop__slider-products :global(.vtex-button), .slideChildrenContainer--mobile__slider-products :global(.vtex-button) {
     width         : 100%;
     margin-bottom: 20px;
 } 
 
-.slideChildrenContainer--carousel {
-    border: 1px solid #fff;
-    border-radius: 16px;
-    box-shadow      : 1px 2px 5px #fff;
+.slideChildrenContainer--desktop__slider-products, .slideChildrenContainer--mobile__slider-products  {
     background-color: #fff;
-    padding: 24px 24px 14px;
-    margin: 0 12px 12px 0;
-    width: 404px;
-    /* max-width: 93.7rem; */
+    max-width: 400px;
+    border-radius: 16px;
 }
 
-
-/* .slide--carousel {
-    width: 472px;
-} */
-
-.slide--carousel--visible {
+.sliderLayoutContainer--desktop__slider-products, .sliderLayoutContainer--mobile__slider-products {
     background-color: #f5f5f5;
-    padding: 50px 0 50px 0px;    
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 50px;
 }
+
+.slide--desktop__slider-products--visible, .slide--mobile__slider-products--visible {
+    max-width: 400px;
+    border-radius: 16px;
+}
+
+.sliderTrack--mobile__slider-products {
+    gap: 13px;
+}
+
+.sliderTrack--desktop__slider-products {
+    gap: 13px;
+} 
 
 .caretIcon--carousel{
     border: solid 1px;

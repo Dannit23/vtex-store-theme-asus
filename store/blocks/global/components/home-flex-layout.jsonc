@@ -106,7 +106,7 @@
       "rich-text#global__home--title"
     ],
     "props": {
-       "blockclass": "global__container-laptops"
+      "blockclass": "global__container-laptops"
     }
   },
   "image#global__home--Laptops": {
@@ -131,7 +131,7 @@
       "rich-text#global__title--offers"
     ],
     "props": {
-       "blockclass": "global__container-offers"
+      "blockclass": "global__container-offers"
     }
   },
   "image#global__home--offers": {
