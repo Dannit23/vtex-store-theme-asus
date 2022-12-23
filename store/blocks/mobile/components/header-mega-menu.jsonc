@@ -2,7 +2,10 @@
     "header-row#mobile__header--responsive": {
         "title": "Mobile Header Mega Menu",
         "children": [
-          "flex-layout.row#1-mobile"
+          "flex-layout.row#1-mobile",
+          "logo#header__asus-mobile",
+          "flex-layout.row#mobile__header--search",
+          "minicart.v2"
         ]
       },
     "flex-layout.col#trigger-mega-menu": {
@@ -18,8 +21,7 @@
           "Drawer": "drawer"
         }
       },
-    
-      // Mobile
+      /*version mobile*/
       "flex-layout.row#1-mobile": {
         "title": "Mega menu mobile render drawer",
         "children": ["flex-layout.col#trigger-mega-menu"]
@@ -74,5 +76,19 @@
           "horizontalAlign": "left",
           "paddingLeft": 4
         }
+      },
+      "logo#header__asus-mobile": {
+        "props": {
+          "title": "Logo",
+          "href": "/",
+          "url": "assets/img/header/logo-asus-mobile.svg",
+          "width": "71"
+        }
       }
+      // "search-bar#header__mobile-search": {
+      //   "props": {
+      //     "openAutocompleteOnFocus": true,
+      //     "maxWidth": 50
+      //   }
+      // }
 }

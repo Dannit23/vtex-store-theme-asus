@@ -1,5 +1,17 @@
 @font-face {
-    font-family: 'Myriad pro regular';
-    src: url(assets/fonts/Myriad.ttf);
+    font-family: 'Myriad';
+    src: url(assets/fonts/Myriad-Font.ttf);
+    font-weight: bold;
+} 
+
+@font-face {
+    font-family: 'Myriad';
+    src: url(assets/fonts/Myriad-Pro-Bold-Semibold-SemiExtended.ttf);
+    font-weight: bold;
+} 
+
+@font-face {
+    font-family: 'Myriad';
+    src: url(assets/fonts/Myriad-Pro-Semibold.ttf);
     font-weight: bold;
 } 

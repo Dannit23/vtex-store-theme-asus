@@ -97,3 +97,16 @@
     font-weight: normal;
     font-size: 1.0625rem
 }
+
+/*search mega menu*/
+/* .searchBarIcon--search-bar {
+    color: transparent;
+}  */
+
+.searchBarIcon--search-bar--search {
+   display: none;
+}
+
+.autoCompleteOuterContainer--search-bar :global(.vtex-input-prefix__group) {
+    border: none;
+ }
