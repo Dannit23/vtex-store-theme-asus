@@ -1,0 +1,9 @@
+{
+    "notification.bar#global__container-notification": {
+        "title": "Notification Global",
+        "props": {
+            "content": "Cree una cuenta ASUS hoy para registrar su producto para obtener un mejor soporte.",
+            "blockClass": "global__container-notification"
+        }
+    }
+}

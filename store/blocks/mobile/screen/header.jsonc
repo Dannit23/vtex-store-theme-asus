@@ -1,0 +1,9 @@
+{
+    "header-layout.mobile": {
+      "title": "header mobile",
+      "children": ["header-row#mobile__header--responsive"],
+      "props": {
+        "blockClass": "header__mobile"
+      }
+    }
+  }

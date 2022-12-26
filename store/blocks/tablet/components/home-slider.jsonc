@@ -1,61 +1,64 @@
 {
-    "slider-layout#tablet__slider-children": {
-        "title": "Slider tablet",
-        "props": {
-          "itemsPerPage": {
-            "desktop": 1, 
-            "tablet": 1, 
-            "mobile": 1
-          }, 
-          "infinite":true, 
-          "blockClass": "tablet__slider--one",
-          "autoplay": {
-            "timeout": 3000,
-            "stopOnHover": true
-          }
-        },
-        "children": [
-            "image#slider__tablet--one",
-            "image#slider__tablet--two",
-            "image#slider__tablet--three",
-            "image#slider__tablet--four"
-        ]
+  "slider-layout#tablet__slider-children": {
+    "title": "Slider Children tablet",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1, 
+        "tablet": 1, 
+        "mobile": 1
       }, 
-      "image#slider__tablet--one": {
-        "props": {
-         "src": "assets/img/slider tablet/slider-1-tablet.jpg",
-          "link": {
-           "url": "/"
-          },
-          "blockClass": "tablet__slider-children"
-        }
-      },
-      "image#slider__tablet--two": {
-        "props": {
-         "src": "assets/img/slider tablet/slider-2-tablet.jpg",
-          "link": {
-            "url": "/"
-          },
-          "blockClass": "tablet__slider-children"
-        }
-      },
-      "image#slider__tablet--three": {
-        "props": {
-         "src": "assets/img/slider tablet/slider-3-tablet.jpg",
-         "link": {
-           "url": "/"
-          },
-          "blockClass": "tablet__slider-children"
-        }
-      },
-      "image#slider__tablet--four": {
-        "props": {
-         "src": "assets/img/slider tablet/slider-4-tablet.jpg",
-          "link": {
-           "url": "/"
-          },
-          "blockClass": "tablet__slider-children"
-       }
+      "infinite":true, 
+      "blockClass": "tablet__slider--one",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
       }
-    
+    },
+    "children": [
+      "image#tablet__slider--one",
+      "image#tablet__slider--two",
+      "image#tablet__slider--three",
+      "image#tablet__slider--four"
+    ]
+  }, 
+  "image#tablet__slider--one": {
+    "title": "Slider Image One Tablet",
+    "props": {
+      "src": "assets/img/slider tablet/slider-1-tablet.jpg",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "tablet__slider-children"
+    }
+  },
+  "image#tablet__slider--two": {
+    "title": "Slider Image Two Tablet",
+    "props": {
+      "src": "assets/img/slider tablet/slider-2-tablet.jpg",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "tablet__slider-children"
+    }
+  },
+  "image#tablet__slider--three": {
+    "title": "Slider Image Three Tablet",
+    "props": {
+      "src": "assets/img/slider tablet/slider-3-tablet.jpg",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "tablet__slider-children"
+    }
+  },
+  "image#tablet__slider--four": {
+    "title": "Slider Image four Tablet",
+    "props": {
+      "src": "assets/img/slider tablet/slider-4-tablet.jpg",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "tablet__slider-children"
+    }
+  }  
 }

@@ -1,17 +1,14 @@
 {
   "responsive-layout.tablet": { 
     "children": [
-      "notification.bar#desktop__container-notification",
+      "notification.bar#global__container-notification",
       "slider-layout#tablet__slider-children",
       "image#tablet__home_section3" ,
-      "flex-layout.row#desktop__container-section4",
-      "rich-text#desktop__home__title-section5",
-      "flex-layout.row#desktop__container-offers",
-      "list-context.product-list#desktop__product-list1"
-      
-     
+      "flex-layout.row#global__container-section4",
+      "rich-text#global__home__title-section5",
+      "flex-layout.row#global__container-offers",
+      "list-context.product-list#mobile__product-list1"     
     ]
   }
- 
 }
 
