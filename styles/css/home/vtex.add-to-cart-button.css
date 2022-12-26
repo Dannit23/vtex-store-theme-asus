@@ -1,9 +1,7 @@
-.buttonText--button {
+.buttonText--desktop__button, .buttonText--mobile__button  {
     text-transform: capitalize;
 }
 
-.buttonText--button_effect {
-    text-transform: capitalize;
-    color: #006ce1;
-}
+ 
+
 

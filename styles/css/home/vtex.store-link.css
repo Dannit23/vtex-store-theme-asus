@@ -1,6 +1,7 @@
-.buttonLink--product-page {
+.buttonLink--desktop__product-page, .buttonLink--mobile__product-page {
     color: #006ce1;
     background-color: white;
     text-transform: capitalize;
 }
 
+ 

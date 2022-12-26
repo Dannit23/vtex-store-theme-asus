@@ -1,0 +1,12 @@
+.drawer--search__button--drawer .opened, .opened--search__button--drawer {
+    background: rgba(0,0,0,.7);
+}
+
+.drawerHeader--search__content--header {
+    background-color: white;
+    border: 1px solid #cacbcc;
+}
+
+.closeIcon--boton-cerrar {
+    color: #cacbcc
+}

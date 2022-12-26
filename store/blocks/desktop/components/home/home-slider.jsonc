@@ -1,60 +1,64 @@
 {
   "slider-layout#desktop__slider-children": {
-        "title": "Slider Desktop",
-        "props": {
-          "itemsPerPage": {
-            "desktop": 1, 
-            "tablet": 1, 
-            "mobile": 1
-          }, 
-          "infinite":true, 
-          "blockClass": "desktop__slider--one",
-          "autoplay": {
-            "timeout": 3000,
-            "stopOnHover": true
-          }
-        },
-        "children": [
-          "image#slider__image--one",
-          "image#slider__image--two",
-          "image#slider__image--three",
-          "image#slider__image--four"
-        ]
+    "title": "Slider Children Desktop",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1, 
+        "tablet": 1, 
+        "mobile": 1
       }, 
-      "image#slider__image--one": {
-        "props": {
-         "src": "assets/img/slider desktop/slider-1-Desktop.jpg",
-          "link": {
-           "url": "/"
-          },
-          "blockClass": "desktop__slider-children"
-        }
-      },
-      "image#slider__image--two": {
-        "props": {
-         "src": "assets/img/slider desktop/slider-2-Desktop.jpg",
-          "link": {
-            "url": "/"
-          },
-          "blockClass": "desktop__slider-children"
-        }
-      },
-      "image#slider__image--three": {
-        "props": {
-         "src": "assets/img/slider desktop/slider-3-Desktop.jpg",
-         "link": {
-           "url": "/"
-          },
-          "blockClass": "desktop__slider-children"
-        }
-      },
-      "image#slider__image--four": {
-        "props": {
-         "src": "assets/img/slider desktop/slider-4-Desktop.jpg",
-          "link": {
-           "url": "/"
-          },
-          "blockClass": "desktop__slider-children"
-       }
+      "infinite":true, 
+      "blockClass": "desktop__slider--one",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
       }
+    },
+    "children": [
+      "image#slider__image--one",
+      "image#slider__image--two",
+      "image#slider__image--three",
+      "image#slider__image--four"
+    ]
+  }, 
+  "image#slider__image--one": {
+    "title": "Slider Image One Desktop",
+    "props": {
+      "src": "assets/img/slider desktop/slider-1-Desktop.jpg",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "desktop__slider-children"
+    }
+  },
+  "image#slider__image--two": {
+    "title": "Slider Image Two Desktop",
+    "props": {
+      "src": "assets/img/slider desktop/slider-2-Desktop.jpg",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "desktop__slider-children"
+    }
+  },
+  "image#slider__image--three": {
+    "title": "Slider Image Three Desktop",
+    "props": {
+      "src": "assets/img/slider desktop/slider-3-Desktop.jpg",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "desktop__slider-children"
+    }
+  },
+  "image#slider__image--four": {
+    "title": "Slider Image four Desktop",
+    "props": {
+      "src": "assets/img/slider desktop/slider-4-Desktop.jpg",
+      "link": {
+        "url": "/"
+      },
+      "blockClass": "desktop__slider-children"
+    }
+  }
 }

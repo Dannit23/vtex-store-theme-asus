@@ -1,0 +1,13 @@
+{
+  /*seccion 3 imagen*/
+  "image#desktop__home_section3": {
+    "title": "Image Desktop",
+    "props": {
+      "src": "assets/img/section image/seccion-3-desktop.webp",
+      "link": {
+       "url": "/"
+      },
+      "blockClass": "image__desktop-section3"
+    }
+  } 
+}
