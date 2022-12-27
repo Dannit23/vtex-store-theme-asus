@@ -2,7 +2,6 @@
   "header-layout.desktop": {
     "children": [
       "menu#header__menu--sectionOne",
-      // "menu#header__menu--sectionTwo"
       "header-row#desktop__header--two"
     ]
   }
