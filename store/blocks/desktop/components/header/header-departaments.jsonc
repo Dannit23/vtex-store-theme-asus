@@ -1,0 +1,296 @@
+{
+  // Portatiles select
+    "menu-item#more": {
+       "props": {
+            "id": "menu-item-custom-sale",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header__category--select-hover",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": true,
+              "tagTitle": "Portatiles",
+              "text": "Portatiles"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu#more"]
+    },
+    // PCEscritorios select
+    "menu-item#more2": {
+       "props": {
+            "id": "menu-item-custom-sale",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "header__category--select-hover",
+            "itemProps": {
+              "type": "internal",
+              "href": "#",
+              "noFollow": true,
+              "tagTitle": "PCsdeEscritorio ",
+              "text": "PCsdeEscritorio"
+            }
+        },
+       "blocks": ["vtex.menu@2.x:submenu#more2"]
+    },
+    "vtex.menu@2.x:submenu#more": {
+       "title": "width box container one",
+       "props": {
+           "width": "100%",
+           "blockClass": "header__container--submenu"
+        },
+        "children": ["flex-layout.row#menu-more"]
+    },
+    "flex-layout.row#menu-more": {
+        "title": "container product and products",
+        "children": ["flex-layout.col#menu-more-1", "flex-layout.col#menu-more-2"],
+        "props": {
+           "blockClass": "header__container--menumore"
+        }
+    },
+    "flex-layout.col#menu-more-1": {
+        "title": "container product",
+        "children": ["vtex.menu@2.x:menu#more"],
+        "props": {
+           "blockClass": "select__header--container"
+        }
+    },
+    "flex-layout.col#menu-more-2": {
+        "title": "container products",
+        "children": ["flex-layout.row#header__categorys--products"],
+        "props": {
+          "blockClass": "select__header--container2"
+        }
+    },
+    "vtex.menu@2.x:menu#more": {
+        "title": "position box products",
+        "props": {
+           "orientation": "vertical"
+        },
+        "children": []
+    },
+    "vtex.menu@2.x:submenu#more2": {
+        "title": "width box container two",
+        "props": {
+          "width": "100%"
+        },
+        "children": ["flex-layout.row#menu-more2"]
+    },
+    "flex-layout.row#menu-more2": {
+       "title": "container solution and solutions",
+       "children": ["flex-layout.col#menu-more-12", "flex-layout.col#menu-more-22"]
+    },
+     "flex-layout.col#menu-more-12": {
+       "title": "container solution",
+       "children": ["vtex.menu@2.x:menu#more2"]
+    },
+    "flex-layout.col#menu-more-22": {
+       "title": "container solutions",
+       "children": ["flex-layout.row#home__categories--soluciones"]
+    },
+    "vtex.menu@2.x:menu#more2": {
+       "title": "position box solution",
+       "props": {
+          "orientation": "vertical"
+        },
+       "children": []
+    },
+    "flex-layout.row#header__categorys--products": {
+       "title": "Header Flex Layout Row Categorys Products",
+       "props": {
+         "blockClass": "select__header--container"
+       },
+       "children": [
+          "flex-layout.col#header__container--col-one",
+          "flex-layout.col#header__container--col-two",
+          "flex-layout.col#header__container--col-three",
+          "flex-layout.col#header__container--col-four"
+        ]
+     },
+     "flex-layout.col#header__container--col-one": {
+        "children": [
+          "menu-item#header__department--one"
+        ]
+    },
+    "menu-item#header__department--one": {
+        "props": {
+            "id": "department-one",
+            "type": "custom",
+            "itemProps": {
+              "type": "external",
+              "href":"#",
+              "noFollow": true,
+              "tagTitle": "All-in-One PCs",
+              "text": "All-in-One PCs"
+            }
+        }
+    },
+    "flex-layout.col#header__container--col-two": {
+        "children": [
+            "menu-item#header__category--1",
+            "menu-item#header__category--2",
+            "menu-item#header__category--3",
+            "menu-item#header__category--4",
+            "menu-item#header__category--5"
+        ]
+    },
+    "menu-item#header__category--1": {
+        "props": {
+            "id": "category--1",
+            "type": "custom",
+            "itemProps": {
+               "type": "external",
+               "href":"#",
+               "noFollow": true,
+               "tagTitle": "POR CATEGORÍA",
+               "text": "POR CATEGORÍA"
+            }
+        }
+    },
+    "menu-item#header__category--2": {
+        "props": {
+            "id": "category--2",
+            "type": "custom",
+            "itemProps": {
+               "type": "external",
+               "href":"#",
+               "noFollow": true,
+               "tagTitle": "Para el hogar",
+               "text": "Para el hogar"
+            }
+        }
+    },      
+    "menu-item#header__category--3": {
+        "props": {
+            "id": "category--3",
+            "type": "custom",
+            "itemProps": {
+               "type": "external",
+                "href":"#",
+                "noFollow": true,
+                "tagTitle": "Para el trabajo",
+                "text": "Para el trabajo"
+            }
+        }
+    },
+    "menu-item#header__category--4": {
+        "props": {
+            "id": "category--4",
+            "type": "custom",
+            "itemProps": {
+               "type": "external",
+                "href":"#",
+                "noFollow": true,
+                "tagTitle": "Para estudiantes",
+                "text": "Para estudiantes"
+            }
+        }
+    },
+    "menu-item#header__category--5": {
+        "props": {
+            "id": "category--5",
+            "type": "custom",
+            "itemProps": {
+               "type": "external",
+                "href":"#",
+                "noFollow": true,
+                "tagTitle": "Para creadores",
+                "text": "Para creadores"
+            }
+        }
+    },
+    "flex-layout.col#header__container--col-three": {
+        "children":[
+            "menu-item#header__subcategory--1",
+            "menu-item#header__subcategory--2",
+            "menu-item#header__subcategory--3",
+            "menu-item#header__subcategory--4"
+        ]
+    },
+    "menu-item#header__subcategory--1": {
+        "props": {
+            "id": "subcategory--1",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href":"#",
+                "noFollow": true,
+                "tagTitle": "POR SERIE",
+                "text": "POR SERIE"
+            }
+        }
+    },
+    "menu-item#header__subcategory--2":{
+        "props": {
+            "id": "subcategory--2",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href":"#",
+                "noFollow": true,
+                "tagTitle": "Todas las series",
+                "text": "Todas las series"
+            }
+        }
+    },
+    "menu-item#header__subcategory--3":{
+        "props": {
+            "id": "subcategory--3",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href":"#",
+                "noFollow": true,
+                "tagTitle": "Zen AiO",
+                "text": "Zen AiO"
+            }
+        }
+    },
+    "menu-item#header__subcategory--4":{
+        "props": {
+            "id": "subcategory--4",
+            "type": "custom",
+            "itemProps": {
+                "type": "external",
+                "href":"#",
+                "noFollow": true,
+                "tagTitle": "ASUS AiO",
+                "text": "ASUS AiO"
+            }
+        }
+    },
+    "flex-layout.col#header__container--col-four": {
+        "children": [
+            "info-card#vivobooks4"
+        ]
+    },
+    "info-card#vivobooks4": {
+        "title": "Info Card ",
+        "props": {
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "imageUrl": "https://dlcdnwebimgs.asus.com/gain/a1b5b63f-d04e-41a8-8dcd-47d5fd983adc/w185/fwebp",
+            "subhead": "ASUS Vivobook S14 M433IA",
+            "callToActionMode": "link",
+            "textAlignment": "center",
+            "blockClass": "infocard"
+        }
+    },
+
+     "flex-layout.row#home__categories--soluciones": {
+       "title": "Slider with tech list",
+       "props": {
+         "blockClass": "select__header--container"
+       },
+       "children": [
+         
+       ]
+     },
+     "rich-text#home__category--solucion1": {
+       "props": {
+         "text": "bien"
+       }
+     }
+   }
+
+   
