@@ -10,3 +10,10 @@
 .closeIcon--boton-cerrar {
     color: #cacbcc
 }
+
+
+.opened--search__button--drawer {
+    max-width: 100% !important;
+    min-width: 100% !important;
+}   
+
