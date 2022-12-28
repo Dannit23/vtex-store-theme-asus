@@ -1,0 +1,33 @@
+.headerRowContentContainer--Footer__Container-1,
+.headerRowContentContainer--Footer__Container-2,
+.headerRowContentContainer--Footer__Container-3,
+.headerRowContentContainer--Footer__Container-4 {
+    background-color: #f5f5f5;
+}
+
+.headerRowContentContainer--Header__Container-col-2,
+.headerRowContentContainer--Header__Container-col-3,
+.headerRowContentContainer--Header__Container-col-4 {
+    background-color: #f5f5f5;
+} 
+
+.headerRowContentContainer--Header__Container-1,
+.headerRowContentContainer--Header__Container-2,
+.headerRowContentContainer--Header__Container-3,
+.headerRowContentContainer--Header__Container-4 {
+    background-color: #f5f5f5;
+    padding-bottom: 13px
+}
+
+.headerRowContentContainer--footer__container--desktop-3 {
+    background-color: #f5f5f5;
+    padding-top: 60px;
+    padding-bottom: 17px
+}
+
+.headerRowContentContainer--footer__container--desktop-4 {
+    background-color: #f5f5f5;
+    padding-top: 19px;
+    padding-bottom: 24px;
+    border-top: 1px solid #ccc;
+}

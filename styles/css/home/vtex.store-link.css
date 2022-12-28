@@ -3,5 +3,32 @@
     background-color: white;
     text-transform: capitalize;
 }
+/*footer*/
+.link--desktop__footer--link {
+    margin-left: 10px;
+    text-decoration: none;
+    border-left: 1px solid #999;
+    color: #4d4d4d
+}
 
- 
+.label--desktop__footer--link {
+    margin-left: 12px;
+}
+
+.link--desktop__footer--paises {
+    text-decoration: none;
+    margin-left: 10px;
+    color: #4d4d4d
+}
+
+.label--desktop__footer--link {
+    color: #666;
+    font-weight: 450;
+    font-size: 13px;
+}
+
+.label--desktop__footer--paises {
+    color: #4d4d4d;
+    font-weight: 450;
+    font-size: 13px;
+}

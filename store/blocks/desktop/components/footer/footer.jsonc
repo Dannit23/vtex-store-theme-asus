@@ -3,7 +3,9 @@
         "title": "Footer Layout Desktop",
         "children": [
           "flex-layout.row#footer__desktop-container",
-          "flex-layout.row#footer__desktop-container-2"
+          "flex-layout.row#footer__desktop-container-2",
+          "header-row#footer__desktop-container-3",
+          "header-row#footer__desktop-container-4"
         ],
         "props": {
           "blockClass": "Desktop__Footer-Layout"

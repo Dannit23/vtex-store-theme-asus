@@ -76,9 +76,9 @@
         "type": "internal",
         "noFollow": false,
         "tagTitle": "Envíos gratis",
-        "text": "Envíos gratis",
-        "blockClass": "footer__title--envios"
-      }
+        "text": "Envíos gratis"
+      },
+      "blockClass": "footer__title--envios"
     }
   },
   "menu-item#footer__subtitle--envios": {
@@ -91,9 +91,9 @@
         "type": "internal",
         "noFollow": false,
         "tagTitle": "Envíos gratis en todas tus compras",
-        "text": "Envíos gratis en todas tus compras",
-        "blockClass": "footer__subtitle--envios"
-      }
+        "text": "Envíos gratis en todas tus compras"
+      },
+      "blockClass": "footer__subtitle--envios"
     }
   },
   //columna ayuda con tu compra
@@ -161,9 +161,9 @@
         "type": "internal",
         "noFollow": false,
         "tagTitle": "Te ayudamos con tu compra",
-        "text": "Te ayudamos con tu compra",
-        "blockClass": "footer__title--compra"
-      }
+        "text": "Te ayudamos con tu compra"
+      },
+      "blockClass": "footer__title--compra"
     }
   },
   "menu-item#footer__subtitle--mail": {
@@ -176,9 +176,9 @@
         "type": "internal",
         "noFollow": false,
         "tagTitle": "soporteventas_co@asus.com",
-        "text": "soporteventas_co@asus.com",
-        "blockClass": "footer__subtitle--compra"
-      }
+        "text": "soporteventas_co@asus.com"
+      },
+      "blockClass": "footer__subtitle--compra"
     }
   },
   // columna productos exclusivos
@@ -246,9 +246,9 @@
         "type": "internal",
         "noFollow": false,
         "tagTitle": "Productos exclusivos",
-        "text": "Productos exclusivos",
-        "blockClass": "footer__title--productos"
-      }
+        "text": "Productos exclusivos"
+      },
+      "blockClass": "footer__title--productos"
     }
   },
   "menu-item#footer__subtitle--Asus-store": {
@@ -261,9 +261,9 @@
         "type": "internal",
         "noFollow": false,
         "tagTitle": "Encuéntralos solo en ASUS Store",
-        "text": "Encuéntralos solo en ASUS Store",
-        "blockClass": "footer__subtitle--asus-store"
-      }
+        "text": "Encuéntralos solo en ASUS Store"
+      },
+      "blockClass": "footer__subtitle--asus-store"
     }
   },
   // columna pago seguro
@@ -331,9 +331,9 @@
         "type": "internal",
         "noFollow": false,
         "tagTitle": "Pago seguro",
-        "text": "Pago seguro",
-        "blockClass": "footer__title--pago"
-      }
+        "text": "Pago seguro"
+      },
+      "blockClass": "footer__title--pago"
     }
   },
   "menu-item#footer__subtitle--pagos": {
@@ -346,9 +346,9 @@
         "type": "internal",
         "noFollow": false,
         "tagTitle": "Pagos cifrados y seguros",
-        "text": "Pagos cifrados y seguros",
-        "blockClass": "footer__subtitle--pagos"
-      }
+        "text": "Pagos cifrados y seguros"
+      },
+      "blockClass": "footer__subtitle--pagos"
     }
   }
 }

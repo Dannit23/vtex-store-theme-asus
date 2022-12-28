@@ -1,0 +1,33 @@
+{
+    "header-row#footer__desktop-container-3": {
+        "title": "foote socialnetwork desktop",
+        "children": [
+            "header-spacer",
+            "social-networks#footer__socialnetwork",
+            "header-spacer"
+        ],
+        "props": {
+            "blockClass": "footer__container--desktop-3"
+        }
+    },
+    "social-networks#footer__socialnetwork": {
+        "title": "footer__socialnetwork",
+        "props": {
+            "socialNetworks": [
+                {
+                    "url": "https//instagram.com/exito",
+                    "name": "Instagram"
+                },
+                {
+                    "url": "https//youtube.com/exito",
+                    "name": "youtube"
+                },
+                {
+                    "url": "https//facebook.com/exito",
+                    "name": "facebook"
+                }              
+            ],
+            "blockclass": "desktop__footer-socialnetwork"
+        }
+    }
+}

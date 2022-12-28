@@ -22,3 +22,10 @@
     border-bottom: 4px solid black;
     /* padding-bottom: 20px; */
 }
+
+/*footer*/
+.paragraph--desktop__footer--asustek {
+    color: #666;
+    font-weight: 450;
+    font-size: 13px;
+}
