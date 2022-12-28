@@ -1,0 +1,33 @@
+.styledLinkContent--footer__title-col2, .styledLinkContent--footer__title-col3 {
+  display: none;
+}
+
+.styledLinkContent--footer__title--envios, .styledLinkContent--footer__title--compra, .styledLinkContent--footer__title--productos, .styledLinkContent--footer__title--pago {
+  color: #181818;
+  font-size: .875rem;
+  font-weight: 400;
+}
+
+.styledLinkContent--footer__subtitle--envios, .styledLinkContent--footer__subtitle--compra, .styledLinkContent--footer__subtitle--asus-store, .styledLinkContent--footer__subtitle--pagos {
+  color: #666;
+  font-size: .8125rem;
+  font-weight: 400;
+}
+
+.styledLinkContent--footer__title-col1, .styledLinkContent--footer__title-col4, .styledLinkContent--footer__title-col5, .styledLinkContent--footer__title-col6 {
+  color: #181818;
+  font-weight: 500;
+  font-size: .875rem;
+}
+
+.styledLinkContent--footer__subtitle-col1, .styledLinkContent--footer__subtitle-col3 {
+  color: #181818;
+  font-size: .8125rem;
+  font-weight: 500;
+}
+
+.styledLinkContent--footer__option1-col1, .styledLinkContent--footer__option2-col1, .styledLinkContent--footer__option1-col2, .styledLinkContent--footer__option2-col2, .styledLinkContent--footer__option3-col2, .styledLinkContent--footer__option1-col3, .styledLinkContent--footer__option1-col4, .styledLinkContent--footer__option2-col4, .styledLinkContent--footer__option1-col5, .styledLinkContent--footer__option2-col5, .styledLinkContent--footer__option3-col5, .styledLinkContent--footer__option4-col5, .styledLinkContent--footer__option5-col5, .styledLinkContent--footer__option6-col5, .styledLinkContent--footer__option1-col6, .styledLinkContent--footer__option2-col6 {
+  color: #4d4d4d;
+  font-size: .8125rem;
+  font-weight: 450;
+}

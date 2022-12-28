@@ -25,4 +25,14 @@
     justify-content: center;
 }
 
+/*footer*/
+.flexRow--Desktop__Footer-Container {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 25px;
+}
+
+.flexRowContent--footer__container--desktop-2 {
+    padding-top: 17px;
+}
+
 

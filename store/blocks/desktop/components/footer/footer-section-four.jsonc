@@ -1,0 +1,50 @@
+{
+    "header-row#footer__desktop-container-4": { 
+        "title": "footer container four desktop",
+        "children": [
+            "rich-text#desktop__footer--asustek",
+            "link#desktop__footer--condiciones",
+            "link#desktop__footer--politica",
+            "header-spacer",
+            "icon#mpa-globe",
+            "link#desktop__footer--paises"
+        ],
+        "props": {
+            "blockClass": "footer__container--desktop-4"
+        }
+    },
+    "link#desktop__footer--condiciones": {
+        "props": {
+          "href": "/",
+          "label": "Condiciones de uso",
+          "blockClass": "desktop__footer--link"
+        }
+    },
+    "link#desktop__footer--politica": {
+        "props": {
+          "href": "/",
+          "label": "Política de privacidad",
+          "blockClass": "desktop__footer--link"
+        }
+    },
+    "rich-text#desktop__footer--asustek": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "©ASUSTeK Computer Inc. Todos los derechos reservados.",
+          "blockClass": "desktop__footer--asustek"
+        }
+    },
+    "icon#mpa-globe": {
+        "props": {
+            "id": "mpa-globe"
+        }
+    },
+    "link#desktop__footer--paises": {
+        "props": {
+          "href": "/",
+          "label": "Colombia / Español",
+          "blockClass": "desktop__footer--paises"
+        }
+    }
+}

@@ -14,44 +14,51 @@
         }
     },
     "flex-layout.col#footer__container--col-1": {
+        "title": "footer container col1 desktop",
         "children": [
             "menu-item#footer__title--col1",
             "menu-item#footer__subtitle--col1",
             "menu-item#footer__option1-col1",
             "menu-item#footer__option2-col1"
-        ]
+        ],
+        "props": {
+            "blockClass": "footer__container--col1"
+        }
     },
     "menu-item#footer__title--col1": {
+        "title": "footer title col1 desktop",
         "props": {
-            "id": "menu-item-shop",
+            "id": "menu-item-title",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                "type": "internal",
                "noFollow": false,
                "tagTitle": "Comprar y más información",
-               "text": "Comprar y más información",
-               "blockClass": "footer__title-col1"
-           }
+               "text": "Comprar y más información"
+           },
+           "blockClass": "footer__title-col1"
         }
     },
     "menu-item#footer__subtitle--col1": {
+        "title": "footer subtitle col1 desktop",
         "props": {
-            "id": "menu-item-shop",
+            "id": "menu-item-subtitle",
             "type": "custom",
             "highlight": false,
             "itemProps": {
                "type": "internal",
                "noFollow": false,
                "tagTitle": "Portátiles",
-               "text": "Portátiles",
-               "blockClass": "footer__subtitle-col1"
-           }
+               "text": "Portátiles"
+           },
+           "blockClass": "footer__subtitle-col1"
         }
     },
     "menu-item#footer__option1-col1": {
+        "title": "footer option1 col1 desktop",
         "props": {
-            "id": "menu-item-shop",
+            "id": "menu-item-optionCol1",
             "type": "custom",
             "href": "/",
             "highlight": false,
@@ -59,14 +66,15 @@
                "type": "internal",
                "noFollow": false,
                "tagTitle": "Para el Hogar",
-               "text": "Para el Hogar",
-               "blockClass": "footer__option1-col1"
-           }
+               "text": "Para el Hogar"
+           },
+           "blockClass": "footer__option1-col1"
         }
     },
     "menu-item#footer__option2-col1": {
+        "title": "footer optionCol1 desktop",
         "props": {
-            "id": "menu-item-shop",
+            "id": "menu-item-option2",
             "type": "custom",
             "href": "/",
             "highlight": false,
@@ -74,22 +82,27 @@
                "type": "internal",
                "noFollow": false,
                "tagTitle": "Para el Trabajo",
-               "text": "Para el Trabajo",
-               "blockClass": "footer__option2-col1"
-           }
+               "text": "Para el Trabajo"
+           },
+           "blockClass": "footer__option2-col1"
         }
     },
     "flex-layout.col#footer__container--col-2": {
+        "title": "footer container col2 desktop",
         "children": [
             "menu-item#footer__title--col2",
             "menu-item#footer__option1-col2",
             "menu-item#footer__option2-col2",
             "menu-item#footer__option3-col2"
-        ]
+        ],
+        "props": {
+            "blockClass": "footer__container--col2"
+        }
     },
     "menu-item#footer__title--col2": {
+        "title": "footer title col2 desktop",
         "props": {
-            "id": "menu-item-shop",
+            "id": "menu-item-title-col2",
             "type": "custom",
             "href": "/",
             "highlight": false,
@@ -97,14 +110,15 @@
                "type": "internal",
                "noFollow": false,
                "tagTitle": "Comprar y más información",
-               "text": "Comprar y más información",
-               "blockClass": "footer__title-col2"
-           }
+               "text": "Comprar y más información"
+           },
+           "blockClass": "footer__title-col2"
         }
     },
     "menu-item#footer__option1-col2": {
+        "title": "footer option1 col2 desktop",
         "props": {
-            "id": "menu-item-shop",
+            "id": "menu-item-option1-col2",
             "type": "custom",
             "href": "/",
             "highlight": false,
@@ -112,14 +126,15 @@
                "type": "internal",
                "noFollow": false,
                "tagTitle": "Para Creadores",
-               "text": "Para Creadores",
-               "blockClass": "footer__option1-col2"
-           }
+               "text": "Para Creadores"
+           },
+           "blockClass": "footer__option1-col2"
         }
     },
     "menu-item#footer__option2-col2": {
+        "title": "footer option2 col2 desktop",
         "props": {
-            "id": "menu-item-shop",
+            "id": "menu-item-option2-col2",
             "type": "custom",
             "href": "/",
             "highlight": false,
@@ -127,14 +142,15 @@
                "type": "internal",
                "noFollow": false,
                "tagTitle": "Para Estudiantes",
-               "text": "Para Estudiantes",
-               "blockClass": "footer__option2-col2"
-           }
+               "text": "Para Estudiantes"               
+           },
+           "blockClass": "footer__option2-col2"
         }
     },
     "menu-item#footer__option3-col2": {
+        "title": "footer option3 col2 desktop",
         "props": {
-            "id": "menu-item-shop",
+            "id": "menu-item-option3-col2",
             "type": "custom",
             "href": "/",
             "highlight": false,
@@ -142,21 +158,26 @@
                "type": "internal",
                "noFollow": false,
                "tagTitle": "Para Gaming",
-               "text": "Para Gaming",
-               "blockClass": "footer__option3-col2"
-           }
+               "text": "Para Gaming"              
+           },
+           "blockClass": "footer__option3-col2"
         }
     },
     "flex-layout.col#footer__container--col-3": {
+        "title": "footer container col3 desktop",
         "children": [
             "menu-item#footer__title--col3",
             "menu-item#footer__subtitle-col3",
             "menu-item#footer__option1-col3"
-        ]
+        ],
+        "props": {
+            "blockClass": "footer__container--col3"
+        }
     },
     "menu-item#footer__title--col3": {
+        "title": "footer title col3 desktop",
         "props": {
-            "id": "menu-item-shop",
+            "id": "menu-item-title-col3",
             "type": "custom",
             "href": "/",
             "highlight": false,
@@ -164,29 +185,30 @@
                "type": "internal",
                "noFollow": false,
                "tagTitle": "Comprar y más información",
-               "text": "Comprar y más información",
-               "blockClass": "footer__title-col3"
-           }
+               "text": "Comprar y más información"
+           },
+           "blockClass": "footer__title-col3"
         }
     },
     "menu-item#footer__subtitle-col3": {
+        "title": "footer subtitle col3 desktop",
         "props": {
-            "id": "menu-item-shop",
+            "id": "menu-item-subtitle-col3",
             "type": "custom",
-            "href": "/",
             "highlight": false,
             "itemProps": {
                "type": "internal",
                "noFollow": false,
                "tagTitle": "PCs de Escritorio",
-               "text": "PCs de Escritorio",
-               "blockClass": "footer__subtitle-col3"
-           }
+               "text": "PCs de Escritorio"
+           },
+           "blockClass": "footer__subtitle-col3"
         }
     },
     "menu-item#footer__option1-col3": {
+        "title": "footer option1 col3 desktop",
         "props": {
-            "id": "menu-item-shop",
+            "id": "menu-item-option1-col3",
             "type": "custom",
             "href": "/",
             "highlight": false,
@@ -194,36 +216,41 @@
                "type": "internal",
                "noFollow": false,
                "tagTitle": "All-in-One PCs",
-               "text": "All-in-One PCs",
-               "blockClass": "footer__option1-col3"
-           }
+               "text": "All-in-One PCs"
+           },
+           "blockClass": "footer__option1-col3"
         } 
     },  
     "flex-layout.col#footer__container--col-4": {
+        "title": "footer container col4 desktop",
         "children": [
             "menu-item#footer__title--col4",
             "menu-item#footer__option1-col4",
             "menu-item#footer__option2-col4"
-        ]
+        ],
+        "props": {
+            "blockClass": "footer__container--col4"
+        }
     },
     "menu-item#footer__title--col4": {
+        "title": "footer title col4 desktop",
         "props": {
-            "id": "menu-item-shop",
+            "id": "menu-item-title-col4",
             "type": "custom",
-            "href": "/",
             "highlight": false,
             "itemProps": {
                "type": "internal",
                "noFollow": false,
                "tagTitle": "Buscas más",
-               "text": "Buscas más",
-               "blockClass": "footer__title-col4"
-           }
+               "text": "Buscas más"
+           },
+           "blockClass": "footer__title-col4"
         } 
     },
     "menu-item#footer__option1-col4": {
+        "title": "footer option1 col4 desktop",
         "props": {
-            "id": "menu-item-shop",
+            "id": "menu-item-option1-col4",
             "type": "custom",
             "href": "/",
             "highlight": false,
@@ -231,14 +258,15 @@
                "type": "internal",
                "noFollow": false,
                "tagTitle": "Asus Design Center",
-               "text": "Asus Design Center",
-               "blockClass": "footer__option1-col4"
-           }
+               "text": "Asus Design Center"
+           },
+           "blockClass": "footer__option1-col4"
         } 
     },
     "menu-item#footer__option2-col4": {
+        "title": "footer option2 col4 desktop",
         "props": {
-            "id": "menu-item-shop",
+            "id": "menu-item-option2-col4",
             "type": "custom",
             "href": "/",
             "highlight": false,
@@ -246,12 +274,13 @@
                "type": "internal",
                "noFollow": false,
                "tagTitle": "ASUSPRO",
-               "text": "ASUSPRO",
-               "blockClass": "footer__option1-col4"
-           }
+               "text": "ASUSPRO"
+           },
+           "blockClass": "footer__option2-col4"
         } 
     },
     "flex-layout.col#footer__container--col-5": {
+        "title": "footer container col5 desktop",
         "children": [
             "menu-item#footer__title--col5",
             "menu-item#footer__option1-col5",
@@ -260,26 +289,30 @@
             "menu-item#footer__option4-col5",
             "menu-item#footer__option5-col5",
             "menu-item#footer__option6-col5"
-        ]
+        ],
+        "props": {
+            "blockClass": "footer__container--col5"
+        }
     },
     "menu-item#footer__title--col5": {
+        "title": "footer title col5 desktop",
         "props": {
-            "id": "menu-item-shop",
+            "id": "menu-item-title-col5",
             "type": "custom",
-            "href": "/",
             "highlight": false,
             "itemProps": {
                "type": "internal",
                "noFollow": false,
                "tagTitle": "Soporte",
-               "text": "Soporte",
-               "blockClass": "footer__title-col5"
-           }
+               "text": "Soporte"
+           },
+           "blockClass": "footer__title-col5"
         } 
     },
     "menu-item#footer__option1-col5": {
+        "title": "footer option1 col5 desktop",
         "props": {
-            "id": "menu-item-shop",
+            "id": "menu-item-option1-col5",
             "type": "custom",
             "href": "/",
             "highlight": false,
@@ -287,14 +320,15 @@
                "type": "internal",
                "noFollow": false,
                "tagTitle": "ESHOP - Preguntas Frecuentes",
-               "text": "ESHOP - Preguntas Frecuentes",
-               "blockClass": "footer__option1-col5"
-           }
+               "text": "ESHOP - Preguntas Frecuentes"
+           },
+           "blockClass": "footer__option1-col5"
         } 
     },
     "menu-item#footer__option2-col5": {
+        "title": "footer option2 col5 desktop",
         "props": {
-            "id": "menu-item-shop",
+            "id": "menu-item-option2-col5",
             "type": "custom",
             "href": "/",
             "highlight": false,
@@ -302,14 +336,15 @@
                "type": "internal",
                "noFollow": false,
                "tagTitle": "ESHOP - Rastrea tu pedido",
-               "text": "ESHOP - Rastrea tu pedido",
-               "blockClass": "footer__option2-col5"
-           }
+               "text": "ESHOP - Rastrea tu pedido"
+           },
+           "blockClass": "footer__option2-col5"
         } 
     },
     "menu-item#footer__option3-col5": {
+        "title": "footer option3 col5 desktop",
         "props": {
-            "id": "menu-item-shop",
+            "id": "menu-item-option3-col5",
             "type": "custom",
             "href": "/",
             "highlight": false,
@@ -317,14 +352,15 @@
                "type": "internal",
                "noFollow": false,
                "tagTitle": "Centros de servicio",
-               "text": "Centros de servicio",
-               "blockClass": "footer__option3-col5"
-           }
+               "text": "Centros de servicio"
+           },
+           "blockClass": "footer__option3-col5"
         } 
     },
     "menu-item#footer__option4-col5": {
+        "title": "footer option4 col5 desktop",
         "props": {
-            "id": "menu-item-shop",
+            "id": "menu-item-option4-col5",
             "type": "custom",
             "href": "/",
             "highlight": false,
@@ -332,14 +368,15 @@
                "type": "internal",
                "noFollow": false,
                "tagTitle": "Registro de producto",
-               "text": "Registro de producto",
-               "blockClass": "footer__option4-col5"
-           }
+               "text": "Registro de producto"
+           },
+           "blockClass": "footer__option4-col5"
         } 
     },
     "menu-item#footer__option5-col5": {
+        "title": "footer option5 col5 desktop",
         "props": {
-            "id": "menu-item-shop",
+            "id": "menu-item-option5-col5",
             "type": "custom",
             "href": "/",
             "highlight": false,
@@ -347,14 +384,15 @@
                "type": "internal",
                "noFollow": false,
                "tagTitle": "ASUS Videos de soporte",
-               "text": "ASUS Videos de soporte",
-               "blockClass": "footer__option5-col5"
-           }
+               "text": "ASUS Videos de soporte"               
+           },
+           "blockClass": "footer__option5-col5"
         } 
     },
     "menu-item#footer__option6-col5": {
+        "title": "footer option6 col5 desktop",
         "props": {
-            "id": "menu-item-shop",
+            "id": "menu-item-option6-col5",
             "type": "custom",
             "href": "/",
             "highlight": false,
@@ -362,36 +400,41 @@
                "type": "internal",
                "noFollow": false,
                "tagTitle": "MyASUS",
-               "text": "MyASUS",
-               "blockClass": "footer__option6-col5"
-           }
+               "text": "MyASUS"               
+           },
+           "blockClass": "footer__option6-col5"
         } 
     },
     "flex-layout.col#footer__container--col-6": {
+        "title": "footer container col6 desktop",
         "children": [
             "menu-item#footer__title--col6",
             "menu-item#footer__option1-col6",
             "menu-item#footer__option2-col6"
-        ]
+        ],
+        "props": {
+            "blockClass": "footer__container--col6"
+        }
     },
     "menu-item#footer__title--col6": {
+        "title": "footer title col6 desktop",
         "props": {
-            "id": "menu-item-shop",
+            "id": "menu-item-title-col6",
             "type": "custom",
-            "href": "/",
             "highlight": false,
             "itemProps": {
                "type": "internal",
                "noFollow": false,
                "tagTitle": "Quienes somos",
-               "text": "Quienes somos",
-               "blockClass": "footer__option6-col6"
-           }
+               "text": "Quienes somos"
+           },
+           "blockClass": "footer__title-col6"
         } 
     },
     "menu-item#footer__option1-col6": {
+        "title": "footer option1 col6 desktop",
         "props": {
-            "id": "menu-item-shop",
+            "id": "menu-item-option1-col6",
             "type": "custom",
             "href": "/",
             "highlight": false,
@@ -399,14 +442,15 @@
                "type": "internal",
                "noFollow": false,
                "tagTitle": "Acerca de ASUS",
-               "text": "Acerca de ASUS",
-               "blockClass": "footer__option6-col6"
-           }
+               "text": "Acerca de ASUS"
+           },
+           "blockClass": "footer__option1-col6"
         }
     },
     "menu-item#footer__option2-col6": {
+        "title": "footer option2 col6 desktop",
         "props": {
-            "id": "menu-item-shop",
+            "id": "menu-item-option2-col6",
             "type": "custom",
             "href": "/",
             "highlight": false,
@@ -414,9 +458,9 @@
                "type": "internal",
                "noFollow": false,
                "tagTitle": "Press Room",
-               "text": "Press Room",
-               "blockClass": "footer__option6-col6"
-           }
+               "text": "Press Room"
+           },
+           "blockClass": "footer__option2-col6"
         }
     } 
 }
