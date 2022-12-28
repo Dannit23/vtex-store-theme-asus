@@ -1,0 +1,354 @@
+{
+  "flex-layout.row#footer__desktop-container": { 
+    "title": "Flex Layout.row Footer Container Desktop",
+    "children": [
+      "flex-layout.col#footer__container--col-one",
+      "flex-layout.col#footer__container--col-two",
+      "flex-layout.col#footer__container--col-three",
+      "flex-layout.col#footer__container--col-four"
+    ],
+    "props": {
+      "blockClass": "Desktop__Footer-Container"
+    }
+  },
+  //columna envios gratis
+  "flex-layout.col#footer__container--col-one": {
+    "title": "Flex Layout.col Footer Container 1",
+    "children": [
+      "header-row#footer__container--one"
+    ],
+    "props": {
+      "blockClass": "Desktop__Container-Col1"
+    }
+  },
+  "header-row#footer__container--one":{
+    "title":"Header-row Footer Container One Desktop",
+    "children": [
+      "header-row#container__one",
+      "header-row#container__two"
+    ],
+    "props": {
+      "blockClass": "Footer__Container-1"
+    }
+  },
+  "header-row#container__one":{
+    "title":"Header-row Container One Desktop",
+    "children": [
+      "image#footer__desktop--envios"
+    ],
+    "props": {
+      "blockClass": "Header__Container-1"
+    }
+  },
+  "image#footer__desktop--envios": {
+    "title":"Image Footer Envios Desktop",
+      "props": {
+      "src": "https://www.asus.com/media/Odin/Images/eCommerce/truck.svg",
+      "blockClass": "desktop__footer--envios"
+    }
+  },
+  "header-row#container__two":{
+    "title": "Header-row Container Two Desktop",
+    "children": [
+      "flex-layout.col#container__col--one" 
+    ],
+    "props": {
+      "blockClass": "Header__Container-2"
+    }
+  },
+  "flex-layout.col#container__col--one": {
+    "title": "Flex Layout Footer Container Col 1",
+    "children": [
+      "menu-item#footer__title--envios",
+      "menu-item#footer__subtitle--envios"
+    ],
+    "props": {
+      "blockClass": "Footer__Container-flex"
+    }
+  },
+  "menu-item#footer__title--envios": {
+    "title": "Menu Item  Footer Title Envios",
+    "props": {
+      "id": "menu-item-envios",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Envíos gratis",
+        "text": "Envíos gratis",
+        "blockClass": "footer__title--envios"
+      }
+    }
+  },
+  "menu-item#footer__subtitle--envios": {
+    "title": "Menu Item Footer Subtitle Envios",
+    "props": {
+      "id": "menu-item-subtitle",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Envíos gratis en todas tus compras",
+        "text": "Envíos gratis en todas tus compras",
+        "blockClass": "footer__subtitle--envios"
+      }
+    }
+  },
+  //columna ayuda con tu compra
+  "flex-layout.col#footer__container--col-two": {
+    "title": "Flex Layout.col Footer Container 2",
+    "children": [
+      "header-row#footer__container--col-two"
+    ],
+    "props": {
+      "blockClass": "Desktop__Container-Col2"
+    }
+  },
+  "header-row#footer__container--col-two":{
+    "title":"Header-row Footer Container Two Desktop",
+    "children": [
+      "header-row#container__one--col2",
+      "header-row#container__two--col2"
+    ],
+    "props": {
+      "blockClass": "Footer__Container-2"
+    }
+  },
+  "header-row#container__one--col2":{
+    "title":"Header-row Container Two Desktop",
+    "children": [
+      "image#footer__desktop--compra"
+    ],
+    "props": {
+      "blockClass": "Header__Container-2"
+    }
+  },
+  "image#footer__desktop--compra": {
+    "title":"Image Footer Compra Desktop",
+      "props": {
+      "src": "https://www.asus.com/media/Odin/Images/eCommerce/service_talk.svg",
+      "blockClass": "desktop__footer--compra"
+    }
+  },
+  "header-row#container__two--col2":{
+    "title": "Header-row Container Two Desktop",
+    "children": [
+      "flex-layout.col#container__col--two" 
+    ],
+    "props": {
+      "blockClass": "Header__Container-col-2"
+    }
+  },
+  "flex-layout.col#container__col--two": {
+    "title": "Flex Layout Footer Container Col 2",
+    "children": [
+      "menu-item#footer__title--compra",
+      "menu-item#footer__subtitle--mail"
+    ],
+    "props": {
+      "blockClass": "Footer__Container-col-2"
+    }
+  },
+  "menu-item#footer__title--compra": {
+    "title": "Menu Item Footer Title Compra",
+    "props": {
+      "id": "menu-item-compra",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Te ayudamos con tu compra",
+        "text": "Te ayudamos con tu compra",
+        "blockClass": "footer__title--compra"
+      }
+    }
+  },
+  "menu-item#footer__subtitle--mail": {
+    "title": "Menu Item Footer Subtitle Mail",
+    "props": {
+      "id": "menu-item-subtitle-compra",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "soporteventas_co@asus.com",
+        "text": "soporteventas_co@asus.com",
+        "blockClass": "footer__subtitle--compra"
+      }
+    }
+  },
+  // columna productos exclusivos
+  "flex-layout.col#footer__container--col-three": {
+    "title": "Flex Layout.col Footer Container 3",
+    "children": [
+      "header-row#footer__container--col-three"
+    ],
+    "props": {
+      "blockClass": "Desktop__Container-Col3"
+    }
+  },
+  "header-row#footer__container--col-three":{
+    "title":"Header-row Footer Container Three Desktop",
+    "children": [
+      "header-row#container__one--col3",
+      "header-row#container__two--col3"
+    ],
+    "props": {
+      "blockClass": "Footer__Container-3"
+    }
+  },
+  "header-row#container__one--col3":{
+    "title":"Header-row Container Three Desktop",
+    "children": [
+      "image#footer__desktop--productos"
+    ],
+    "props": {
+      "blockClass": "Header__Container-3"
+    }
+  },
+  "image#footer__desktop--productos": {
+    "title":"Image Footer Productos Desktop",
+      "props": {
+      "src": "https://www.asus.com/media/Odin/Images/eCommerce/easy_refund.svg",
+      "blockClass": "desktop__footer--productos"
+    }
+  },
+  "header-row#container__two--col3":{
+    "title": "Header-row Container Three Desktop",
+    "children": [
+      "flex-layout.col#container__col--three" 
+    ],
+    "props": {
+      "blockClass": "Header__Container-col-3"
+    }
+  },
+  "flex-layout.col#container__col--three": {
+    "title": "Flex Layout Footer Container Col 3",
+    "children": [
+      "menu-item#footer__title--productos",
+      "menu-item#footer__subtitle--Asus-store"
+    ],
+    "props": {
+      "blockClass": "Footer__Container-col-3"
+    }
+  },
+  "menu-item#footer__title--productos": {
+    "title": "Menu Item Footer Title Productos",
+    "props": {
+      "id": "menu-item-producto",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Productos exclusivos",
+        "text": "Productos exclusivos",
+        "blockClass": "footer__title--productos"
+      }
+    }
+  },
+  "menu-item#footer__subtitle--Asus-store": {
+    "title": "Menu Item Footer Subtitle Asus-store",
+    "props": {
+      "id": "menu-item-subtitle-asus",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Encuéntralos solo en ASUS Store",
+        "text": "Encuéntralos solo en ASUS Store",
+        "blockClass": "footer__subtitle--asus-store"
+      }
+    }
+  },
+  // columna pago seguro
+  "flex-layout.col#footer__container--col-four": {
+    "title": "Flex Layout.col Footer Container 4",
+    "children": [
+      "header-row#footer__container--col-four"
+    ],
+    "props": {
+      "blockClass": "Desktop__Container-Col4"
+    }
+  },
+  "header-row#footer__container--col-four":{
+    "title":"Header-row Footer Container Four Desktop",
+    "children": [
+      "header-row#container__one--col4",
+      "header-row#container__two--col4"
+    ],
+    "props": {
+      "blockClass": "Footer__Container-4"
+    }
+  },
+  "header-row#container__one--col4":{
+    "title":"Header-row Container Four Desktop",
+    "children": [
+      "image#footer__desktop--pago"
+    ],
+    "props": {
+      "blockClass": "Header__Container-4"
+    }
+  },
+  "image#footer__desktop--pago": {
+    "title":"Image Footer Pago Desktop",
+      "props": {
+      "src": "https://www.asus.com/media/Odin/Images/eCommerce/secure_payments.svg",
+      "blockClass": "desktop__footer--pago"
+    }
+  },
+  "header-row#container__two--col4":{
+    "title": "Header-row Container Four Desktop",
+    "children": [
+      "flex-layout.col#container__col--four" 
+    ],
+    "props": {
+      "blockClass": "Header__Container-col-4"
+    }
+  },
+  "flex-layout.col#container__col--four": {
+    "title": "Flex Layout Footer Container Col 4",
+    "children": [
+      "menu-item#footer__title--pago",
+      "menu-item#footer__subtitle--pagos"
+    ],
+    "props": {
+      "blockClass": "Footer__Container-col-4"
+    }
+  },
+  "menu-item#footer__title--pago": {
+    "title": "Menu Item Footer Title Pago",
+    "props": {
+      "id": "menu-item-pago",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Pago seguro",
+        "text": "Pago seguro",
+        "blockClass": "footer__title--pago"
+      }
+    }
+  },
+  "menu-item#footer__subtitle--pagos": {
+    "title": "Menu Item Footer Subtitle Pagos",
+    "props": {
+      "id": "menu-item-subtitle-pagos",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Pagos cifrados y seguros",
+        "text": "Pagos cifrados y seguros",
+        "blockClass": "footer__subtitle--pagos"
+      }
+    }
+  }
+}
