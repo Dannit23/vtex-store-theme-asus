@@ -1,0 +1,8 @@
+{
+    "flex-layout.row#footer__phone-container": {
+        "title": "Flex Layout.row Footer Container Phone",
+        "children": [
+            "flex-layout.col#footer__container--col-1"
+        ]
+    }
+}

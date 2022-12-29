@@ -1,0 +1,9 @@
+{
+    "responsive-layout.phone#phone__footer--responsive": {
+        "title": "Footer responsive phone",
+        "children": [
+      
+        ]
+
+    }
+}
