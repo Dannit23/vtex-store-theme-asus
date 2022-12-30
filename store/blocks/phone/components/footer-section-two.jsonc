@@ -1,0 +1,171 @@
+{
+    "disclosure-layout-group#phone__footer--disclosure": {
+      "title": "footer--disclosure phone",
+      "children": [
+        "disclosure-layout#footer__container--buy"
+        // "disclosure-layout#footer__container--look",
+        // "disclosure-layout#footer__container--support"
+      ],
+      "props": {
+        "blockClass": "phone__footer--disclosure"
+      }
+    },
+    // Comprar y más información
+    "disclosure-layout#footer__container--buy": {
+      "title": "footer container buy",
+      "children": [
+        "disclosure-trigger#footer__trigger--buy",
+        "disclosure-content#footer__content--buy"
+      ],
+      "props": {
+        "blickClass": "footer__container--buy"
+      }
+    },
+    "disclosure-trigger#footer__trigger--buy": {
+      "title": "footer trigger buy",
+      "children": [
+        "rich-text#footer__title--buy",
+        "disclosure-state-indicator"
+      ],
+      "props": {
+        "blockClass": "footer__trigger"
+      }
+    },
+    "rich-text#footer__title--buy": {
+      "title": "footer__title--buy",
+      "props": {
+        "text": "Comprar y más información",
+        "blockClass": "footer__title--buy"
+      }
+    },
+    "disclosure-content#footer__content--buy": {
+        "title": "footer content buy",
+        "children": [
+            "menu-item#footer__subtitle--1",
+            "menu-item#footer__option-1",
+            "menu-item#footer__option-2",
+            "menu-item#footer__option-3",
+            "menu-item#footer__option-4",
+            "menu-item#footer__option-5"
+           
+        ]
+    },
+    "menu-item#footer__subtitle--1": {
+        "title": "footer subtitle one phone",
+        "props": {
+            "id": "menu-item-subtitle",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+               "type": "internal",
+               "noFollow": false,
+               "tagTitle": "Portátiles",
+               "text": "Portátiles"
+           },
+           "blockClass": "footer__subtitle-one"
+        }
+    },
+    "menu-item#footer__option-1": {
+        "title": "footer option one phone",
+        "props": {
+            "id": "menu-item-option-one",
+            "type": "custom",
+            "href": "/",
+            "highlight": false,
+            "itemProps": {
+               "type": "internal",
+               "noFollow": false,
+               "tagTitle": "Para el Hogar",
+               "text": "Para el Hogar"
+           },
+           "blockClass": "footer__option-one"
+        }
+    },
+    "menu-item#footer__option-2": {
+        "title": "footer option two phone",
+        "props": {
+            "id": "menu-item-option-two",
+            "type": "custom",
+            "href": "/",
+            "highlight": false,
+            "itemProps": {
+               "type": "internal",
+               "noFollow": false,
+               "tagTitle": "Para el Trabajo",
+               "text": "Para el Trabajo"
+           },
+           "blockClass": "footer__option-two"
+        }
+    },
+    "menu-item#footer__option-3": {
+        "title": "footer option three phone",
+        "props": {
+            "id": "menu-item-option-3",
+            "type": "custom",
+            "href": "/",
+            "highlight": false,
+            "itemProps": {
+               "type": "internal",
+               "noFollow": false,
+               "tagTitle": "Para Creadores",
+               "text": "Para Creadores"
+           },
+           "blockClass": "footer__option-3"
+        }
+    },
+    "menu-item#footer__option-4": {
+        "title": "footer option four phone",
+        "props": {
+            "id": "menu-item-option-4",
+            "type": "custom",
+            "href": "/",
+            "highlight": false,
+            "itemProps": {
+               "type": "internal",
+               "noFollow": false,
+               "tagTitle": "Para Estudiantes",
+               "text": "Para Estudiantes"               
+           },
+           "blockClass": "footer__option-4"
+        }
+    },
+    "menu-item#footer__option-5": {
+        "title": "footer option five phone",
+        "props": {
+            "id": "menu-item-option-5",
+            "type": "custom",
+            "href": "/",
+            "highlight": false,
+            "itemProps": {
+               "type": "internal",
+               "noFollow": false,
+               "tagTitle": "Para Gaming",
+               "text": "Para Gaming"              
+           },
+           "blockClass": "footer__option-5"
+        }
+    },
+    
+    
+    //botones
+    "disclosure-state-indicator": {
+      "title": "disclosure__icon--down-up",
+      "props": {
+        "Show": "icon-caret#down",
+        "Hide": "icon-caret#up",
+        "blockClass": "footer__disclosure--indicator"
+      }
+    },
+    "icon-caret#down": {
+      "title": "disclosure__icon--down",
+      "props": {
+        "orientation": "down"
+      }
+    },
+    "icon-caret#up": {
+      "title": "disclosure__icon--up",
+      "props": {
+        "orientation": "up"
+      }
+    }
+}

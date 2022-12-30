@@ -14,6 +14,7 @@
         }
     },
     "link#desktop__footer--condiciones": {
+        "title": "footer link condiciones desktop",
         "props": {
           "href": "/",
           "label": "Condiciones de uso",
@@ -21,6 +22,7 @@
         }
     },
     "link#desktop__footer--politica": {
+        "title": "footer link politica desktop",
         "props": {
           "href": "/",
           "label": "Política de privacidad",
@@ -28,6 +30,7 @@
         }
     },
     "rich-text#desktop__footer--asustek": {
+        "title": "footer rich-text asustek desktop",
         "props": {
           "textAlignment": "CENTER",
           "textPosition": "CENTER",
@@ -36,11 +39,13 @@
         }
     },
     "icon#mpa-globe": {
+        "title": "icon mpa-globe desktop",
         "props": {
             "id": "mpa-globe"
         }
     },
     "link#desktop__footer--paises": {
+        "title": "footer link paises desktop",
         "props": {
           "href": "/",
           "label": "Colombia / Español",
