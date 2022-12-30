@@ -51,7 +51,8 @@
     "vtex.store-image": "0.x",
     "vtex.product-price": "1.x",
     "vtex.modal-layout": "0.x",
-    "vtex.product-list": "0.x"
+    "vtex.product-list": "0.x",
+    "vtex.disclosure-layout": "1.x"
   },
   "peerDependencies": {
     "vtex.mega-menu": "2.x"
