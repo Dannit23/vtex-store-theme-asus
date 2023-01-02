@@ -1,0 +1,126 @@
+{
+    "header-row#footer__phone-container-4": { 
+        "title": "footer container four phone",
+        "children": [
+            "flex-layout.row#phone__footer-container"
+        ],
+        "props": {
+            "blockClass": "phone__footer-container"
+        }
+    },
+    "flex-layout.row#phone__footer-container": {
+        "title": "footer container row phone",
+        "children": [
+            "flex-layout.col#phone__footer-container"
+        ],
+        "props": {
+            "blockClass": "phone__footer--container-1"
+        }
+    },
+    "flex-layout.col#phone__footer-container":{
+        "title": "footer container phone",
+        "children": [
+            "header-row#phone__footer-container-1",
+            "flex-layout.row#phone__footer-container-2",
+            "flex-layout.row#phone__footer-container-3"
+        ],
+        "props": {
+            "blockClass": "phone__footer--container-col"
+        }
+    },
+    "header-row#phone__footer-container-1":{
+        "title": "footer container one phone",
+        "children": [
+            "header-row#footer__phone-container-1",
+            "header-row#footer__phone-container-2"
+        ],
+        "props": {
+            "blockClass": "phone__footer--container-row"
+        }
+    },
+    "header-row#footer__phone-container-1": {
+        "title": "footer phone container one header row",
+        "children": [
+            "icon#mpa-globe__phone"
+        ],
+        "props": {
+            "blockClass": "phone__footer--container-mpa"
+        }
+    },   
+    "icon#mpa-globe__phone": {
+        "title": "icon mpa-globe phone",
+        "props": {
+            "id": "mpa-globe"
+        }
+    },
+    "header-row#footer__phone-container-2":{
+        "title": "footer phone container two header row",
+        "children": [
+            "link#phone__footer--paises"
+        ],
+        "props": {
+            "blockClass": "phone__footer--container-link"
+        }
+    },
+    "link#phone__footer--paises": {
+        "title": "footer link paises desktop",
+        "props": {
+          "href": "/",
+          "label": "Colombia / Español",
+          "blockClass": "phone__footer--paises"
+        }
+    },
+    "flex-layout.row#phone__footer-container-2":{
+        "title": "footer container two phone",
+        "children": [
+           "rich-text#phone__footer--asustek"
+        ],
+        "props": {
+            "blockClass": "phone__footer--container-2"
+        }
+    },
+    "rich-text#phone__footer--asustek": {
+        "title": "footer rich-text asustek phone",
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "©ASUSTeK Computer Inc. Todos los derechos reservados.",
+          "blockClass": "phone__footer--asustek"
+        }
+    },
+    "flex-layout.row#phone__footer-container-3":{
+        "title": "footer container three phone",
+        "children": [
+            "flex-layout.col#phone__footer-container--one"
+        ],
+        "props": {
+            "blockClass": "phone__footer--container-3"
+        }
+    },
+    "flex-layout.col#phone__footer-container--one": {
+        "title": "footer container one phone",
+        "children": [
+            "link#phone__footer--condiciones",
+            "link#phone__footer--politica"
+        ],
+        "props": {
+            "blockClass": "phone__footer--container-col1"
+        }
+    },
+    "link#phone__footer--condiciones": {
+        "title": "footer link condiciones desktop",
+        "props": {
+          "href": "/",
+          "label": "Condiciones de uso",
+          "blockClass": "phone__footer--link"
+        }
+    },
+    "link#phone__footer--politica": {
+        "title": "footer link politica desktop",
+        "props": {
+          "href": "/",
+          "label": "Política de privacidad",
+          "blockClass": "phone__footer--link"
+        }
+    }  
+}
