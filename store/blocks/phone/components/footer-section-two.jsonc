@@ -1,171 +1,403 @@
 {
-    "disclosure-layout-group#phone__footer--disclosure": {
-      "title": "footer--disclosure phone",
-      "children": [
-        "disclosure-layout#footer__container--buy"
-        // "disclosure-layout#footer__container--look",
-        // "disclosure-layout#footer__container--support"
-      ],
-      "props": {
-        "blockClass": "phone__footer--disclosure"
-      }
-    },
-    // Comprar y más información
-    "disclosure-layout#footer__container--buy": {
-      "title": "footer container buy",
-      "children": [
-        "disclosure-trigger#footer__trigger--buy",
-        "disclosure-content#footer__content--buy"
-      ],
-      "props": {
-        "blickClass": "footer__container--buy"
-      }
-    },
-    "disclosure-trigger#footer__trigger--buy": {
-      "title": "footer trigger buy",
-      "children": [
-        "rich-text#footer__title--buy",
-        "disclosure-state-indicator"
-      ],
-      "props": {
-        "blockClass": "footer__trigger"
-      }
-    },
-    "rich-text#footer__title--buy": {
-      "title": "footer__title--buy",
-      "props": {
-        "text": "Comprar y más información",
-        "blockClass": "footer__title--buy"
-      }
-    },
-    "disclosure-content#footer__content--buy": {
-        "title": "footer content buy",
-        "children": [
-            "menu-item#footer__subtitle--1",
-            "menu-item#footer__option-1",
-            "menu-item#footer__option-2",
-            "menu-item#footer__option-3",
-            "menu-item#footer__option-4",
-            "menu-item#footer__option-5"
-           
-        ]
-    },
-    "menu-item#footer__subtitle--1": {
-        "title": "footer subtitle one phone",
-        "props": {
-            "id": "menu-item-subtitle",
-            "type": "custom",
-            "highlight": false,
-            "itemProps": {
-               "type": "internal",
-               "noFollow": false,
-               "tagTitle": "Portátiles",
-               "text": "Portátiles"
-           },
-           "blockClass": "footer__subtitle-one"
-        }
-    },
-    "menu-item#footer__option-1": {
-        "title": "footer option one phone",
-        "props": {
-            "id": "menu-item-option-one",
-            "type": "custom",
-            "href": "/",
-            "highlight": false,
-            "itemProps": {
-               "type": "internal",
-               "noFollow": false,
-               "tagTitle": "Para el Hogar",
-               "text": "Para el Hogar"
-           },
-           "blockClass": "footer__option-one"
-        }
-    },
-    "menu-item#footer__option-2": {
-        "title": "footer option two phone",
-        "props": {
-            "id": "menu-item-option-two",
-            "type": "custom",
-            "href": "/",
-            "highlight": false,
-            "itemProps": {
-               "type": "internal",
-               "noFollow": false,
-               "tagTitle": "Para el Trabajo",
-               "text": "Para el Trabajo"
-           },
-           "blockClass": "footer__option-two"
-        }
-    },
-    "menu-item#footer__option-3": {
-        "title": "footer option three phone",
-        "props": {
-            "id": "menu-item-option-3",
-            "type": "custom",
-            "href": "/",
-            "highlight": false,
-            "itemProps": {
-               "type": "internal",
-               "noFollow": false,
-               "tagTitle": "Para Creadores",
-               "text": "Para Creadores"
-           },
-           "blockClass": "footer__option-3"
-        }
-    },
-    "menu-item#footer__option-4": {
-        "title": "footer option four phone",
-        "props": {
-            "id": "menu-item-option-4",
-            "type": "custom",
-            "href": "/",
-            "highlight": false,
-            "itemProps": {
-               "type": "internal",
-               "noFollow": false,
-               "tagTitle": "Para Estudiantes",
-               "text": "Para Estudiantes"               
-           },
-           "blockClass": "footer__option-4"
-        }
-    },
-    "menu-item#footer__option-5": {
-        "title": "footer option five phone",
-        "props": {
-            "id": "menu-item-option-5",
-            "type": "custom",
-            "href": "/",
-            "highlight": false,
-            "itemProps": {
-               "type": "internal",
-               "noFollow": false,
-               "tagTitle": "Para Gaming",
-               "text": "Para Gaming"              
-           },
-           "blockClass": "footer__option-5"
-        }
-    },
-    
-    
-    //botones
-    "disclosure-state-indicator": {
-      "title": "disclosure__icon--down-up",
-      "props": {
-        "Show": "icon-caret#down",
-        "Hide": "icon-caret#up",
-        "blockClass": "footer__disclosure--indicator"
-      }
-    },
-    "icon-caret#down": {
-      "title": "disclosure__icon--down",
-      "props": {
-        "orientation": "down"
-      }
-    },
-    "icon-caret#up": {
-      "title": "disclosure__icon--up",
-      "props": {
-        "orientation": "up"
-      }
+  "disclosure-layout-group#phone__footer--disclosure": {
+    "title": "footer--disclosure phone",
+    "children": [
+      "disclosure-layout#footer__container--buy",
+      "disclosure-layout#footer__container--look",
+      "disclosure-layout#footer__container--support"
+    ],
+    "props": {
+      "blockClass": "phone__footer--disclosure"
     }
+  },
+  // Comprar y más información
+  "disclosure-layout#footer__container--buy": {
+    "title": "footer container buy",
+    "children": [
+      "disclosure-trigger#footer__trigger--buy",
+      "disclosure-content#footer__content--buy"
+    ],
+    "props": {
+      "blickClass": "footer__container--buy"
+    }
+  },
+  "disclosure-trigger#footer__trigger--buy": {
+    "title": "footer trigger buy",
+    "children": [
+      "rich-text#footer__title--buy",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "footer__trigger"
+    }
+  },
+  "rich-text#footer__title--buy": {
+    "title": "footer__title--buy",
+    "props": {
+      "text": "Comprar y más información",
+      "blockClass": "footer__title--buy"
+    }
+  },
+  "disclosure-content#footer__content--buy": {
+    "title": "footer content buy",
+    "children": [
+      "menu-item#footer__subtitle--1",
+      "menu-item#footer__option-1",
+      "menu-item#footer__option-2",
+      "menu-item#footer__option-3",
+      "menu-item#footer__option-4",
+      "menu-item#footer__option-5",
+      "menu-item#footer__option-6",
+      "menu-item#footer__option-7"
+    ]
+  },
+  "menu-item#footer__subtitle--1": {
+    "title": "footer subtitle one phone",
+    "props": {
+      "id": "menu-item-subtitle",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Portátiles",
+        "text": "Portátiles"
+      },
+      "blockClass": "footer__subtitle-one"
+    }
+  },  
+  "menu-item#footer__option-1": {
+    "title": "footer option one phone",
+    "props": {
+      "id": "menu-item-option-one",
+      "type": "custom",
+      "href": "/",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Para el Hogar",
+        "text": "Para el Hogar"
+      },
+      "blockClass": "footer__option-one"
+    }
+  },
+  "menu-item#footer__option-2": {
+    "title": "footer option two phone",
+    "props": {
+      "id": "menu-item-option-two",
+      "type": "custom",
+      "href": "/",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Para el Trabajo",
+        "text": "Para el Trabajo"
+      },
+      "blockClass": "footer__option-two"
+    }
+  },
+  "menu-item#footer__option-3": {
+    "title": "footer option three phone",
+    "props": {
+      "id": "menu-item-option-3",
+      "type": "custom",
+      "href": "/",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Para Creadores",
+        "text": "Para Creadores"
+      },
+      "blockClass": "footer__option-3"
+    }
+  },
+  "menu-item#footer__option-4": {
+    "title": "footer option four phone",
+    "props": {
+      "id": "menu-item-option-4",
+      "type": "custom",
+      "href": "/",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Para Estudiantes",
+        "text": "Para Estudiantes"               
+      },
+      "blockClass": "footer__option-4"
+    }
+  },
+  "menu-item#footer__option-5": {
+    "title": "footer option five phone",
+    "props": {
+      "id": "menu-item-option-5",
+      "type": "custom",
+      "href": "/",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Para Gaming",
+        "text": "Para Gaming"              
+      },
+     "blockClass": "footer__option-5"
+    }
+  },
+  "menu-item#footer__option-6": {
+    "title": "footer option six phone",
+    "props": {
+      "id": "menu-item-option6",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "PCs de Escritorio",
+        "text": "PCs de Escritorio"
+      },
+     "blockClass": "footer__option-six"
+   }
+  },
+  "menu-item#footer__option-7": {
+    "title": "footer option seven phone",
+    "props": {
+      "id": "menu-item-option7",
+      "type": "custom",
+      "href": "/",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "All-in-One PCs",
+        "text": "All-in-One PCs"
+      },
+      "blockClass": "footer__option-seven"
+    } 
+  },
+  //busca más
+  "disclosure-layout#footer__container--look": {
+    "title": "footer container look",
+    "children": [
+      "disclosure-trigger#footer__trigger--look",
+      "disclosure-content#footer__content--look"
+    ],
+    "props": {
+      "blickClass": "footer__container--look"
+    }
+  },
+  "disclosure-trigger#footer__trigger--look": {
+    "title": "footer trigger look",
+    "children": [
+      "rich-text#footer__title--look",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "footer__trigger"
+    }
+  },
+  "rich-text#footer__title--look": {
+    "title": "footer__title--look",
+    "props": {
+      "text": "Buscas más",
+      "blockClass": "footer__title--look"
+    }
+  },
+  "disclosure-content#footer__content--look": {
+    "title": "footer content look",
+    "children": [
+      "menu-item#footer__option-one",
+      "menu-item#footer__option-two"
+    ]
+  },
+  "menu-item#footer__option-one": {
+    "title": "footer option one phone",
+    "props": {
+      "id": "menu-item-option-one",
+      "type": "custom",
+      "href": "/",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Asus Design Center",
+        "text": "Asus Design Center"
+      },
+      "blockClass": "footer__option-one"
+    } 
+  },
+  "menu-item#footer__option-two": {
+    "title": "footer option two phone",
+    "props": {
+      "id": "menu-item-option-two",
+      "type": "custom",
+      "href": "/",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "ASUSPRO",
+        "text": "ASUSPRO"
+      },
+      "blockClass": "footer__option-two"
+    } 
+  },
+  //soporte
+  "disclosure-layout#footer__container--support": {
+    "title": "footer container support",
+    "children": [
+      "disclosure-trigger#footer__trigger--support",
+      "disclosure-content#footer__content--support"
+    ],
+    "props": {
+      "blickClass": "footer__container--support"
+    }
+  },
+  "disclosure-trigger#footer__trigger--support": {
+    "title": "footer trigger support",
+    "children": [
+      "rich-text#footer__title--support",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "footer__trigger"
+    }
+  },
+  "rich-text#footer__title--support": {
+    "title": "footer__title--support",
+    "props": {
+      "text": "Soporte",
+      "blockClass": "footer__title--support"
+    }
+  },
+  "disclosure-content#footer__content--support": {
+    "title": "footer content support",
+    "children": [
+      "menu-item#footer__one-option",
+      "menu-item#footer__two-option", 
+      "menu-item#footer__three-option",
+      "menu-item#footer__four-option",
+      "menu-item#footer__five-option",
+      "menu-item#footer__six-option"
+    ]
+  },
+  "menu-item#footer__one-option": {
+    "title": "footer option one phone",
+    "props": {
+        "id": "menu-item-option-one",
+        "type": "custom",
+        "href": "/",
+        "highlight": false,
+        "itemProps": {
+           "type": "internal",
+           "noFollow": false,
+           "tagTitle": "ESHOP - Preguntas Frecuentes",
+           "text": "ESHOP - Preguntas Frecuentes"
+       },
+       "blockClass": "footer__option-one"
+    } 
+  },
+  "menu-item#footer__two-option": {
+    "title": "footer option twophone",
+    "props": {
+        "id": "menu-item-option-two",
+        "type": "custom",
+        "href": "/",
+        "highlight": false,
+        "itemProps": {
+           "type": "internal",
+           "noFollow": false,
+           "tagTitle": "ESHOP - Rastrea tu pedido",
+           "text": "ESHOP - Rastrea tu pedido"
+       },
+       "blockClass": "footer__option-two"
+    } 
+  },
+  "menu-item#footer__three-option": {
+    "title": "footer option three phone",
+    "props": {
+        "id": "menu-item-option-three",
+        "type": "custom",
+        "href": "/",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "noFollow": false,
+          "tagTitle": "Centros de servicio",
+          "text": "Centros de servicio"
+        },
+      "blockClass": "footer__option-three"
+    } 
+  },
+  "menu-item#footer__four-option": {
+    "title": "footer option four phone",
+    "props": {
+      "id": "menu-item-option-four",
+      "type": "custom",
+      "href": "/",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Registro de producto",
+        "text": "Registro de producto"
+      },
+      "blockClass": "footer__option-four"
+    } 
+  },
+  "menu-item#footer__five-option": {
+    "title": "footer option five phone",
+    "props": {
+      "id": "menu-item-option-five",
+      "type": "custom",
+      "href": "/",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "ASUS Videos de soporte",
+        "text": "ASUS Videos de soporte"               
+      },
+      "blockClass": "footer__option-five"
+    } 
+  },
+  "menu-item#footer__six-option": {
+  "title": "footer option six phone",
+    "props": {
+      "id": "menu-item-option-six",
+      "type": "custom",
+      "href": "/",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "MyASUS",
+        "text": "MyASUS"               
+      },
+      "blockClass": "footer__option-six"
+    } 
+  },
+  //botones
+  "disclosure-state-indicator": {
+  "title": "disclosure__icon--down-up",
+    "props": {
+      "Show": "icon-caret#down",
+      "Hide": "icon-caret#up",
+      "blockClass": "footer__disclosure--indicator"
+    }
+  },
+  "icon-caret#down": {
+  "title": "disclosure__icon--down",
+    "props": {
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up": {
+    "title": "disclosure__icon--up",
+    "props": {
+      "orientation": "up"
+    }
+  }
 }
