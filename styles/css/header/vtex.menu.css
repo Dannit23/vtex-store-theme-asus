@@ -8,6 +8,7 @@
   font-weight: 400;
 }
 
+
 .styledLinkContent--footer__subtitle--envios, .styledLinkContent--footer__subtitle--compra, .styledLinkContent--footer__subtitle--asus-store, .styledLinkContent--footer__subtitle--pagos {
   color: #666;
   font-size: .8125rem;
@@ -31,3 +32,26 @@
   font-size: .8125rem;
   font-weight: 450;
 }
+
+/*footer phone*/
+.styledLinkContent--footer__subtitle-one {
+  color: #4d4d4d;
+  font-weight: 500;
+  font-size: .875rem;
+}
+
+.styledLinkContent--footer__option-six {
+  color: #4d4d4d;
+  font-weight: 500;
+  font-size: .875rem;
+  padding-top: 12px;
+}
+
+.styledLinkContent--footer__option-one, .styledLinkContent--footer__option-two, .styledLinkContent--footer__option-3, .styledLinkContent--footer__option-4, .styledLinkContent--footer__option-5, .styledLinkContent--footer__option-seven {
+  color: #4d4d4d;
+  font-size: .8125rem;
+  font-weight: 450;
+  margin-left: 12px;
+  padding-top: 12px;
+}
+

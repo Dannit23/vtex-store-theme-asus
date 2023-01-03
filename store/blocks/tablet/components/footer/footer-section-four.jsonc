@@ -1,0 +1,102 @@
+{
+    "header-row#footer__tablet-container-4": { 
+        "title": "footer container four tablet",
+        "children": [
+            "flex-layout.row#tablet__footer-container",
+            "link#tablet__footer--condiciones",
+            "header-spacer",
+            "header-row#tablet__footer-container"
+        ],
+        "props": {
+            "blockClass": "tablet__footer-container"
+        }
+    },
+    "flex-layout.row#tablet__footer-container": {
+        "title": "footer container row tablet",
+        "children": [
+            "flex-layout.col#tablet__footer--container"
+        ],
+        "props": {
+            "blockClass": "phone__footer--container"
+        }
+    },
+    "flex-layout.col#tablet__footer--container": {
+        "title": "footer container tablet",
+        "children": [
+            "rich-text#tablet__footer--asustek",
+            "link#tablet__footer--politica"
+        ],
+        "props": {
+            "blockClass": "tablet__footer--container"
+        }
+    },
+    "rich-text#tablet__footer--asustek": {
+        "title": "footer rich-text asustek tablet",
+        "props": {
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "text": "©ASUSTeK Computer Inc. Todos los derechos reservados.",
+          "blockClass": "phone__footer--asustek"
+        }
+    },
+    "link#tablet__footer--politica": {
+        "title": "footer link politica tablet",
+        "props": {
+          "href": "/",
+          "label": "Política de privacidad",
+          "blockClass": "phone__footer--link"
+        }
+    },
+    "link#tablet__footer--condiciones": {
+        "title": "footer link condiciones tablet",
+        "props": {
+          "href": "/",
+          "label": "Condiciones de uso",
+          "blockClass": "phone__footer--condiciones"
+        }
+    },
+    "header-row#tablet__footer-container":{
+        "title": "footer container tablet",
+        "children": [
+            "header-row#footer__tablet-container-1",
+            "header-row#footer__tablet-container-2"
+        ],
+        "props": {
+            "blockClass": "phone__footer--container-row"
+        }
+    },
+    "header-row#footer__tablet-container-1": {
+        "title": "footer tablet container one header row",
+        "children": [
+            "icon#mpa-globe__tablet"
+        ],
+        "props": {
+            "blockClass": "tablet__footer--container-mpa"
+        }
+    },   
+    "icon#mpa-globe__tablet": {
+        "title": "icon mpa-globe tablet",
+        "props": {
+            "id": "mpa-globe"
+        }
+    },
+    "header-row#footer__tablet-container-2":{
+        "title": "footer tablet container two header row",
+        "children": [
+            "link#tablet__footer--paises"
+        ],
+        "props": {
+            "blockClass": "tablet__footer--container-link"
+        }
+    },
+    "link#tablet__footer--paises": {
+        "title": "footer link paises desktop",
+        "props": {
+          "href": "/",
+          "label": "Colombia / Español",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": "phone__footer--paises"
+        }
+    }
+}
