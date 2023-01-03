@@ -1,0 +1,9 @@
+.headerRowBackground--footer__container--desktop-3,
+.headerRowBackground--footer__container--desktop-4{
+    /* min-width: 100% !important; */
+    background-color: #f5f5f5 !important;
+}
+
+.headerRow--tablet__footer-container {
+    border-top: 1px solid #ccc;
+}

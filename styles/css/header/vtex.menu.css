@@ -55,3 +55,11 @@
   padding-top: 12px;
 }
 
+.styledLinkContent--footer__subtitle--envios, .styledLinkContent--footer__subtitle--compra, .styledLinkContent--footer__subtitle--asus-store, .styledLinkContainer--footer__title--compra {
+  white-space:normal;
+  
+}
+
+.styledLinkContainer--footer__title--envios, .styledLinkContainer--footer__title--compra, .styledLinkContainer--footer__title--productos, .styledLinkContainer--footer__title--pago, .styledLinkContainer--footer__subtitle--envios, .styledLinkContainer--footer__subtitle--compra, .styledLinkContainer--footer__subtitle--asus-store, .styledLinkContainer--footer__subtitle--pagos {
+  margin-left: 0;
+}
