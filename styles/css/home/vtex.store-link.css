@@ -11,23 +11,47 @@
     color: #4d4d4d
 }
 
+.link--phone__footer--link, .link--phone__footer--link {
+    text-decoration: none;
+    margin-left: 10px;
+    border-left: 1px solid #999;
+}
+
+ .link--phone__footer--condiciones {
+    text-decoration: none;
+}
+
 .label--desktop__footer--link {
     margin-left: 12px;
 }
 
-.link--desktop__footer--paises {
+.link--desktop__footer--paises, .link--phone__footer--paises {
     text-decoration: none;
     margin-left: 10px;
     color: #4d4d4d
 }
 
-.label--desktop__footer--link {
+.label--desktop__footer--link, .label--phone__footer--condiciones {
     color: #666;
     font-weight: 450;
     font-size: 13px;
 }
 
-.label--desktop__footer--paises {
+.label--phone__footer--condiciones {
+    color: #666;
+    font-weight: 450;
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+.label--phone__footer--link {
+    color: #666;
+    font-weight: 450;
+    font-size: 13px;
+    margin-left: 11px;
+}
+
+.label--desktop__footer--paises, .label--phone__footer--paises {
     color: #4d4d4d;
     font-weight: 450;
     font-size: 13px;

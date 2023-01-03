@@ -31,3 +31,21 @@
     padding-bottom: 24px;
     border-top: 1px solid #ccc;
 }
+
+/*footer phone*/
+.headerRowContentContainer--phone__Header-Container1, .headerRowContentContainer--phone__Header-Container01, .headerRowContentContainer--phone__Container-products, .headerRowContentContainer--phone__Container-pay {
+    background-color: #f5f5f5;
+}
+
+.headerRowContentContainer--phone__header--Container2, .headerRowBackground--phone__Container-row2, .headerRowContentContainer--phone__Container-row1, .headerRowContentContainer--phone__Container-row3, .headerRowContentContainer--phone__Container-row4, .headerRowContainer, .headerRowContainer--phone__footer--container-row  {
+    background-color: #f5f5f5;
+}
+
+.headerStickyRow--phone__footer-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #ccc;
+    background-color: #f5f5f5;
+}
+
+ 

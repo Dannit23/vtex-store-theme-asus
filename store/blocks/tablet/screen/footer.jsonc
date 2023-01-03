@@ -2,7 +2,10 @@
     "responsive-layout.tablet#tablet__footer--responsive": {
         "title": "Footer responsive tablet",
         "children": [
-            
+            "flex-layout.row#footer__container--tablet",
+            "flex-layout.row#footer__tablet-container-sec2",
+            "header-row#footer__desktop-container-3",
+            "header-row#footer__tablet-container-4"
         ]
 
     }

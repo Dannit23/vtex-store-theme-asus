@@ -67,6 +67,8 @@
         "props": {
           "href": "/",
           "label": "Colombia / Español",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
           "blockClass": "phone__footer--paises"
         }
     },
@@ -82,8 +84,8 @@
     "rich-text#phone__footer--asustek": {
         "title": "footer rich-text asustek phone",
         "props": {
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
           "text": "©ASUSTeK Computer Inc. Todos los derechos reservados.",
           "blockClass": "phone__footer--asustek"
         }
@@ -112,7 +114,7 @@
         "props": {
           "href": "/",
           "label": "Condiciones de uso",
-          "blockClass": "phone__footer--link"
+          "blockClass": "phone__footer--condiciones"
         }
     },
     "link#phone__footer--politica": {

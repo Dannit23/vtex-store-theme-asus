@@ -45,3 +45,19 @@
     grid-row-gap: 14px;
 }
 
+/*footer phone*/
+.flexRow--phone__Container {
+    background-color: #f5f5f5;
+    padding-top: 9px;
+    padding-bottom: 20px;
+    grid-row-gap: 14px;
+}
+
+.flexRow--phone__Container-row1, .flexRow--phone__Container-row2, .flexRow--phone__Container-row3, .flexRow--phone__Container-row4 {
+    margin-top: 10px;
+}
+
+.flexCol--phone__footer--container-col {
+    background-color: #f5f5f5;
+}
+
