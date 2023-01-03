@@ -29,3 +29,17 @@
     font-weight: 450;
     font-size: 13px;
 }
+
+/*footer phone*/
+.paragraph--footer__title {
+    color: #4d4d4d;
+    font-weight: 500;
+    font-size: .875rem;
+    margin: 0.5rem;
+}
+
+.paragraph--phone__footer--asustek {
+    color: #666;
+    font-weight: 450;
+    font-size: 13px;
+}

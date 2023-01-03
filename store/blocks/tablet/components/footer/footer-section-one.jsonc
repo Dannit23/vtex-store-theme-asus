@@ -1,0 +1,219 @@
+{ 
+    "flex-layout.row#footer__container--tablet": {
+        "title": "Footer container tablet",
+        "children": [
+            "flex-layout.row#footer__container"
+        ],
+        "props": {
+          "blockClass": "tablet__Container"
+        }
+    },
+    "flex-layout.row#footer__container": {
+        "title": "footer container",
+        "children": [
+            "flex-layout.col#one__container--col",
+            "flex-layout.col#two__container--col",
+            "flex-layout.col#three__container--col",
+            "flex-layout.col#four__container--col"
+        ],
+        "props": {
+          "blockClass": "tablet__Container-1"
+        }
+    },
+    //columna envios
+    "flex-layout.col#one__container--col": {
+        "title": "container one col",
+        "children": [
+            "image#footer__tablet--shipping",
+            "menu-item#footer__title--tablet",
+            "menu-item#footer__subtitle--tablet"
+        ],
+        "props": {
+          "blockClass": "tablet__Container-2"
+        }
+    },
+    "image#footer__tablet--shipping": {
+        "title":"Image Footer Shipping Tablet",
+          "props": {
+          "src": "https://www.asus.com/media/Odin/Images/eCommerce/truck.svg",
+          "blockClass": "phone__image"
+        }
+    },
+    "menu-item#footer__title--tablet": {
+        "title": "Menu Item  Footer Title Tablet",
+        "props": {
+           "id": "item-shipping",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "noFollow": false,
+              "tagTitle": "Envíos gratis",
+              "text": "Envíos gratis"
+            },
+          "blockClass": "footer__title--envios"
+        }
+    },
+    "menu-item#footer__subtitle--tablet": {
+        "title": "Menu Item Footer Subtitle Tablet",
+        "props": {
+            "id": "item-subtitle",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+               "type": "internal",
+               "noFollow": false,
+               "tagTitle": "Envíos gratis en todas tus compras",
+               "text": "Envíos gratis en todas tus compras"
+            },
+          "blockClass": "footer__subtitle--envios"
+        }
+    },
+    // columna compra
+    "flex-layout.col#two__container--col": {
+        "title": "container two col tablet",
+        "children": [
+            "image#footer__tablet--buy",
+            "menu-item#footer__title--tablet-2",
+            "menu-item#footer__subtitle--tablet-2"
+        ],
+        "props": {
+          "blockClass": "tablet__Container-3"
+        }
+    },
+    "image#footer__tablet--buy": {
+        "title":"Image Footer buy Phone",
+          "props": {
+          "src": "https://www.asus.com/media/Odin/Images/eCommerce/service_talk.svg",
+          "blockClass": "phone__image"
+        }
+    },
+    "menu-item#footer__title--tablet-2": {
+        "title": "Menu Item  Footer Title Tablet-2",
+        "props": {
+           "id": "item-shipping",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "noFollow": false,
+              "tagTitle": "Te ayudamos con tu compra",
+              "text": "Te ayudamos con tu compra"
+            },
+          "blockClass": "footer__title--compra"
+        }
+    },
+    "menu-item#footer__subtitle--tablet-2": {
+        "title": "Menu Item Footer Subtitle Tablet-2",
+        "props": {
+            "id": "item-subtitle",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+               "type": "internal",
+               "noFollow": false,
+               "tagTitle": "soporteventas_co@asus.com",
+               "text": "soporteventas_co@asus.com"
+            },
+          "blockClass": "footer__subtitle--compra"
+        }
+    },
+    //columna productos exclusivos
+    "flex-layout.col#three__container--col": {
+        "title": "container three col tablet",
+        "children": [
+            "image#footer__tablet--products",
+            "menu-item#footer__title--tablet3",
+            "menu-item#footer__subtitle--tablet3"
+        ],
+        "props": {
+          "blockClass": "tablet__Container-4"
+        }
+    },
+    "image#footer__tablet--products": {
+        "title":"Image Footer Products tablet",
+          "props": {
+          "src": "https://www.asus.com/media/Odin/Images/eCommerce/easy_refund.svg",
+          "blockClass": "phone__image"
+        }
+    },
+    "menu-item#footer__title--tablet3": {
+        "title": "Menu Item  Footer Title Tablet-3",
+        "props": {
+           "id": "item-shipping",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "noFollow": false,
+              "tagTitle": "Productos exclusivos",
+              "text": "Productos exclusivos"
+            },
+          "blockClass": "footer__title--productos"
+        }
+    },
+    "menu-item#footer__subtitle--tablet3": {
+        "title": "Menu Item Footer Subtitle Tablet-3",
+        "props": {
+            "id": "item-subtitle",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+               "type": "internal",
+               "noFollow": false,
+               "tagTitle": "Encuéntralos solo en ASUS Store",
+               "text": "Encuéntralos solo en ASUS Store"
+            },
+          "blockClass": "footer__subtitle--asus-store"
+        }
+    },
+    //columna pago seguro
+    "flex-layout.col#four__container--col":{
+        "title": "container three col tablet-4",
+        "children": [
+            "image#footer__tablet--pay",
+            "menu-item#footer__title--tablet-4",
+            "menu-item#footer__subtitle--tablet-4"
+        ],
+        "props": {
+          "blockClass": "tablet__Container-5"
+        }
+    },
+    "image#footer__tablet--pay": {
+        "title":"Image Footer Pay tablet",
+        "props": {
+          "src": "https://www.asus.com/media/Odin/Images/eCommerce/secure_payments.svg",
+          "blockClass": "tablet__image"
+        }
+    },
+    "menu-item#footer__title--tablet-4": {
+        "title": "Menu Item  Footer Title tablet-4",
+        "props": {
+           "id": "item-shipping",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "noFollow": false,
+              "tagTitle": "Pago seguro",
+              "text": "Pago seguro"
+            },
+          "blockClass": "footer__title--pago"
+        }
+    },
+    "menu-item#footer__subtitle--tablet-4": {
+        "title": "Menu Item Footer Subtitle tablet-4",
+        "props": {
+            "id": "item-subtitle",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+               "type": "internal",
+               "noFollow": false,
+               "tagTitle": "Pagos cifrados y seguros",
+               "text": "Pagos cifrados y seguros"
+            },
+          "blockClass": "footer__subtitle--pagos"
+        }
+    }
+}

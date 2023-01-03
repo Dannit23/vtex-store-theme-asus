@@ -1,0 +1,15 @@
+/*footer phone*/
+.trigger--footer__trigger, .trigger--footer__trigger--hidden {
+    display         : flex;
+    justify-content : space-between;
+    align-items     : center;
+    width           : 100%;
+    border          : none;
+    border-top      : 1px solid #ccc;
+    background-color: #f5f5f5;
+}
+
+
+.content, .content--footer__content--buy, .content--visible,.content--footer__content--buy--visible {
+    background-color: #f5f5f5;
+}

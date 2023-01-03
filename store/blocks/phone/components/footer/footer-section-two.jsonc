@@ -35,7 +35,7 @@
     "title": "footer__title--buy",
     "props": {
       "text": "Comprar y más información",
-      "blockClass": "footer__title--buy"
+      "blockClass": "footer__title"
     }
   },
   "disclosure-content#footer__content--buy": {
@@ -49,7 +49,10 @@
       "menu-item#footer__option-5",
       "menu-item#footer__option-6",
       "menu-item#footer__option-7"
-    ]
+    ],
+    "props": {
+      "blockClass": "footer__content--buy"
+    }
   },
   "menu-item#footer__subtitle--1": {
     "title": "footer subtitle one phone",
@@ -202,7 +205,7 @@
     "title": "footer__title--look",
     "props": {
       "text": "Buscas más",
-      "blockClass": "footer__title--look"
+      "blockClass": "footer__title"
     }
   },
   "disclosure-content#footer__content--look": {
@@ -210,7 +213,10 @@
     "children": [
       "menu-item#footer__option-one",
       "menu-item#footer__option-two"
-    ]
+    ],
+    "props": {
+      "blockClass": "footer__content--look"
+    }
   },
   "menu-item#footer__option-one": {
     "title": "footer option one phone",
@@ -252,7 +258,7 @@
       "disclosure-content#footer__content--support"
     ],
     "props": {
-      "blickClass": "footer__container--support"
+      "blockClass": "footer__container--support"
     }
   },
   "disclosure-trigger#footer__trigger--support": {
@@ -269,7 +275,7 @@
     "title": "footer__title--support",
     "props": {
       "text": "Soporte",
-      "blockClass": "footer__title--support"
+      "blockClass": "footer__title"
     }
   },
   "disclosure-content#footer__content--support": {
@@ -312,7 +318,7 @@
            "tagTitle": "ESHOP - Rastrea tu pedido",
            "text": "ESHOP - Rastrea tu pedido"
        },
-       "blockClass": "footer__option-two"
+       "blockClass": "footer__option-one"
     } 
   },
   "menu-item#footer__three-option": {
@@ -328,7 +334,7 @@
           "tagTitle": "Centros de servicio",
           "text": "Centros de servicio"
         },
-      "blockClass": "footer__option-three"
+      "blockClass": "footer__option-one"
     } 
   },
   "menu-item#footer__four-option": {
@@ -344,7 +350,7 @@
         "tagTitle": "Registro de producto",
         "text": "Registro de producto"
       },
-      "blockClass": "footer__option-four"
+      "blockClass": "footer__option-one"
     } 
   },
   "menu-item#footer__five-option": {
@@ -360,7 +366,7 @@
         "tagTitle": "ASUS Videos de soporte",
         "text": "ASUS Videos de soporte"               
       },
-      "blockClass": "footer__option-five"
+      "blockClass": "footer__option-one"
     } 
   },
   "menu-item#footer__six-option": {
@@ -376,7 +382,7 @@
         "tagTitle": "MyASUS",
         "text": "MyASUS"               
       },
-      "blockClass": "footer__option-six"
+      "blockClass": "footer__option-one"
     } 
   },
   //botones

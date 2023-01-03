@@ -6,7 +6,10 @@
             "flex-layout.row#footer__container--02",
             "flex-layout.row#footer__container--03",
             "flex-layout.row#footer__container--04"
-        ]
+        ],
+        "props": {
+          "blockClass": "phone__Container"
+      }
     },
     //fila envios
     "flex-layout.row#footer__container--01": {
@@ -41,7 +44,7 @@
         "title":"Image Footer Shipping Phone",
           "props": {
           "src": "https://www.asus.com/media/Odin/Images/eCommerce/truck.svg",
-          "blockClass": "phone__footer--shipping"
+          "blockClass": "phone__image"
         }
     },
     "header-row#container__2":{
@@ -75,7 +78,7 @@
               "tagTitle": "Envíos gratis",
               "text": "Envíos gratis"
             },
-          "blockClass": "phone__title--one"
+          "blockClass": "footer__title--envios"
         }
     },
     "menu-item#footer__subtitle--one": {
@@ -90,7 +93,7 @@
                "tagTitle": "Envíos gratis en todas tus compras",
                "text": "Envíos gratis en todas tus compras"
             },
-          "blockClass": "phone__subtitle--one"
+          "blockClass": "footer__subtitle--envios"
         }
     },
     //fila ayuda con tu compra
@@ -126,7 +129,7 @@
         "title":"Image Footer buy Phone",
           "props": {
           "src": "https://www.asus.com/media/Odin/Images/eCommerce/service_talk.svg",
-          "blockClass": "phone__footer--buy"
+          "blockClass": "phone__image"
         }
     },
     "header-row#container__02":{
@@ -160,7 +163,7 @@
               "tagTitle": "Te ayudamos con tu compra",
               "text": "Te ayudamos con tu compra"
             },
-          "blockClass": "phone__title--two"
+          "blockClass": "footer__title--compra"
         }
     },
     "menu-item#footer__subtitle--two": {
@@ -175,7 +178,7 @@
                "tagTitle": "soporteventas_co@asus.com",
                "text": "soporteventas_co@asus.com"
             },
-          "blockClass": "phone__subtitle--two"
+          "blockClass": "footer__subtitle--compra"
         }
     },
     // fila productos exclusivos
@@ -211,7 +214,7 @@
         "title":"Image Footer Products Phone",
           "props": {
           "src": "https://www.asus.com/media/Odin/Images/eCommerce/easy_refund.svg",
-          "blockClass": "phone__footer--products"
+          "blockClass": "phone__image"
         }
     },
     "header-row#container__2.":{
@@ -245,7 +248,7 @@
               "tagTitle": "Productos exclusivos",
               "text": "Productos exclusivos"
             },
-          "blockClass": "phone__title--three"
+          "blockClass": "footer__title--productos"
         }
     },
     "menu-item#footer__subtitle--three": {
@@ -260,7 +263,7 @@
                "tagTitle": "Encuéntralos solo en ASUS Store",
                "text": "Encuéntralos solo en ASUS Store"
             },
-          "blockClass": "phone__subtitle--three"
+          "blockClass": "footer__subtitle--asus-store"
         }
     },
     //fila pago seguro
@@ -294,9 +297,9 @@
     },
     "image#footer__phone--pay": {
         "title":"Image Footer Pay Phone",
-          "props": {
-          "src": "https://www.asus.com/media/Odin/Images/eCommerce/easy_refund.svg",
-          "blockClass": "phone__footer--pay"
+        "props": {
+          "src": "https://www.asus.com/media/Odin/Images/eCommerce/secure_payments.svg",
+          "blockClass": "phone__image"
         }
     },
     "header-row#container__.2":{
@@ -305,7 +308,7 @@
           "flex-layout.col#container__pay" 
         ],
         "props": {
-          "blockClass": "phone__header--Container.2"
+          "blockClass": "phone__header--Container2"
         }
     },
     "flex-layout.col#container__pay": {
@@ -330,7 +333,7 @@
               "tagTitle": "Pago seguro",
               "text": "Pago seguro"
             },
-          "blockClass": "phone__title--four"
+          "blockClass": "footer__title--pago"
         }
     },
     "menu-item#footer__subtitle--four": {
@@ -345,7 +348,7 @@
                "tagTitle": "Pagos cifrados y seguros",
                "text": "Pagos cifrados y seguros"
             },
-          "blockClass": "phone__subtitle--four"
+          "blockClass": "footer__subtitle--pagos"
         }
     }
 }
