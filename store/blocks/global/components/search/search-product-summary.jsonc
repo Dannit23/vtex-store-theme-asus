@@ -1,0 +1,79 @@
+{
+  //GRID
+  "product-summary.shelf#search__gallery--grid": {
+    "title": "search__gallery--grid",
+    "children": [
+      "product-summary-space",
+      "product-summary-image#gallery",
+      "product-summary-space",
+      "product-summary-price#gallery",
+      "product-summary-name#gallery",
+      "add-to-cart-button#gallery"
+    ],
+    "props": {
+      "blockClass": "search__gallery--grid"
+    }
+  },
+  //LIST
+  "product-summary.shelf#search__gallery--list": {
+    "title": "search__gallery--list",
+    "props": {
+      "blockClass": "search__gallery--list"
+    },
+    "children": [
+      "responsive-layout.desktop#desktop__gallery--responsive",
+      "responsive-layout.tablet#tablet__gallery--responsive",
+      "responsive-layout.phone#phone__gallery--responsive"
+    ]
+  },
+  "flex-layout.row#global__gallery--container": {
+    "title": "global__gallery--container",
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto",
+      "blockClass": "global__gallery--container",
+      "colGap": 5,
+      "horizontalAlign": "left"
+    },
+    "children": [
+      "flex-layout.col#gallery__content--image",
+      "flex-layout.col#gallery__content--content"
+    ]
+  },
+  "flex-layout.col#gallery__content--image": {
+    "title": "gallery__content--image",
+    "children": [
+      "product-summary-image#gallery"
+    ],
+    "props": {
+      "blockClass": "gallery__content--image"
+    }
+  },
+  "flex-layout.col#gallery__content--content": {
+    "title": "gallery__content--content",
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "gallery__content--content",
+      "width": "50%"
+    },
+    "children": [
+      "product-summary-price#gallery",
+      "product-summary-name#gallery",
+      "add-to-cart-button#gallery"
+    ]
+  },
+  "product-summary-image#gallery":{
+   "props":{
+    "width": 100
+   }
+  },
+  "product-summary-price#gallery":{
+    
+  },
+      "product-summary-name#gallery":{
+        
+      },
+      "add-to-cart-button#gallery":{
+        
+      }
+}

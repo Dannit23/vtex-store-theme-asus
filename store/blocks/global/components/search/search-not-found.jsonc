@@ -1,0 +1,29 @@
+{
+  "search-zero-results-layout": {
+    "title": "search zero results layout",
+    "children": [
+      "flex-layout.row#zero__results--title"
+    ],
+    "props": {
+      "blockClass": "search-zero-results-layout"
+    }
+  },
+  "flex-layout.row#zero__results--title": {
+    "title": " Zero search results title",
+    "children": [
+      "rich-text#zero-results"
+    ],
+    "props": {
+      "paddingTop": 8
+    }
+  },
+  "rich-text#zero-results": {
+    "title": "rich text zero results",
+    "props": {
+      "text": "0 resultados de búsqueda",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "zero-results"
+    }
+  }
+}

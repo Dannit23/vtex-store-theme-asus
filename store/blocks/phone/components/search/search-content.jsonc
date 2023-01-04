@@ -1,0 +1,25 @@
+{
+  "header-row#mobile__breadcrumb--content": {
+    "title": "mobile__breadcrumb--content",
+    "children": [
+      "breadcrumb.search",
+      "header-spacer",
+      "gallery-layout-switcher"
+    ],
+    "props": {
+      "blockClass": "mobile__breadcrumb--content"
+    }
+  },
+  "header-row#mobile__filters--content": {
+    "title": "mobile__filters--content",
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "mobile__filters--content"
+    },
+    "children": [
+      "filter-navigator.v3",
+      "header-spacer",
+      "order-by.v2"
+    ]
+  }
+}
