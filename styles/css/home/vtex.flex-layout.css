@@ -2,6 +2,18 @@
 /* .flexCol--header__container-col1 {
     border-left: 1px solid #ccc; 
 }  */
+.flexCol--header__container-two {
+    border-left: 1px solid #ccc;
+}
+
+.flexCol--header__container-three {
+    border-left: 1px solid #ccc;
+}
+
+.flexCol--header__container-four {
+    border-left: 1px solid #ccc;
+    padding-left: 1rem;
+}
 
 .flexCol--header__container-col3 {
     border-left: 1px solid #ccc;

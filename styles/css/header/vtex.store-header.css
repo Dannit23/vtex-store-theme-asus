@@ -1,4 +1,7 @@
-/*header desktop*/
+.headerRowContentContainer--header__container-menu2 {
+background: white;
+}
+
 .headerRowContentContainer--Footer__Container-1,
 .headerRowContentContainer--Footer__Container-2,
 .headerRowContentContainer--Footer__Container-3,
@@ -38,7 +41,7 @@
     background-color: #f5f5f5;
 }
 
-.headerRowContentContainer--phone__header--Container2, .headerRowBackground--phone__Container-row2, .headerRowContentContainer--phone__Container-row1, .headerRowContentContainer--phone__Container-row3, .headerRowContentContainer--phone__Container-row4, .headerRowContainer, .headerRowContainer--phone__footer--container-row  {
+.headerRowContentContainer--phone__header--Container2, .headerRowBackground--phone__Container-row2, .headerRowContentContainer--phone__Container-row1, .headerRowContentContainer--phone__Container-row3, .headerRowContentContainer--phone__Container-row4, .headerRowContainer--phone__footer--container-row  {
     background-color: #f5f5f5;
 }
 

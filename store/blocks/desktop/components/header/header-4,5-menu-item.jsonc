@@ -13,7 +13,8 @@
             "noFollow": false,
             "tagTitle": "Ofertas",
             "text": "Ofertas"
-          }
+          },
+          "blockClass": "header__menuitem-offers"
         },
         "blocks": [
           "vtex.menu@2.x:submenu#offers"
@@ -23,6 +24,7 @@
     "vtex.menu@2.x:submenu#offers": {
         "title": "submenu offers",
         "props": {
+          "blockClass": "header__submenu-offers",
           "width": "auto"
         },
         "children": [
