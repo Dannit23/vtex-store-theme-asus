@@ -1,44 +1,54 @@
 {
   "menu#header__menu--sectionOne": {
-        "children": [
-            "logo#asus--hover",
-            "header-spacer",
-            "menu-item#department__section--one",
-            "menu-item#department__section--two"
-        ]
-    },
-    "logo#asus--hover": {
-        "props": {
-          "title": "Logo",
-          "href": "/",
-          "url": "assets/img/header/logo_hover.svg",
-          "width": "30"
-        }
-    },
-    "menu-item#department__section--one": {
+    "title": "header menu section one",
+      "children": [
+        "logo#asus--hover",
+        "header-spacer",
+        "menu-item#department__section--one",
+        "menu-item#department__section--two"
+      ],
       "props": {
-        "id": "departament-one",
-        "type": "custom",
-        "itemProps": {
-          "type": "external",
-          "href": "/",
-          "noFollow": true,
-          "tagTitle": "Gaming Title",
-          "text": "Gaming"
-        }
-      }    
+        "blockClass": "header__container-menu1"
+      }
     },
-    "menu-item#department__section--two": {
-      "props": {
-        "id": "departament-two",
-        "type": "custom",
-        "itemProps": {
-          "type": "external",
-          "href": "/",
-          "noFollow": true,
-          "tagTitle": "Corporativo Title",
-          "text": "Corporativo"
-        }
-      }    
+  "logo#asus--hover": {
+    "title": "logo asus hover",
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://www.asus.com/media/Odin/images/header/ROG_normal.svg",
+      "width": "30",
+      "blockClass": "header__logo-hover"
     }
+  },
+  "menu-item#department__section--one": {
+    "title": "department section one",
+    "props": {
+      "id": "departament-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Gaming Title",
+        "text": "Gaming"
+      },
+      "blockClass": "header__department-section1"
+    }    
+  },
+  "menu-item#department__section--two": {
+    "title": "department section two",
+    "props": {
+      "id": "departament-two",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Corporativo Title",
+        "text": "Corporativo"
+      },
+      "blockClass": "header__department-section2"
+    }    
+  }
 }
