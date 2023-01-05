@@ -27,6 +27,13 @@
     background: white;
 }
 
+
+/*header desktop*/
+.paragraph--header__rich--title {
+    color: #181818;
+    font-size: .9375rem;
+}
+
 /*footer*/
 .paragraph--desktop__footer--asustek {
     color: #666;

@@ -4,11 +4,33 @@
   font-size: .9375rem;
 }
 
-
 .menuContainer--header__submenu-hogar {
-  margin-right: 13rem;
+  margin-right: 14rem;
 } 
 
+.styledLinkContent--header__department, .styledLinkContent--header__category {
+  font-size: .9375rem;
+  color: #666;
+}
+
+.styledLinkContent--header__category-1 {
+  color: #262626;
+  font-size: .9375rem;
+  font-weight: 500;
+}
+
+.menuContainerNav--header__container-menu1 {
+  border-bottom: 1px solid #ccc;
+  background: white;
+}
+
+.submenuWrapper--header__container--submenu, .submenuWrapper--header__submenu-offers, .submenuWrapper--header__submenu {
+  background: white;
+}
+
+.submenu--header__container--submenu {
+  border-top: 1px solid #ccc;
+}
 
 /*footer*/
 .styledLinkContent--footer__title-col2, .styledLinkContent--footer__title-col3 {
