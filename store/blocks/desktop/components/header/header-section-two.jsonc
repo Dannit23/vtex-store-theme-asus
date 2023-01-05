@@ -14,7 +14,7 @@
       "login"
     ],
     "props": {
-      "blockClass": "header__container--two"
+      "blockClass": "header__container-menu2"
     }
   },
   "logo#asus": {

@@ -1,3 +1,9 @@
+/*header desktop*/
+.imageElement--header__image--zen, .imageElement--header__image--aio {
+    height: 100%;
+    max-height: 116px;
+}
+
 /*notificacion*/
 .notificationBarInner {
     background-color: #015ec5;
