@@ -64,7 +64,7 @@
     "blocks": [
       "search-result-layout.desktop#desktop__search--container",
       "search-result-layout.mobile#mobile__search--container",
-      "search-zero-results-layout"
+      "search-not-found-layout"
     ],
     "props": {
       "blockClass": "search-result-layout",

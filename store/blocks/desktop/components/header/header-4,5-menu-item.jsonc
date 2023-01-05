@@ -1,0 +1,224 @@
+{
+    //ofertas select
+    "menu-item#offers": {
+        "title": "Header menu item offers",
+        "props": {
+          "id": "menu-item-offers",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Ofertas",
+            "text": "Ofertas"
+          }
+        },
+        "blocks": [
+          "vtex.menu@2.x:submenu#offers"
+        ]
+    },
+    //submenu Ofertas
+    "vtex.menu@2.x:submenu#offers": {
+        "title": "submenu offers",
+        "props": {
+          "width": "auto"
+        },
+        "children": [
+          "vtex.menu@2.x:menu#offers"
+        ]
+    },
+    "vtex.menu@2.x:menu#offers": {
+        "title": "menu offers",
+        "props": {
+          "blockClass": "menu__offers",
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#category-gaming",
+          "menu-item#category-offers"
+        ]
+    },
+    "menu-item#category-gaming": {
+        "title": "Menu item category gaming",
+        "props": {
+            "id": "menu-item-category-gaming",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/",
+              "noFollow": false,
+              "tagTitle": "Gaming",
+              "text": "Gaming"
+            }, 
+            "blockClass": "header__category-4"
+        }
+    },
+    "menu-item#category-offers":{
+        "title": "category offers",
+        "props": {
+            "id": "menu-item-category-offers",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/",
+              "noFollow": false,
+              "tagTitle": "Ofertas",
+              "text": "Ofertas"
+            },
+            "blockClass": "header__category-4"
+        }
+    },
+     //ofertas soporte
+     "menu-item#support": {
+        "title": "menu item support",
+        "props": {
+          "id": "menu-item-support",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Soporte",
+            "text": "Soporte"
+          },
+          "blockClass": "header__category-4"
+        },
+        "blocks": [
+          "vtex.menu@2.x:submenu#support"
+        ]
+    },
+    "vtex.menu@2.x:submenu#support": {
+        "title": "submenu support",
+        "props": {
+          "width": "auto",
+          "blockClass": "header__submenu"
+        },
+        "children": [
+          "vtex.menu@2.x:menu#support"
+        ]
+    },
+    "vtex.menu@2.x:menu#support": {
+        "title": "menu support",
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+          "menu-item#category-support",
+          "menu-item#category-manuals",
+          "menu-item#category-forum",
+          "menu-item#category-asus",
+          "menu-item#category-contact",
+          "menu-item#category-my-asus"
+        ]
+    },
+    "menu-item#category-support": {
+        "title": "menu item category support",
+        "props": {
+            "id": "menu-item-category-support",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/",
+              "noFollow": false,
+              "tagTitle": "Soporte",
+              "text": "Soporte"
+            },
+            "blockClass": "header__category-4"
+        }
+    },
+    "menu-item#category-manuals":{
+        "title": "menu item category manuals",
+        "props": {
+            "id": "menu-item-category-manuals",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/",
+              "noFollow": false,
+              "tagTitle": "Manuales y controladores",
+              "text": "Manuales y controladores"
+            },
+            "blockClass": "header__category-4"
+        }
+    },
+    "menu-item#category-forum": {
+        "title": "menu item category forum",
+        "props": {
+            "id": "menu-item-category-forum",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/",
+              "noFollow": false,
+              "tagTitle": "Foro ZenTalk",
+              "text": "Foro ZenTalk"
+            },
+            "blockClass": "header__category-4"
+        }
+    },
+    "menu-item#category-asus": {
+        "title": "menu item category asus",
+        "props": {
+            "id": "menu-item-category-asus",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/",
+              "noFollow": false,
+              "tagTitle": "ASUS Premium Care",
+              "text": "ASUS Premium Care"
+            },
+            "blockClass": "header__category-4"
+        } 
+    },
+    "menu-item#category-contact": {
+        "title": "menu item category contact",
+        "props": {
+            "id": "menu-item-category-contact",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/",
+              "noFollow": false,
+              "tagTitle": "Contáctenos vía chat",
+              "text": "Contáctenos vía chat"
+            },
+            "blockClass": "header__category-4"
+        } 
+    },
+    "menu-item#category-my-asus": {
+        "title": "menu item category my asus",
+        "props": {
+            "id": "menu-item-category-my-asus",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/",
+              "noFollow": false,
+              "tagTitle": "MyASUS",
+              "text": "MyASUS"
+            },
+            "blockClass": "header__category-4"
+        } 
+    }
+}

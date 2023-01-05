@@ -1,3 +1,16 @@
+/*header desktop*/
+.styledLinkContent--header__department-section1, .styledLinkContent--header__department-section2,.styledLinkContent--header__department-store, .styledLinkContent--header__category--select-hover, .styledLinkContent--header__category-4  {
+  color: #4d4d4d;
+  font-size: .9375rem;
+}
+
+
+.menuContainer--header__submenu-hogar {
+  margin-right: 13rem;
+} 
+
+
+/*footer*/
 .styledLinkContent--footer__title-col2, .styledLinkContent--footer__title-col3 {
   display: none;
 }

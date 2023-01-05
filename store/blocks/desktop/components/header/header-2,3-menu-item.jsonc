@@ -22,12 +22,12 @@
         "title": "width box container one",
         "props": {
             "width": "100%",
-            "blockClass": "header__container--submenu",
-            "orientation": "vertical"
+            "blockClass": "header__container--submenu"
+            // "orientation": "vertical"
         },
         "children": [
-            "flex-layout.row#menu-more",
-            "flex-layout.row#menu-work"
+            "flex-layout.row#menu-more"
+            // "flex-layout.row#menu-work"
         ]
     },
     "flex-layout.row#menu-more": {
@@ -53,6 +53,7 @@
     "vtex.menu@2.x:menu#more-hogar":{
         "title": "position box products",
         "props": {
+            "blockClass":"header__submenu-hogar",
            "orientation": "horizontal"
         },
         "children": [
@@ -66,7 +67,10 @@
         "title": "Flex-layout.col Header container 1",
         "children": [
           "menu-item#header__department--1"
-        ]
+        ],
+        "props": {
+            "blockClass":"header__container-col1"
+        }
     },
     "menu-item#header__department--1": {
         "title": "Menu Item Header Department 1",
@@ -79,7 +83,8 @@
               "noFollow": true,
               "tagTitle": "Para el hogar",
               "text": "Para el hogar"
-            }
+            },
+            "blockClass": "header__department"
         }
     },
     "flex-layout.col#header__container--col-2": {
@@ -90,7 +95,10 @@
             "menu-item#header__category--1.3",
             "menu-item#header__category--1.4",
             "menu-item#header__category--1.5"
-        ]
+        ],
+        "props": {
+            "blockClass":"header__container-col1"
+        }
     },
     "menu-item#header__category--1.1": {
         "title": "Menu Item Header Category 1.1",
@@ -103,7 +111,8 @@
                "noFollow": true,
                "tagTitle": "POR CATEGORÍA",
                "text": "POR CATEGORÍA"
-            }
+            },
+            "blockClass": "header__category-1"
         }
     },
     "menu-item#header__category--1.2": {
@@ -117,7 +126,8 @@
                "noFollow": true,
                "tagTitle": "Delgado y liviano",
                "text": "Delgado y liviano"
-            }
+            },
+            "blockClass": "header__category"
         }
     },
     "menu-item#header__category--1.3": {
@@ -131,7 +141,8 @@
                "noFollow": true,
                "tagTitle": "Pantalla OLED",
                "text": "Pantalla OLED"
-            }
+            },
+            "blockClass": "header__category"
         }
     },
     "menu-item#header__category--1.4": {
@@ -145,7 +156,8 @@
                "noFollow": true,
                "tagTitle": "Tablet & 2-in-1 laptop",
                "text": "Tablet & 2-in-1 laptop"
-            }
+            },
+            "blockClass": "header__category"
         }
     },
     "menu-item#header__category--1.5": {
@@ -159,7 +171,8 @@
                "noFollow": true,
                "tagTitle": "Para el día a día",
                "text": "Para el día a día"
-            }
+            },
+            "blockClass": "header__category"
         }
     },
     "flex-layout.col#header__container--col-3": {
@@ -171,7 +184,10 @@
             "menu-item#header__subcategory--1.4",
             "menu-item#header__subcategory--1.5",
             "menu-item#header__subcategory--1.6"
-        ]
+        ],
+        "props": {
+            "blockClass":"header__container-col3"
+        }
     },
     "menu-item#header__subcategory--1.1": {
         "title": "Menu Item Header subcategory 1.1",
@@ -184,7 +200,8 @@
                 "noFollow": true,
                 "tagTitle": "POR SERIE",
                 "text": "POR SERIE"
-            }
+            },
+            "blockClass": "header__category-1"
         }
     },
     "menu-item#header__subcategory--1.2": {
@@ -198,7 +215,8 @@
                 "noFollow": true,
                 "tagTitle": "Todas las series",
                 "text": "Todas las series"
-            }
+            },
+            "blockClass": "header__category"
         }
     },
     "menu-item#header__subcategory--1.3": {
@@ -212,7 +230,8 @@
                 "noFollow": true,
                 "tagTitle": "Zenbook",
                 "text": "Zenbook"
-            }
+            },
+            "blockClass": "header__category"
         }
     },
     "menu-item#header__subcategory--1.4": {
@@ -226,7 +245,8 @@
                 "noFollow": true,
                 "tagTitle": "Vivobook",
                 "text": "Vivobook"
-            }
+            },
+            "blockClass": "header__category"
         }
     },
     "menu-item#header__subcategory--1.5": {
@@ -240,7 +260,8 @@
                 "noFollow": true,
                 "tagTitle": "Chromebook",
                 "text": "Chromebook"
-            }
+            },
+            "blockClass": "header__category"
         }
     },
     "menu-item#header__subcategory--1.6": {
@@ -254,7 +275,8 @@
                 "noFollow": true,
                 "tagTitle": "Para el día a día",
                 "text": "Para el día a día"
-            }
+            },
+            "blockClass": "header__category"
         }
     },
     "flex-layout.col#header__container--col-4": {
@@ -262,7 +284,10 @@
         "children": [
             "image#header__Vivobook",
             "rich-text#header__Vivobook--title"
-        ]
+        ],
+        "props": {
+            "blockClass":"header__container-col4"
+        }
     },
     "image#header__Vivobook": {
         "title":"Image Header Zen",
@@ -278,343 +303,343 @@
           "textPosition": "CENTER",
           "blockClass": "header__rich--title"
         }
-    }, 
+    },
     //submenu Portatiles--para el trabajo
-    "vtex.menu@2.x:submenu#more-work": {
-        "title": "width box container one  work",
-        "props": {
-            "width": "100%",
-            "blockClass": "header__container--submenu"
-        },
-        "children": [
-            "flex-layout.row#menu-work"
-        ]
-    },
-    "flex-layout.row#menu-work": {
-         "title": "container products more",
-         "children": [
-             "flex-layout.col#menu-work"
-            ],
-         "props": {
-            "blockClass": "header__container--menuwork"
-         }
-    },
-    "flex-layout.col#menu-work": {
-        "title": "container product more",
-        "children": [
-            "vtex.menu@2.x:menu#more-work"
-        ],
-        "props": {
-           "blockClass": "select__header--container"
-        }
-    },
-    "vtex.menu@2.x:menu#more-work":{
-        "title": "position box products",
-        "props": {
-           "orientation": "horizontal"
-        },
-        "children": [
-          "flex-layout.col#header__container--col-.1",
-          "flex-layout.col#header__container--col-.2",
-          "flex-layout.col#header__container--col-.3",
-          "flex-layout.col#header__container--col-.4"
-        ]
-    },
-    "flex-layout.col#header__container--col-.1": {
-        "title": "Flex-layout.col Header container .1",
-        "children": [
-          "menu-item#header__department--.1"
-        ]
-    },
-    "menu-item#header__department--.1": {
-        "title": "Menu Item Header Department .1",
-        "props": {
-            "id": "department-.1",
-            "type": "custom",
-            "itemProps": {
-              "type": "external",
-              "href":"#",
-              "noFollow": true,
-              "tagTitle": "Para el trabajo",
-              "text": "Para el trabajo"
-            }
-        }
-    },
-    "flex-layout.col#header__container--col-.2": {
-        "title": "Flex-layout.col Header container .2",
-        "children": [
-            "menu-item#header__category--2.1",
-            "menu-item#header__category--2.2",
-            "menu-item#header__category--2.3",
-            "menu-item#header__category--2.4",
-            "menu-item#header__category--2.5",
-            "menu-item#header__category--2.6",
-            "menu-item#header__category--2.7",
-            "menu-item#header__category--2.8",
-            "menu-item#header__category--2.9",
-            "menu-item#header__category--2.10"
-        ]
-    },
-    "menu-item#header__category--2.1": {
-        "title": "Menu Item Header Category 2.1",
-        "props": {
-            "id": "category--2.1",
-            "type": "custom",
-            "itemProps": {
-               "type": "external",
-               "href":"#",
-               "noFollow": true,
-               "tagTitle": "POR CATEGORÍA",
-               "text": "POR CATEGORÍA"
-            }
-        }
-    },
-    "menu-item#header__category--2.2": {
-        "title": "Menu Item Header Category 2.2",
-        "props": {
-            "id": "category--2.2",
-            "type": "custom",
-            "itemProps": {
-               "type": "external",
-               "href":"#",
-               "noFollow": true,
-               "tagTitle": "Premium",
-               "text": "Premium"
-            }
-        }
-    },
-    "menu-item#header__category--2.3": {
-        "title": "Menu Item Header Category 2.3",
-        "props": {
-            "id": "category--2.3",
-            "type": "custom",
-            "itemProps": {
-               "type": "external",
-               "href":"#",
-               "noFollow": true,
-               "tagTitle": "Delgado y liviano",
-               "text": "Delgado y liviano"
-            }
-        }
-    },
-    "menu-item#header__category--2.4": {
-        "title": "Menu Item Header Category 2.4",
-        "props": {
-            "id": "category--2.4",
-            "type": "custom",
-            "itemProps": {
-               "type": "external",
-               "href":"#",
-               "noFollow": true,
-               "tagTitle": "Desempeño",
-               "text": "Desempeño"
-            }
-        }
-    },
-    "menu-item#header__category--2.5": {
-        "title": "Menu Item Header Category 2.5",
-        "props": {
-            "id": "category--2.5",
-            "type": "custom",
-            "itemProps": {
-               "type": "external",
-               "href":"#",
-               "noFollow": true,
-               "tagTitle": "Duración de batería",
-               "text": "Duración de batería"
-            }
-        }
-    },
-    "menu-item#header__category--2.6": {
-        "title": "Menu Item Header Category 2.6",
-        "props": {
-            "id": "category--2.6",
-            "type": "custom",
-            "itemProps": {
-               "type": "external",
-               "href":"#",
-               "noFollow": true,
-               "tagTitle": "Laptops 2 en 1",
-               "text": "Laptops 2 en 1"
-            }
-        }
-    },
-    "menu-item#header__category--2.7": {
-        "title": "Menu Item Header Category 2.7",
-        "props": {
-            "id": "category--2.7",
-            "type": "custom",
-            "itemProps": {
-               "type": "external",
-               "href":"#",
-               "noFollow": true,
-               "tagTitle": "Tradicional",
-               "text": "Tradicional"
-            }
-        }
-    },
-    "menu-item#header__category--2.8": {
-        "title": "Menu Item Header Category 2.8",
-        "props": {
-            "id": "category--2.8",
-            "type": "custom",
-            "itemProps": {
-               "type": "external",
-               "href":"#",
-               "noFollow": true,
-               "tagTitle": "Pantalla OLED",
-               "text": "Pantalla OLED"
-            }
-        }
-    },
-    "menu-item#header__category--2.9": {
-        "title": "Menu Item Header Category 2.9",
-        "props": {
-            "id": "category--2.9",
-            "type": "custom",
-            "itemProps": {
-               "type": "external",
-               "href":"#",
-               "noFollow": true,
-               "tagTitle": "Batería de larga duración",
-               "text": "Batería de larga duración"
-            }
-        }
-    },
-    "menu-item#header__category--2.10": {
-        "title": "Menu Item Header Category 2.10",
-        "props": {
-            "id": "category--2.10",
-            "type": "custom",
-            "itemProps": {
-               "type": "external",
-               "href":"#",
-               "noFollow": true,
-               "tagTitle": "Para el día a día",
-               "text": "Para el día a día"
-            }
-        }
-    },
+    // "vtex.menu@2.x:submenu#more-work": {
+    //     "title": "width box container one  work",
+    //     "props": {
+    //         "width": "100%",
+    //         "blockClass": "header__container--submenu"
+    //     },
+    //     "children": [
+    //         "flex-layout.row#menu-work"
+    //     ]
+    // },
+    // "flex-layout.row#menu-work": {
+    //      "title": "container products more",
+    //      "children": [
+    //          "flex-layout.col#menu-work"
+    //         ],
+    //      "props": {
+    //         "blockClass": "header__container--menuwork"
+    //      }
+    // },
+    // "flex-layout.col#menu-work": {
+    //     "title": "container product more",
+    //     "children": [
+    //         "vtex.menu@2.x:menu#more-work"
+    //     ],
+    //     "props": {
+    //        "blockClass": "select__header--container"
+    //     }
+    // },
+    // "vtex.menu@2.x:menu#more-work":{
+    //     "title": "position box products",
+    //     "props": {
+    //        "orientation": "horizontal"
+    //     },
+    //     "children": [
+    //       "flex-layout.col#header__container--col-.1",
+    //       "flex-layout.col#header__container--col-.2",
+    //       "flex-layout.col#header__container--col-.3",
+    //       "flex-layout.col#header__container--col-.4"
+    //     ]
+    // },
+    // "flex-layout.col#header__container--col-.1": {
+    //     "title": "Flex-layout.col Header container .1",
+    //     "children": [
+    //       "menu-item#header__department--.1"
+    //     ]
+    // },
+    // "menu-item#header__department--.1": {
+    //     "title": "Menu Item Header Department .1",
+    //     "props": {
+    //         "id": "department-.1",
+    //         "type": "custom",
+    //         "itemProps": {
+    //           "type": "external",
+    //           "href":"#",
+    //           "noFollow": true,
+    //           "tagTitle": "Para el trabajo",
+    //           "text": "Para el trabajo"
+    //         }
+    //     }
+    // },
+    // "flex-layout.col#header__container--col-.2": {
+    //     "title": "Flex-layout.col Header container .2",
+    //     "children": [
+    //         "menu-item#header__category--2.1",
+    //         "menu-item#header__category--2.2",
+    //         "menu-item#header__category--2.3",
+    //         "menu-item#header__category--2.4",
+    //         "menu-item#header__category--2.5",
+    //         "menu-item#header__category--2.6",
+    //         "menu-item#header__category--2.7",
+    //         "menu-item#header__category--2.8",
+    //         "menu-item#header__category--2.9",
+    //         "menu-item#header__category--2.10"
+    //     ]
+    // },
+    // "menu-item#header__category--2.1": {
+    //     "title": "Menu Item Header Category 2.1",
+    //     "props": {
+    //         "id": "category--2.1",
+    //         "type": "custom",
+    //         "itemProps": {
+    //            "type": "external",
+    //            "href":"#",
+    //            "noFollow": true,
+    //            "tagTitle": "POR CATEGORÍA",
+    //            "text": "POR CATEGORÍA"
+    //         }
+    //     }
+    // },
+    // "menu-item#header__category--2.2": {
+    //     "title": "Menu Item Header Category 2.2",
+    //     "props": {
+    //         "id": "category--2.2",
+    //         "type": "custom",
+    //         "itemProps": {
+    //            "type": "external",
+    //            "href":"#",
+    //            "noFollow": true,
+    //            "tagTitle": "Premium",
+    //            "text": "Premium"
+    //         }
+    //     }
+    // },
+    // "menu-item#header__category--2.3": {
+    //     "title": "Menu Item Header Category 2.3",
+    //     "props": {
+    //         "id": "category--2.3",
+    //         "type": "custom",
+    //         "itemProps": {
+    //            "type": "external",
+    //            "href":"#",
+    //            "noFollow": true,
+    //            "tagTitle": "Delgado y liviano",
+    //            "text": "Delgado y liviano"
+    //         }
+    //     }
+    // },
+    // "menu-item#header__category--2.4": {
+    //     "title": "Menu Item Header Category 2.4",
+    //     "props": {
+    //         "id": "category--2.4",
+    //         "type": "custom",
+    //         "itemProps": {
+    //            "type": "external",
+    //            "href":"#",
+    //            "noFollow": true,
+    //            "tagTitle": "Desempeño",
+    //            "text": "Desempeño"
+    //         }
+    //     }
+    // },
+    // "menu-item#header__category--2.5": {
+    //     "title": "Menu Item Header Category 2.5",
+    //     "props": {
+    //         "id": "category--2.5",
+    //         "type": "custom",
+    //         "itemProps": {
+    //            "type": "external",
+    //            "href":"#",
+    //            "noFollow": true,
+    //            "tagTitle": "Duración de batería",
+    //            "text": "Duración de batería"
+    //         }
+    //     }
+    // },
+    // "menu-item#header__category--2.6": {
+    //     "title": "Menu Item Header Category 2.6",
+    //     "props": {
+    //         "id": "category--2.6",
+    //         "type": "custom",
+    //         "itemProps": {
+    //            "type": "external",
+    //            "href":"#",
+    //            "noFollow": true,
+    //            "tagTitle": "Laptops 2 en 1",
+    //            "text": "Laptops 2 en 1"
+    //         }
+    //     }
+    // },
+    // "menu-item#header__category--2.7": {
+    //     "title": "Menu Item Header Category 2.7",
+    //     "props": {
+    //         "id": "category--2.7",
+    //         "type": "custom",
+    //         "itemProps": {
+    //            "type": "external",
+    //            "href":"#",
+    //            "noFollow": true,
+    //            "tagTitle": "Tradicional",
+    //            "text": "Tradicional"
+    //         }
+    //     }
+    // },
+    // "menu-item#header__category--2.8": {
+    //     "title": "Menu Item Header Category 2.8",
+    //     "props": {
+    //         "id": "category--2.8",
+    //         "type": "custom",
+    //         "itemProps": {
+    //            "type": "external",
+    //            "href":"#",
+    //            "noFollow": true,
+    //            "tagTitle": "Pantalla OLED",
+    //            "text": "Pantalla OLED"
+    //         }
+    //     }
+    // },
+    // "menu-item#header__category--2.9": {
+    //     "title": "Menu Item Header Category 2.9",
+    //     "props": {
+    //         "id": "category--2.9",
+    //         "type": "custom",
+    //         "itemProps": {
+    //            "type": "external",
+    //            "href":"#",
+    //            "noFollow": true,
+    //            "tagTitle": "Batería de larga duración",
+    //            "text": "Batería de larga duración"
+    //         }
+    //     }
+    // },
+    // "menu-item#header__category--2.10": {
+    //     "title": "Menu Item Header Category 2.10",
+    //     "props": {
+    //         "id": "category--2.10",
+    //         "type": "custom",
+    //         "itemProps": {
+    //            "type": "external",
+    //            "href":"#",
+    //            "noFollow": true,
+    //            "tagTitle": "Para el día a día",
+    //            "text": "Para el día a día"
+    //         }
+    //     }
+    // },
 
-    "flex-layout.col#header__container--col-.3": {
-        "title": "Flex-layout.col Header container .3",
-        "children":[
-            "menu-item#header__subcategory--3.1",
-            "menu-item#header__subcategory--3.2",
-            "menu-item#header__subcategory--3.3",
-            "menu-item#header__subcategory--3.4",
-            "menu-item#header__subcategory--3.5"
-        ]
-    },
-    "menu-item#header__subcategory--3.1": {
-        "title": "Menu Item Header subcategory 3.1",
-        "props": {
-            "id": "subcategory--3.1",
-            "type": "custom",
-            "itemProps": {
-                "type": "external",
-                "href":"#",
-                "noFollow": true,
-                "tagTitle": "POR SERIE",
-                "text": "POR SERIE"
-            }
-        }
-    },
-    "menu-item#header__subcategory--3.2": {
-        "title": "Menu Item Header subcategory 3.2",
-        "props": {
-            "id": "subcategory--3.2",
-            "type": "custom",
-            "itemProps": {
-                "type": "external",
-                "href":"#",
-                "noFollow": true,
-                "tagTitle": "Todas las series",
-                "text": "Todas las series"
-            }
-        }
-    },
-    "menu-item#header__subcategory--3.3": {
-        "title": "Menu Item Header subcategory 3.3",
-        "props": {
-            "id": "subcategory--3.3",
-            "type": "custom",
-            "itemProps": {
-                "type": "external",
-                "href":"#",
-                "noFollow": true,
-                "tagTitle": "Zenbook",
-                "text": "Zenbook"
-            }
-        }
-    },
-    "menu-item#header__subcategory--3.4": {
-        "title": "Menu Item Header subcategory 3.4",
-        "props": {
-            "id": "subcategory--3.4",
-            "type": "custom",
-            "itemProps": {
-                "type": "external",
-                "href":"#",
-                "noFollow": true,
-                "tagTitle": "ExpertBook",
-                "text": "ExpertBook"
-            }
-        }
-    },
-    "menu-item#header__subcategory--3.5": {
-        "title": "Menu Item Header subcategory 3.5",
-        "props": {
-            "id": "subcategory--3.5",
-            "type": "custom",
-            "itemProps": {
-                "type": "external",
-                "href":"#",
-                "noFollow": true,
-                "tagTitle": "Chromebook",
-                "text": "Chromebook"
-            }
-        }
-    },
-    "flex-layout.col#header__container--col-.4": {
-        "title": "Flex-layout.col Header container .4",
-        "children": [
-            "image#header__zenbook",
-            "rich-text#header__zenbook--title",
-            "image#header__expertbook",
-            "rich-text#header__expertbook--title"
-        ]
-    },
-    "image#header__zenbook": {
-        "title":"Image Header Zenbook",
-          "props": {
-          "src": "https://dlcdnwebimgs.asus.com/gain/01df1a73-7268-40d7-bb0f-b7eb1ded7249/w185/fwebp",
-          "blockClass": "header__image--zen"
-        }
-    },
-    "rich-text#header__zenbook--title": {
-        "title": "Rich Text Header Zenbook Title",
-        "props": {
-          "text": "Zenbook 13 UX325 (11th Gen Intel)",
-          "textPosition": "CENTER",
-          "blockClass": "header__rich--title"
-        }
-    }, 
-    "image#header__expertbook": {
-        "title":"Image Header Zenbook",
-          "props": {
-          "src": "https://www.asus.com/media/global/gallery/dxlpxtvva5qmniay_setting_xxx_0_90_end_185.png",
-          "blockClass": "header__image--zen"
-        }
-    },
-    "rich-text#header__expertbook--title": {
-        "title": "Rich Text Header Zenbook Title",
-        "props": {
-          "text": "ASUS ExpertBook B9 B9450",
-          "textPosition": "CENTER",
-          "blockClass": "header__rich--title"
-        }
-    },
+    // "flex-layout.col#header__container--col-.3": {
+    //     "title": "Flex-layout.col Header container .3",
+    //     "children":[
+    //         "menu-item#header__subcategory--3.1",
+    //         "menu-item#header__subcategory--3.2",
+    //         "menu-item#header__subcategory--3.3",
+    //         "menu-item#header__subcategory--3.4",
+    //         "menu-item#header__subcategory--3.5"
+    //     ]
+    // },
+    // "menu-item#header__subcategory--3.1": {
+    //     "title": "Menu Item Header subcategory 3.1",
+    //     "props": {
+    //         "id": "subcategory--3.1",
+    //         "type": "custom",
+    //         "itemProps": {
+    //             "type": "external",
+    //             "href":"#",
+    //             "noFollow": true,
+    //             "tagTitle": "POR SERIE",
+    //             "text": "POR SERIE"
+    //         }
+    //     }
+    // },
+    // "menu-item#header__subcategory--3.2": {
+    //     "title": "Menu Item Header subcategory 3.2",
+    //     "props": {
+    //         "id": "subcategory--3.2",
+    //         "type": "custom",
+    //         "itemProps": {
+    //             "type": "external",
+    //             "href":"#",
+    //             "noFollow": true,
+    //             "tagTitle": "Todas las series",
+    //             "text": "Todas las series"
+    //         }
+    //     }
+    // },
+    // "menu-item#header__subcategory--3.3": {
+    //     "title": "Menu Item Header subcategory 3.3",
+    //     "props": {
+    //         "id": "subcategory--3.3",
+    //         "type": "custom",
+    //         "itemProps": {
+    //             "type": "external",
+    //             "href":"#",
+    //             "noFollow": true,
+    //             "tagTitle": "Zenbook",
+    //             "text": "Zenbook"
+    //         }
+    //     }
+    // },
+    // "menu-item#header__subcategory--3.4": {
+    //     "title": "Menu Item Header subcategory 3.4",
+    //     "props": {
+    //         "id": "subcategory--3.4",
+    //         "type": "custom",
+    //         "itemProps": {
+    //             "type": "external",
+    //             "href":"#",
+    //             "noFollow": true,
+    //             "tagTitle": "ExpertBook",
+    //             "text": "ExpertBook"
+    //         }
+    //     }
+    // },
+    // "menu-item#header__subcategory--3.5": {
+    //     "title": "Menu Item Header subcategory 3.5",
+    //     "props": {
+    //         "id": "subcategory--3.5",
+    //         "type": "custom",
+    //         "itemProps": {
+    //             "type": "external",
+    //             "href":"#",
+    //             "noFollow": true,
+    //             "tagTitle": "Chromebook",
+    //             "text": "Chromebook"
+    //         }
+    //     }
+    // },
+    // "flex-layout.col#header__container--col-.4": {
+    //     "title": "Flex-layout.col Header container .4",
+    //     "children": [
+    //         "image#header__zenbook",
+    //         "rich-text#header__zenbook--title",
+    //         "image#header__expertbook",
+    //         "rich-text#header__expertbook--title"
+    //     ]
+    // },
+    // "image#header__zenbook": {
+    //     "title":"Image Header Zenbook",
+    //       "props": {
+    //       "src": "https://dlcdnwebimgs.asus.com/gain/01df1a73-7268-40d7-bb0f-b7eb1ded7249/w185/fwebp",
+    //       "blockClass": "header__image--zen"
+    //     }
+    // },
+    // "rich-text#header__zenbook--title": {
+    //     "title": "Rich Text Header Zenbook Title",
+    //     "props": {
+    //       "text": "Zenbook 13 UX325 (11th Gen Intel)",
+    //       "textPosition": "CENTER",
+    //       "blockClass": "header__rich--title"
+    //     }
+    // }, 
+    // "image#header__expertbook": {
+    //     "title":"Image Header Zenbook",
+    //       "props": {
+    //       "src": "https://www.asus.com/media/global/gallery/dxlpxtvva5qmniay_setting_xxx_0_90_end_185.png",
+    //       "blockClass": "header__image--zen"
+    //     }
+    // },
+    // "rich-text#header__expertbook--title": {
+    //     "title": "Rich Text Header Zenbook Title",
+    //     "props": {
+    //       "text": "ASUS ExpertBook B9 B9450",
+    //       "textPosition": "CENTER",
+    //       "blockClass": "header__rich--title"
+    //     }
+    // },
 
 
     // PCsdeEscritorios select
@@ -642,7 +667,9 @@
            "width": "100%",
            "blockClass": "header__container--submenu"
         },
-        "children": ["flex-layout.row#menu-more2"]
+        "children": [
+           "flex-layout.row#menu-more2"
+        ]
     },
     "flex-layout.row#menu-more2": {
         "title": "container products more 2",
@@ -663,6 +690,7 @@
     "vtex.menu@2.x:menu#more2": {
         "title": "position box products",
         "props": {
+           "blockClass": "header__submenu-products",
            "orientation": "horizontal"
         },
         "children": [
@@ -676,7 +704,10 @@
         "title": "Flex-layout.col Header container One",
         "children": [
           "menu-item#header__department--one"
-        ]
+        ],
+        "props": {
+            "blockClass": "header__container-one"
+        }
     },
     "menu-item#header__department--one": {
         "title": "Menu Item Header Department One",
@@ -689,7 +720,8 @@
               "noFollow": true,
               "tagTitle": "All-in-One PCs",
               "text": "All-in-One PCs"
-            }
+            },
+            "blockClass": "header__department-one"
         }
     },
     "flex-layout.col#header__container--col-two": {
@@ -700,7 +732,10 @@
             "menu-item#header__category--3",
             "menu-item#header__category--4",
             "menu-item#header__category--5"
-        ]
+        ],
+        "props": {
+            "blockClass": "header__container-two"
+        }
     },
     "menu-item#header__category--1": {
         "title": "Menu Item Header Category 1",
@@ -713,7 +748,8 @@
                "noFollow": true,
                "tagTitle": "POR CATEGORÍA",
                "text": "POR CATEGORÍA"
-            }
+            },
+            "blockClass": "header__category-1"
         }
     },
     "menu-item#header__category--2": {
@@ -727,7 +763,8 @@
                "noFollow": true,
                "tagTitle": "Para el hogar",
                "text": "Para el hogar"
-            }
+            },
+            "blockClass": "header__category"
         }
     },      
     "menu-item#header__category--3": {
@@ -741,7 +778,8 @@
                 "noFollow": true,
                 "tagTitle": "Para el trabajo",
                 "text": "Para el trabajo"
-            }
+            },
+            "blockClass": "header__category"
         }
     },
     "menu-item#header__category--4": {
@@ -755,7 +793,8 @@
                 "noFollow": true,
                 "tagTitle": "Para estudiantes",
                 "text": "Para estudiantes"
-            }
+            },
+            "blockClass": "header__category"
         }
     },
     "menu-item#header__category--5": {
@@ -769,7 +808,8 @@
                 "noFollow": true,
                 "tagTitle": "Para creadores",
                 "text": "Para creadores"
-            }
+            },
+            "blockClass": "header__category"
         }
     },
     "flex-layout.col#header__container--col-three": {
@@ -779,7 +819,10 @@
             "menu-item#header__subcategory--2",
             "menu-item#header__subcategory--3",
             "menu-item#header__subcategory--4"
-        ]
+        ],
+        "props": {
+            "blockClass": "header__container-three"
+        }
     },
     "menu-item#header__subcategory--1": {
         "title": "Menu Item Header subcategory 1",
@@ -792,7 +835,8 @@
                 "noFollow": true,
                 "tagTitle": "POR SERIE",
                 "text": "POR SERIE"
-            }
+            },
+            "blockClass": "header__category-1"
         }
     },
     "menu-item#header__subcategory--2":{
@@ -806,7 +850,8 @@
                 "noFollow": true,
                 "tagTitle": "Todas las series",
                 "text": "Todas las series"
-            }
+            },
+            "blockClass": "header__category"
         }
     },
     "menu-item#header__subcategory--3":{
@@ -820,7 +865,8 @@
                 "noFollow": true,
                 "tagTitle": "Zen AiO",
                 "text": "Zen AiO"
-            }
+            },
+            "blockClass": "header__category"
         }
     },
     "menu-item#header__subcategory--4":{
@@ -834,7 +880,8 @@
                 "noFollow": true,
                 "tagTitle": "ASUS AiO",
                 "text": "ASUS AiO"
-            }
+            },
+            "blockClass": "header__category"
         }
     },
     "flex-layout.col#header__container--col-four": {
@@ -844,7 +891,10 @@
             "rich-text#header__Zen--title",
             "image#header__Asus--Aio",
             "rich-text#header__Aio--title"
-        ]
+        ],
+        "props": {
+            "blockClass": "header__container-four"
+        }
     },
     "image#header__Zen": {
         "title":"Image Header Zen",
@@ -876,7 +926,6 @@
           "blockClass": "header__rich--title"
         }
     }
-
-   }
+}
 
    
