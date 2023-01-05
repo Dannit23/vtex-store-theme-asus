@@ -1,6 +1,6 @@
 {
-  "search-zero-results-layout": {
-    "title": "search zero results layout",
+  "search-not-found-layout": {
+    "title": "search results layout",
     "children": [
       "flex-layout.row#zero__results--title"
     ],

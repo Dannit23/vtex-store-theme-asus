@@ -7,22 +7,28 @@
       "menu-item#more",
       "menu-item#more2",
       "header-spacer",
-      //ofertas
-      //soporte
-      "drawer#search__button--drawer",
+      "menu-item#offers",
+      "menu-item#support",
+      // "drawer#search__button--drawer",
       "minicart.v2",
       "login"
-    ]
+    ],
+    "props": {
+      "blockClass": "header__container--two"
+    }
   },
   "logo#asus": {
+    "title": "logo asus header two",
     "props": {
       "title": "Logo",
       "href": "/",
       "url": "assets/img/header/asus-logo.png",
-      "width": "80"
+      "width": "80",
+      "blockClass": "header__logo-asus"
     }
   },
   "menu-item#department__one": {
+    "title": "menu item department one",
     "props": {
       "id": "departament-one",
       "type": "custom",
@@ -32,9 +38,23 @@
         "noFollow": true,
         "tagTitle": "Tienda Title",
         "text": "Tienda"
-      }
+      },
+      "blockClass": "header__department-store"
     }    
-  }
+  },
+  "login": {
+    "title": "desktop__login",
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "iconLabel": " ",
+      "showIconProfile": true,
+      "blockClass": "desktop__login"
+    }
+  }    
 }
 
 

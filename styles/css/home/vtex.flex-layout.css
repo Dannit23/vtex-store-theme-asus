@@ -1,3 +1,18 @@
+/*header desktop*/
+/* .flexCol--header__container-col1 {
+    border-left: 1px solid #ccc; 
+}  */
+
+.flexCol--header__container-col3 {
+    border-left: 1px solid #ccc;
+    
+} 
+
+.flexCol--header__container-col4 {
+    border-left: 1px solid #ccc;
+    padding-left: 1rem;
+}
+
 /*contenedor infocards*/
 .flexRowContent--textColumn {
     padding: 0.375rem;
