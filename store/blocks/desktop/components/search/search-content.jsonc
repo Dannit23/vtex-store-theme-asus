@@ -47,7 +47,6 @@
       "search-bar"
     ]
   },
-
    // Breadcrumb HEADER
    "header-row#desktop__search--header": {
     "title": "desktop__search--header",

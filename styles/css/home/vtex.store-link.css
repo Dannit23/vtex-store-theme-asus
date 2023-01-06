@@ -56,3 +56,8 @@
     font-weight: 450;
     font-size: 13px;
 }
+
+.link--desktop__product-page  {
+ margin-top: 12px;
+ width: 100%;
+}
