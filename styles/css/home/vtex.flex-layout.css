@@ -108,3 +108,16 @@
     grid-row-gap: 6px;
 }
 
+/* .flexColChild--search__filter--container {
+    background: white;
+} */
+
+/* .flexColChild--search__results--container {
+    background: white;
+    border-radius: 10px;
+} */
+
+.flexColChild--gallery__content--content {
+    margin-bottom: 1rem;
+}
+

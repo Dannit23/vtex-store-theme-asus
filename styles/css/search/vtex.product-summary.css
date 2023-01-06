@@ -1,5 +1,5 @@
-/* .containerNormal--search__gallery--list {
-    max-width: 100% !important;
+.containerNormal--search__gallery--list {
+    max-width: 56% !important;
 }
 
 .container--search__gallery--grid  {
@@ -21,4 +21,8 @@
 
 .container--search__gallery--list:hover  {
     box-shadow: 0px 2px 12px rgb(191, 188, 188);
-} */
+}
+
+.description {
+    height: 5rem;
+}

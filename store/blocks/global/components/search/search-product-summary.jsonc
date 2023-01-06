@@ -6,9 +6,11 @@
       "product-summary-space",
       "product-summary-image#gallery",
       "product-summary-space",
-      "product-summary-price#gallery",
+      "product-specification-badges",
       "product-summary-name#gallery",
-      "add-to-cart-button#gallery"
+      "product-summary-description",
+      "add-to-cart-button#gallery",
+      "link.product#desktop__product-page"
     ],
     "props": {
       "blockClass": "search__gallery--grid"
@@ -57,9 +59,10 @@
       "width": "50%"
     },
     "children": [
-      "product-summary-price#gallery",
       "product-summary-name#gallery",
-      "add-to-cart-button#gallery"
+      "product-summary-description",
+      "add-to-cart-button#gallery",
+      "link.product#desktop__product-page"
     ]
   },
   "product-summary-image#gallery":{
