@@ -9,7 +9,7 @@
       "header-spacer",
       "menu-item#offers",
       "menu-item#support",
-      // "drawer#search__button--drawer",
+      "vtex.menu@2.x:menu#desktop__search-bar",
       "minicart.v2",
       "login"
     ],
@@ -54,7 +54,71 @@
       "showIconProfile": true,
       "blockClass": "desktop__login"
     }
-  }    
+  },
+  
+  "vtex.menu@2.x:menu#desktop__search-bar": {
+    "title": "desktop search bar",
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass": "header__container-search"
+    },
+    "children": [
+      "menu-item#desktop__search-bar"
+    ]
+  },
+  "menu-item#desktop__search-bar": {
+    "title": "desktop container search bar desktop",
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "header__container--search- bar",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "",
+        "text": ""
+      },
+      "iconProps": {
+        "title": "icon search desktop",
+        "id": "hpa-search",
+        "size": 20,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "gray",
+        "mutedClassName": "c-action-primary"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#desktop__search-bar"
+    ]
+  },
+  "vtex.menu@2.x:submenu#desktop__search-bar": {
+    "title": "desktop search bar",
+    "props": {
+      "width": "100%",
+      "blockClass": "desktop__search-bar"
+    },
+    "children": [
+      "search-bar#header__search"
+    ]
+  },
+
+  "search-bar#header__search": {
+    "title": " desktop header search-bar",
+    "blocks": [
+      // "autocomplete-result-list.v2"
+      "autocomplete-result-list"
+    ],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "maxWidth": 350,
+      "placeholder": "Buscar en ASUS.com",
+      "blockClass": "header__search-bar"
+    }
+  }
+    
 }
 
 
