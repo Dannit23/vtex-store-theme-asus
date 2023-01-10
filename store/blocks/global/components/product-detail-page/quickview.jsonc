@@ -1,0 +1,64 @@
+{
+  "modal-trigger#quickview": {
+    "title": "Quickview",
+    "children": ["icon-expand", "modal-layout#pdp__quickview--container"],
+    "props": {
+      "blockClass": "pdp__quickview--container"
+    }
+  },
+
+  "modal-layout#pdp__quickview--container": {
+    "title": "Quickview container",
+    "children": [
+      "modal-header#pdp__quickview--header",
+      "modal-content#pdp__quickview--content"
+    ],
+    "props": {
+      "blockClass": "pdp__quickview--content"
+    }
+  },
+  "modal-header#pdp__quickview--header": {
+    "title": "pdp quickview header",
+    "props": {
+      "blockClass": "pdp__quickview--header"
+    }
+  },
+
+  "modal-content#pdp__quickview--content": {
+    "title": "pdp quickview content",
+    "children": ["flex-layout.row#pdp__quickviewcontainer--modal"],
+    "props": {
+      "blockClass": "pdp__quickviewcontainer--modal"
+    }
+  },
+  "flex-layout.row#pdp__quickviewcontainer--modal": {
+    "title": "pdp _quickview container modal",
+    "children": [
+      "flex-layout.col#pdp__quickview--image",
+      "flex-layout.col#pdp__quickview--content"
+    ],
+    "props": {
+      "blockClass": "pdp__quickviewcontainer--modal"
+    }
+  },
+  "flex-layout.col#pdp__quickview--image": {
+    "title": "pdp quickview image",
+    "children": ["product-images"],
+    "props": {
+      "blockClass": "pdp__quickview--image"
+    }
+  },
+  "flex-layout.col#pdp__quickview--content": {
+    "title": "pdp quickview content",
+    "children": [
+      "vtex.store-components:product-brand",
+      "vtex.store-components:product-name",
+      "product-description",
+      "product-price",
+      "add-to-cart-button"
+    ],
+    "props": {
+      "blockClass": "pdp__quickview--content"
+    }
+  }
+}
