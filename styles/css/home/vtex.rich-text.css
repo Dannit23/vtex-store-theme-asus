@@ -54,3 +54,9 @@
     font-weight: 450;
     font-size: 13px;
 }
+
+/* pdp */
+.paragraph--product__shippig {
+    color: #ff6600;
+    font-size: 2rem;
+}

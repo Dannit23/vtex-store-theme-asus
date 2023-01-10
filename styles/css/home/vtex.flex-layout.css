@@ -121,3 +121,11 @@
     margin-bottom: 1rem;
 }
 
+/* pdp */
+.flexRow--product__breadcrumb, .flexRow--product__info, .flexRowContent--product__tabs  {
+    background: white;
+}
+
+.flexRowContent--product__tabs  {
+    padding-bottom: 2rem;
+}
