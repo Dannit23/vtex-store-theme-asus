@@ -1,0 +1,65 @@
+{
+  "flex-layout.row#product__info": {
+    "title": "overview pdp",
+    "children": [
+      "flex-layout.col#product__info--image",
+      "flex-layout.col#product__info--data"
+    ],
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7,
+      "blockClass": "product__info"
+    }
+  },
+  "flex-layout.col#product__info--image": {
+    "title": "image product",
+    "children": [
+      "product-images#product__info--image"
+    ],
+    "props": {
+      "width": "60%",
+      "rowGap": 0,
+      "blockClass": "product__info--image"
+    }
+  },
+  "product-images#product__info--image": {
+    "title": "Images",
+    "props": {
+      "zoomMode": "in-place-click",
+      "displayThumbnailsArrows": true,
+      "blockClass": "product__info--image"
+    }
+  },
+
+  "flex-layout.col#product__info--data": {
+    "title": "Data product",
+    "children": [
+      "vtex.store-components:product-brand",
+      "vtex.store-components:product-name",
+      "product-description",
+      "product-price",
+      "rich-text#product__Shipping",
+      "product-quantity"
+   
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 4,
+      "blockClass": "product__info--data"
+    }
+  },
+  "rich-text#product__Shipping": {
+    "title": "rich text product shippig",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "ENVIO GRATIS",
+       "font": "t-heading-3",
+      "blockClass": "product__shippig"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "flex-layout.row#product__breadcrumb": {
+    "title": "product bread crumb container",
+    "children": [
+      "flex-layout.col#product__breadcrumb"
+    ],
+    "props": {
+      "marginTop": 4,
+      "blockClass": "product__breadcrumb"
+    }
+  },
+  "flex-layout.col#product__breadcrumb": {
+    "title": "product bread crumb",
+    "children": [
+      "breadcrumb"
+    ],
+    "props": {
+      "blockClass": "product__breadcrumb"
+    }
+  }
+}

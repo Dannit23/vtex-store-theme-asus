@@ -87,7 +87,8 @@
         "size": 20,
         "viewBox": "0 0 16 16",
         "activeClassName": "gray",
-        "mutedClassName": "c-action-primary"
+        "mutedClassName": "c-action-primary",
+        "blockClass": "icon__search-desktop"
       }
     },
     "blocks": [
