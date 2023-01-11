@@ -104,3 +104,7 @@
   border-top: 1px solid #ccc;
 }
 
+ .submenuWrapper--desktop__search-bar--isOpen {
+  width: 90%;
+  margin-left: 3.7rem;
+}
