@@ -1,10 +1,22 @@
 {
   "store.home": { 
+    "title": "store home",
     "blocks": [
       "responsive-layout.desktop",
       "responsive-layout.tablet",
       "responsive-layout.mobile",
-      "responsive-layout.phone"
+      "responsive-layout.phone",
+      "whatsapp-button"
     ]
+  },
+  "whatsapp-button": {
+    "title": "whatsapp-button",
+    "props": {
+      "logo": "assets/img/whatsapp-button/button-whatsapp.png",
+      "phone": "+573156577171",
+      "message": "¡Bienvenido al chat de la tienda oficial de ASUS!",
+      "width": 44,
+      "height": 44
+    }
   }
 }
